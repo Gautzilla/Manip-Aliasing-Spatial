@@ -1,0 +1,6 @@
+Extremal 81 controlroom drums 0
+Extremal 144 controlroom drums -90
+GaussLegendre 162 controlroom hithat 0
+Extremal 81 broadcastingstudio drums 0
+Extremal 144 broadcastingstudio hithat -90
+GaussLegendre 288 broadcastingstudio hithat -90
