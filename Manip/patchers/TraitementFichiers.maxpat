@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 1212.0, 883.0 ],
+		"rect" : [ 1946.0, 85.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 457.5, 537.0, 72.0, 22.0 ],
+					"text" : "s testReady"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-265",
 					"maxclass" : "comment",
@@ -141,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.5, 410.0, 105.0, 22.0 ],
+					"patching_rect" : [ 103.5, 389.0, 105.0, 22.0 ],
 					"text" : "pvar templateText"
 				}
 
@@ -165,7 +177,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1946.0, 85.0, 812.0, 883.0 ],
+						"rect" : [ 350.0, 201.0, 812.0, 883.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -194,13 +206,59 @@
 						"subpatcher_template" : "ManipAliasingSpatial",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 407.0, 57.0, 22.0 ],
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 370.0, 610.0, 22.0 ],
+									"text" : "prepend C:/Users/User/Documents/Max 7/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/resultats/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 188.0, 401.0, 246.0, 20.0 ],
+									"text" : "Changer le dossier de résultats ici ci besoin."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 183.0, 205.0, 338.0, 20.0 ],
+									"text" : "Le nom du fichier est formaté en Prénom-Nom-date-heure.txt"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "Output file path",
 									"id" : "obj-1",
 									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 160.5, 457.0, 30.0, 30.0 ]
+									"patching_rect" : [ 160.5, 528.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -223,7 +281,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 375.0, 81.0, 22.0 ],
+									"patching_rect" : [ 50.0, 446.0, 81.0, 22.0 ],
 									"text" : "prepend write"
 								}
 
@@ -259,8 +317,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 327.5, 711.0, 22.0 ],
-									"text" : "sprintf symout C:/Users/User/Documents/Max 7/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/resultats/%s%s-%s.txt"
+									"patching_rect" : [ 50.0, 332.0, 157.0, 22.0 ],
+									"text" : "sprintf symout %s%s-%s.txt"
 								}
 
 							}
@@ -346,7 +404,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 457.0, 30.0, 30.0 ]
+									"patching_rect" : [ 50.0, 528.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -395,16 +453,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"order" : 0,
-									"source" : [ "obj-150", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-165", 0 ],
-									"order" : 1,
+									"destination" : [ "obj-32", 0 ],
 									"source" : [ "obj-150", 0 ]
 								}
 
@@ -462,6 +511,29 @@
 								"patchline" : 								{
 									"destination" : [ "obj-209", 1 ],
 									"source" : [ "obj-222", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 0,
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-165", 0 ],
+									"order" : 1,
+									"source" : [ "obj-33", 0 ]
 								}
 
 							}
@@ -523,24 +595,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-208",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.5, 348.0, 57.0, 22.0 ],
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-190",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "clear" ],
-					"patching_rect" : [ 61.5, 384.0, 61.0, 22.0 ],
+					"patching_rect" : [ 61.5, 353.0, 61.0, 22.0 ],
 					"text" : "t b s clear"
 				}
 
@@ -562,7 +622,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -687,7 +747,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 771.20001220703125, 40.0, 22.0 ],
+					"patching_rect" : [ 510.0, 790.20001220703125, 40.0, 22.0 ],
 					"text" : "s vInv"
 				}
 
@@ -698,7 +758,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.5, 772.20001220703125, 217.0, 20.0 ],
+					"patching_rect" : [ 558.5, 791.20001220703125, 217.0, 20.0 ],
 					"text" : "valeurs des inversions dans la courbe"
 				}
 
@@ -710,7 +770,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 735.0, 71.5, 22.0 ],
+					"patching_rect" : [ 510.0, 754.0, 71.5, 22.0 ],
 					"text" : "pack i i i i i i"
 				}
 
@@ -721,8 +781,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 546.5, 695.20001220703125, 494.0, 20.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 546.5, 714.20001220703125, 494.0, 20.0 ],
 					"text" : "direction de la courbe (+1 : nMic a augmenté lors de la dernière ; -1 : nMic a diminué)"
 				}
 
@@ -733,7 +792,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.5, 667.4000244140625, 285.0, 20.0 ],
+					"patching_rect" : [ 541.5, 686.4000244140625, 285.0, 20.0 ],
 					"text" : "nombre d'inversions dans la courbe d'égalisation"
 				}
 
@@ -745,7 +804,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.75, 694.20001220703125, 31.0, 22.0 ],
+					"patching_rect" : [ 502.75, 713.20001220703125, 31.0, 22.0 ],
 					"text" : "s dir"
 				}
 
@@ -757,7 +816,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 492.75, 666.4000244140625, 41.0, 22.0 ],
+					"patching_rect" : [ 492.75, 685.4000244140625, 41.0, 22.0 ],
 					"text" : "s nInv"
 				}
 
@@ -769,7 +828,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 478.5, 638.5999755859375, 43.0, 22.0 ],
+					"patching_rect" : [ 478.5, 657.5999755859375, 43.0, 22.0 ],
 					"text" : "s nMic"
 				}
 
@@ -781,7 +840,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 610.79998779296875, 47.0, 22.0 ],
+					"patching_rect" : [ 468.0, 629.79998779296875, 47.0, 22.0 ],
 					"text" : "s angle"
 				}
 
@@ -793,7 +852,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 457.5, 583.0, 43.0, 22.0 ],
+					"patching_rect" : [ 457.5, 602.0, 43.0, 22.0 ],
 					"text" : "s salle"
 				}
 
@@ -817,7 +876,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int" ],
-					"patching_rect" : [ 447.0, 545.0, 134.5, 22.0 ],
+					"patching_rect" : [ 447.0, 564.0, 134.5, 22.0 ],
 					"text" : "unpack s s i i i i i i i i i i"
 				}
 
@@ -867,7 +926,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.0, 244.399993896484375, 318.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "lit le fichier de l'utilisateur et sélectionne les combinaisons"
 				}
@@ -912,8 +970,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 244.399993896484375, 238.0, 33.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 9.0, 244.399993896484375, 239.0, 33.0 ],
 					"suppressinlet" : 1,
 					"text" : "copie le fichier de template de listes sur un nouveau fichier au nom de l'utilisateur"
 				}
@@ -978,7 +1035,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-208", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-190", 0 ],
 					"source" : [ "obj-103", 0 ]
 				}
 
@@ -1085,13 +1149,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-190", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-190", 0 ],
-					"source" : [ "obj-208", 0 ]
 				}
 
 			}
@@ -1278,8 +1335,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}
