@@ -39,12 +39,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 263.5, 188.0, 129.0, 22.0 ],
+					"text" : "symbol \"Prénom Nom\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 263.5, 164.0, 34.0, 22.0 ],
+					"patching_rect" : [ 263.5, 159.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -56,7 +68,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.5, 258.0, 73.0, 22.0 ],
+					"patching_rect" : [ 309.5, 276.0, 73.0, 22.0 ],
 					"text" : "s userName"
 				}
 
@@ -68,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 263.5, 227.0, 31.0, 22.0 ],
+					"patching_rect" : [ 263.5, 245.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -82,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 263.5, 193.0, 152.0, 22.0 ],
+					"patching_rect" : [ 263.5, 217.0, 152.0, 22.0 ],
 					"text" : "dialog Entrez votre nom :"
 				}
 
@@ -385,7 +397,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.5, 258.0, 37.0, 22.0 ],
+					"patching_rect" : [ 263.5, 276.0, 37.0, 22.0 ],
 					"text" : "s test"
 				}
 
@@ -547,8 +559,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
