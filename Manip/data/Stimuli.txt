@@ -1,64 +1,30 @@
-Extremal 81 controlroom drums 0
-Extremal 81 controlroom hithat 0
-Extremal 81 controlroom drums -90
-Extremal 81 controlroom hithat -90
-Extremal 144 controlroom drums 0
-Extremal 144 controlroom hithat 0
-Extremal 144 controlroom drums -90
-Extremal 144 controlroom hithat -90
-Extremal 196 controlroom drums 0
-Extremal 196 controlroom hithat 0
-Extremal 196 controlroom drums -90
-Extremal 196 controlroom hithat -90
-Extremal 256 controlroom drums 0
-Extremal 256 controlroom hithat 0
-Extremal 256 controlroom drums -90
-Extremal 256 controlroom hithat -90
-GaussLegendre 162 controlroom drums 0
-GaussLegendre 162 controlroom hithat 0
-GaussLegendre 162 controlroom drums -90
-GaussLegendre 162 controlroom hithat -90
-GaussLegendre 288 controlroom drums 0
-GaussLegendre 288 controlroom hithat 0
-GaussLegendre 288 controlroom drums -90
-GaussLegendre 288 controlroom hithat -90
-GaussLegendre 392 controlroom drums 0
-GaussLegendre 392 controlroom hithat 0
-GaussLegendre 392 controlroom drums -90
-GaussLegendre 392 controlroom hithat -90
-GaussLegendre 512 controlroom drums 0
-GaussLegendre 512 controlroom hithat 0
-GaussLegendre 512 controlroom drums -90
-GaussLegendre 512 controlroom hithat -90
-Extremal 81 broadcastingstudio drums 0
-Extremal 81 broadcastingstudio hithat 0
-Extremal 81 broadcastingstudio drums -90
-Extremal 81 broadcastingstudio hithat -90
-Extremal 144 broadcastingstudio drums 0
-Extremal 144 broadcastingstudio hithat 0
-Extremal 144 broadcastingstudio drums -90
-Extremal 144 broadcastingstudio hithat -90
-Extremal 196 broadcastingstudio drums 0
-Extremal 196 broadcastingstudio hithat 0
-Extremal 196 broadcastingstudio drums -90
-Extremal 196 broadcastingstudio hithat -90
-Extremal 256 broadcastingstudio drums 0
-Extremal 256 broadcastingstudio hithat 0
-Extremal 256 broadcastingstudio drums -90
-Extremal 256 broadcastingstudio hithat -90
-GaussLegendre 162 broadcastingstudio drums 0
-GaussLegendre 162 broadcastingstudio hithat 0
-GaussLegendre 162 broadcastingstudio drums -90
-GaussLegendre 162 broadcastingstudio hithat -90
-GaussLegendre 288 broadcastingstudio drums 0
-GaussLegendre 288 broadcastingstudio hithat 0
-GaussLegendre 288 broadcastingstudio drums -90
-GaussLegendre 288 broadcastingstudio hithat -90
-GaussLegendre 392 broadcastingstudio drums 0
-GaussLegendre 392 broadcastingstudio hithat 0
-GaussLegendre 392 broadcastingstudio drums -90
-GaussLegendre 392 broadcastingstudio hithat -90
-GaussLegendre 512 broadcastingstudio drums 0
-GaussLegendre 512 broadcastingstudio hithat 0
-GaussLegendre 512 broadcastingstudio drums -90
-GaussLegendre 512 broadcastingstudio hithat -90
+cr1 0 81 0 +1 0 0 0 0 0 0
+cr1 0 162 0 +1 0 0 0 0 0 0
+cr1 0 243 0 +1 0 0 0 0 0 0
+cr1 0 324 0 +1 0 0 0 0 0 0
+cr1 0 405 0 +1 0 0 0 0 0 0
+cr1 -90 81 0 +1 0 0 0 0 0 0
+cr1 -90 162 0 +1 0 0 0 0 0 0
+cr1 -90 243 0 +1 0 0 0 0 0 0
+cr1 -90 324 0 +1 0 0 0 0 0 0
+cr1 -90 405 0 +1 0 0 0 0 0 0
+cr2 0 81 0 +1 0 0 0 0 0 0
+cr2 0 162 0 +1 0 0 0 0 0 0
+cr2 0 243 0 +1 0 0 0 0 0 0
+cr2 0 324 0 +1 0 0 0 0 0 0
+cr2 0 405 0 +1 0 0 0 0 0 0
+cr2 -90 81 0 +1 0 0 0 0 0 0
+cr2 -90 162 0 +1 0 0 0 0 0 0
+cr2 -90 243 0 +1 0 0 0 0 0 0
+cr2 -90 324 0 +1 0 0 0 0 0 0
+cr2 -90 405 0 +1 0 0 0 0 0 0
+rv1 0 81 0 +1 0 0 0 0 0 0
+rv1 0 162 0 +1 0 0 0 0 0 0
+rv1 0 243 0 +1 0 0 0 0 0 0
+rv1 0 324 0 +1 0 0 0 0 0 0
+rv1 0 405 0 +1 0 0 0 0 0 0
+rv1 -90 81 0 +1 0 0 0 0 0 0
+rv1 -90 162 0 +1 0 0 0 0 0 0
+rv1 -90 243 0 +1 0 0 0 0 0 0
+rv1 -90 324 0 +1 0 0 0 0 0 0
+rv1 -90 405 0 +1 0 0 0 0 0 0
