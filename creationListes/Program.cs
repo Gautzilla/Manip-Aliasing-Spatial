@@ -33,7 +33,7 @@ namespace creationListesTestManip
                     int condsAfter = conditions.Skip(cond+1).Select(c => c.Length).Aggregate(1,(a,b) => a*b);
                     indexes[cond] = (i/condsAfter)%(conditions[cond].Length);                    
                 }
-                output[i] = string.Join(" ", conditions.Select((c,i) => c[indexes[i]]));
+                output[i] = string.Join(" ", conditions.Select((c,i) => c[indexes[i]]).Prepend((i+1).ToString()+",")) + ";";
             }
 
             return output;

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
+		"rect" : [ 1954.0, 77.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 115.0, 482.0, 108.0, 22.0 ],
-					"text" : "TraitementFichiers"
+					"text" : "TraitementFichiers",
+					"varname" : "TraitementFichiers"
 				}
 
 			}
