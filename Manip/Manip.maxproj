@@ -2,8 +2,8 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3747910551,
-	"viewrect" : [ 37.0, 78.0, 300.0, 500.0 ],
+	"modificationdate" : 3748263863,
+	"viewrect" : [ 540.0, 84.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -53,6 +53,11 @@
 			}
 ,
 			"Stimuli.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"NombreMicros.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
