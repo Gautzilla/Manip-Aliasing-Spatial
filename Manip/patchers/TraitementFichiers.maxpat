@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 812.0, 883.0 ],
+		"rect" : [ 1954.0, 77.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -466,8 +466,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1100.0621337890625, 868.8719482421875, 185.526321411132813, 20.0 ],
-					"text" : "nombre de niveaux de la VI nMic"
+					"patching_rect" : [ 1100.0621337890625, 868.8719482421875, 189.372482299804688, 20.0 ],
+					"text" : "nombre de niveaux de la VD nMic"
 				}
 
 			}
