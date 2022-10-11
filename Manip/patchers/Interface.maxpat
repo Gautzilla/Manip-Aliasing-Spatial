@@ -39,6 +39,18 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 224.588760375976563, 728.19146728515625, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
 					"index" : 0,
@@ -508,7 +520,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.526321411132813, 714.6842041015625, 51.0, 22.0 ],
+					"patching_rect" : [ 255.526321411132813, 756.173583984375, 51.0, 22.0 ],
 					"text" : "r repSel"
 				}
 
@@ -544,7 +556,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.526321411132813, 741.83526611328125, 50.0, 22.0 ],
+					"patching_rect" : [ 224.526321411132813, 783.32464599609375, 50.0, 22.0 ],
 					"text" : "2"
 				}
 
@@ -1069,6 +1081,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-85",
+					"ignoreclick" : 1,
 					"inactiveimage" : 1,
 					"maxclass" : "pictctrl",
 					"mode" : 1,
@@ -1123,7 +1136,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-75",
-					"ignoreclick" : 1,
 					"inactiveimage" : 1,
 					"maxclass" : "pictctrl",
 					"mode" : 1,
@@ -1221,7 +1233,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.526321411132813, 765.83526611328125, 61.0, 22.0 ],
+					"patching_rect" : [ 224.526321411132813, 807.32464599609375, 61.0, 22.0 ],
 					"text" : "s reponse"
 				}
 
@@ -2089,6 +2101,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-224", 1 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -2128,7 +2147,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-174", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-98", 0 ]
 				}
 
@@ -2235,8 +2254,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2254,8 +2273,8 @@
 , 			{
 				"name" : "texteditGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
 				}
 ,
 				"parentstyle" : "",
