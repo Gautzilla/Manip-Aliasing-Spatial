@@ -39,13 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 125.0, 171.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.5, 463.0, 37.0, 22.0 ],
-					"text" : "s test"
+					"patching_rect" : [ 408.5, 463.0, 63.0, 22.0 ],
+					"text" : "s trainEnd"
 				}
 
 			}
@@ -56,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 388.5, 435.0, 34.0, 22.0 ],
+					"patching_rect" : [ 408.5, 435.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -67,10 +79,10 @@
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 388.5, 406.5, 69.0, 22.0 ],
-					"text" : "var session"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 408.5, 406.5, 59.0, 22.0 ],
+					"text" : "v session"
 				}
 
 			}
@@ -82,7 +94,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.5, 378.0, 57.0, 22.0 ],
+					"patching_rect" : [ 408.5, 378.0, 57.0, 22.0 ],
 					"text" : "r testEnd"
 				}
 
@@ -107,7 +119,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 263.5, 159.0, 34.0, 22.0 ],
-					"text" : "sel 1"
+					"text" : "sel 0"
 				}
 
 			}
@@ -195,8 +207,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.5, 378.0, 35.0, 22.0 ],
-					"text" : "r test"
+					"patching_rect" : [ 331.5, 378.0, 57.0, 22.0 ],
+					"text" : "r runTest"
 				}
 
 			}
@@ -424,7 +436,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 164.0, 88.0, 22.0 ],
+					"patching_rect" : [ 125.0, 210.0, 88.0, 22.0 ],
 					"text" : "s entrainement"
 				}
 
@@ -630,6 +642,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
@@ -693,7 +712,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -825,20 +844,6 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "Train.txt",
-				"bootpath" : "~/Documents/Max 7/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "var.maxpat",
-				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../../AppData/Roaming/Cycling '74/Max 8/examples/max-tricks/send-receive-tricks/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -891,8 +896,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
