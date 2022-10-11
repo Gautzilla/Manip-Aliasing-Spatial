@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1946.0, 85.0, 1212.0, 882.0 ],
+		"rect" : [ 1954.0, 77.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -503,13 +503,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 405.51519775390625, 533.83209228515625, 106.0, 22.0 ],
+					"patching_rect" : [ 405.51519775390625, 533.83209228515625, 153.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "coll nombreMicros",
-					"varname" : "nombreMicros"
+					"text" : "coll valeursNombresMicros"
 				}
 
 			}
@@ -1109,8 +1108,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.3778076171875, 727.66668701171875, 35.0, 22.0 ],
-					"text" : "v isX"
+					"patching_rect" : [ 35.3778076171875, 727.66668701171875, 57.0, 22.0 ],
+					"text" : "v whoIsX"
 				}
 
 			}
@@ -1195,7 +1194,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 935.3355712890625, 327.41131591796875, 87.685592651367188, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "urn 0-indexed\ncoll 1-indexed"
 				}
 
@@ -1335,8 +1333,7 @@
 						"embed" : 0
 					}
 ,
-					"text" : "coll combinaisons",
-					"varname" : "combinaisons[5]"
+					"text" : "coll combinaisons"
 				}
 
 			}
@@ -1489,8 +1486,7 @@
 						"embed" : 0
 					}
 ,
-					"text" : "coll combinaisons",
-					"varname" : "combinaisons[3]"
+					"text" : "coll combinaisons"
 				}
 
 			}
@@ -1555,8 +1551,7 @@
 						"embed" : 0
 					}
 ,
-					"text" : "coll combinaisons",
-					"varname" : "combinaisons[1]"
+					"text" : "coll combinaisons"
 				}
 
 			}
@@ -1670,8 +1665,7 @@
 						"embed" : 0
 					}
 ,
-					"text" : "coll combinaisons",
-					"varname" : "combinaisons[2]"
+					"text" : "coll combinaisons"
 				}
 
 			}
@@ -1700,8 +1694,7 @@
 						"embed" : 0
 					}
 ,
-					"text" : "coll combinaisons",
-					"varname" : "combinaisons[4]"
+					"text" : "coll combinaisons"
 				}
 
 			}
@@ -1714,18 +1707,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.215225219726563, 594.2000732421875, 62.0, 22.0 ],
 					"text" : "s fileRead"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1245.5050048828125, 396.037078857421875, 72.0, 22.0 ],
-					"text" : "prepend set"
 				}
 
 			}
@@ -3528,13 +3509,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 1 ],
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-175", 0 ],
 					"source" : [ "obj-238", 0 ]
 				}
@@ -3833,7 +3807,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-107", 1 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
