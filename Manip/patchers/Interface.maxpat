@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1946.0, 85.0, 1212.0, 883.0 ],
+		"rect" : [ 1946.0, 81.0, 812.0, 875.0 ],
 		"bglocked" : 1,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -100,7 +100,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 769.96685791015625, 1066.73828125, 162.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -1797,7 +1796,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-85",
-					"ignoreclick" : 1,
 					"inactiveimage" : 1,
 					"maxclass" : "pictctrl",
 					"mode" : 1,
@@ -1808,7 +1806,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 751.4652099609375, 41.0, 66.5, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.171051025390625, 69.263145446777344, 66.5, 66.0 ],
+					"presentation_rect" : [ 205.171051025390625, 69.263145446777344, 66.5, 66.0 ],
 					"snap" : 1,
 					"tracking" : 1,
 					"varname" : "toggleX"
@@ -1831,7 +1829,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-76",
-					"ignoreclick" : 1,
 					"inactiveimage" : 1,
 					"maxclass" : "pictctrl",
 					"mode" : 1,
@@ -1852,6 +1849,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-75",
+					"ignoreclick" : 1,
 					"inactiveimage" : 1,
 					"maxclass" : "pictctrl",
 					"mode" : 1,
@@ -1862,7 +1860,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 688.5394287109375, 41.0, 66.5, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 298.1842041015625, 69.263145446777344, 66.5, 66.0 ],
+					"presentation_rect" : [ 276.25, 69.263145446777344, 66.5, 66.0 ],
 					"snap" : 1,
 					"tracking" : 1,
 					"varname" : "toggleB"
@@ -1882,7 +1880,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 626.1842041015625, 41.0, 66.5, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.934219360351563, 69.263145446777344, 66.5, 66.0 ],
+					"presentation_rect" : [ 134.25, 69.263145446777344, 66.5, 66.0 ],
 					"snap" : 1,
 					"tracking" : 1,
 					"varname" : "toggleA"

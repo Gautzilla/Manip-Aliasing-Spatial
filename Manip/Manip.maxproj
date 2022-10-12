@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3748411459,
+	"modificationdate" : 3748414655,
 	"viewrect" : [ 540.0, 84.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,12 +21,12 @@
 				"local" : 1
 			}
 ,
-			"TraitementFichiers.maxpat" : 			{
+			"BtnControl.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"BtnControl.maxpat" : 			{
+			"TraitementFichiers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -47,12 +47,12 @@
 		}
 ,
 		"data" : 		{
-			"Readme.txt" : 			{
+			"Train.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"Train.txt" : 			{
+			"Readme.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
