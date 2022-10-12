@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3748417618,
+	"modificationdate" : 3748437385,
 	"viewrect" : [ 540.0, 84.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -34,15 +34,6 @@
 		}
 ,
 		"media" : 		{
-			"test.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop",
-					"projectrelativepath" : "../../../../../../Desktop"
-				}
-
-			}
 
 		}
 ,
