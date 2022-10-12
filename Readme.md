@@ -13,14 +13,12 @@ Projet **MaxMSP** pour analyser les seuils de détection de nombre de microphone
 `TraitementFichiers/FormatNameWriteFile`
 
 ## Organisation du projet MaxMSP
-####Main
-Choix session (entraînement ou vrai test) ; Contrôle affichage
-####Interface
-Interface principale du test
-####TraitementFichiers
-- Lit les fichiers contenant la description des stiumuli
-- Sélectionne les stimuli à envoyer au player audio
-- Ecrit les backups et les résultats en fin de test
+
+| Patcher | Rôle |
+| ------------ | ------------ |
+| Main | <ul><li>Choix Session (entraînement ou test).</li><li>Contrôle d'affichage des patchers.</li></ul>|
+| Interface | Interface principale du test. |
+| TraitementFichiers | <ul><li>Lit les fichiers en entrée.</li><li>Sélectionne les combinaisons de variables formant les stimulis à lire par le player audio.</li><li>Traite la réponse du sujet et met à jour les combinaisons.</li><li>Ecrit les backups *(à implémenter)* et les résultats en fin de test.</li></ul> |
 
 ## Programme de création des listes
 
