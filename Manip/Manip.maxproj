@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3748414655,
+	"modificationdate" : 3748417618,
 	"viewrect" : [ 540.0, 84.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -52,11 +52,6 @@
 				"local" : 1
 			}
 ,
-			"Readme.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
 			"Stimuli.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
@@ -65,6 +60,19 @@
 			"NombreMicros.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"Readme.md" : 			{
+				"kind" : "file",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 7/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial",
+					"projectrelativepath" : ".."
+				}
+
 			}
 
 		}
