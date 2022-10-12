@@ -1176,7 +1176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 975.4412841796875, 450.8983154296875, 68.0, 47.0 ],
-					"text" : "Si moins de 6 inversions"
+					"text" : "Si moins de 12 inversions"
 				}
 
 			}
@@ -1398,8 +1398,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 929.69342041015625, 463.3983154296875, 34.0, 22.0 ],
-					"text" : "sel 6"
+					"patching_rect" : [ 929.69342041015625, 463.3983154296875, 41.0, 22.0 ],
+					"text" : "sel 12"
 				}
 
 			}

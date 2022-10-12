@@ -37,7 +37,7 @@ Spécificités pour la procédure 3I2AFC, après avoir entré les différentes v
 | Variable indépendante (ici nombre de micros) | 1 | 1 (démarre avec le plus petit nombre de micros) |
 | Nombre d'inversions de la courbe | 1 | 0 |
 | Direction de la courbe d'égalisation | 1 | 1 (courbe ascendante au départ) |
-| Valeurs des inversions  | *n* | 0 (seront écrasées par le programme pour stocker les valeurs des inversions) |
+| Valeurs des inversions  | *12 (à def.) | 0 (seront écrasées par le programme pour stocker les valeurs des inversions) |
 
 ## Divers
 [Palette](https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 "Palette")
