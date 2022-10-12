@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3748437385,
+	"modificationdate" : 3748437441,
 	"viewrect" : [ 540.0, 84.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -27,6 +27,11 @@
 			}
 ,
 			"TraitementFichiers.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"AudioPlayer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
