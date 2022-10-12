@@ -9,8 +9,9 @@ Projet **MaxMSP** pour analyser les seuils de détection de nombre de microphone
 | Stimuli.txt | Conditions expérimentales pour la session de test. |
 | NombreMicros.txt | Valeurs que peut prendre nMic, le nombre de micros sur l'antenne (points sur la courbe d'égalisation). Cette variable dépendante est traitée par **indices** (de 1 à *à définir*), les nombres de micros correspondants sont spécifiés dans ce fichier. |
 
-## Choix du fichier d'écriture des résultats :
-`TraitementFichiers/FormatNameWriteFile`
+## Fichier d'écriture des résultats :
+Les résultats sont écrits dans le dossier `Manip-Aliasing-Spatial\Manip\resultats` (le dossier doit être présent pour que l'écriture se fasse correctement).
+Le nom d'un fichier de résultat est formaté sous la forme `Prénom-Nom-Date-Heure`.
 
 ## Organisation du projet MaxMSP
 

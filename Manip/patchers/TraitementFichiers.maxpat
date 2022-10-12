@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1946.0, 85.0, 1212.0, 883.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1832,7 +1832,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1946.0, 85.0, 1212.0, 883.0 ],
+						"rect" : [ 93.0, 120.0, 1212.0, 883.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1861,6 +1861,30 @@
 						"subpatcher_template" : "ManipAliasingSpatial",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 279.0, 54.0, 22.0 ],
+									"text" : "resultats"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 326.0, 77.0, 22.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1875,22 +1899,11 @@
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 335.0, 157.0, 22.0 ],
-									"text" : "sprintf symout %s%s-%s.txt"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-21",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 188.0, 401.0, 246.0, 20.0 ],
-									"text" : "Changer le dossier de résultats ici si besoin."
+									"patching_rect" : [ 50.0, 369.0, 173.0, 22.0 ],
+									"text" : "sprintf symout %s/%s%s%s.txt"
 								}
 
 							}
@@ -1900,7 +1913,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 183.0, 205.0, 338.0, 20.0 ],
+									"patching_rect" : [ 231.333328247070313, 207.0, 338.0, 20.0 ],
 									"text" : "Le nom du fichier est formaté en Prénom-Nom-date-heure.txt"
 								}
 
@@ -1934,10 +1947,10 @@
 									"id" : "obj-159",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 50.0, 171.0, 31.0, 22.0 ],
-									"text" : "t s b"
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "", "bang" ],
+									"patching_rect" : [ 50.0, 169.0, 41.0, 22.0 ],
+									"text" : "t b s b"
 								}
 
 							}
@@ -1948,20 +1961,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "date", "time" ],
-									"patching_rect" : [ 62.0, 204.0, 65.0, 22.0 ],
+									"patching_rect" : [ 155.333328247070313, 207.0, 65.0, 22.0 ],
 									"text" : "t date time"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-150",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 377.0, 610.0, 22.0 ],
-									"text" : "prepend C:/Users/User/Documents/Max 7/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/resultats/"
 								}
 
 							}
@@ -1984,7 +1985,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 108.0, 290.0, 135.0, 22.0 ],
+									"patching_rect" : [ 155.333328247070313, 292.0, 135.0, 22.0 ],
 									"text" : "regexp \" \" @substitute -"
 								}
 
@@ -1996,7 +1997,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 118.5, 265.0, 135.0, 22.0 ],
+									"patching_rect" : [ 207.833328247070313, 263.0, 135.0, 22.0 ],
 									"text" : "regexp \" \" @substitute -"
 								}
 
@@ -2008,7 +2009,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "list", "list", "int" ],
-									"patching_rect" : [ 108.0, 237.0, 40.0, 22.0 ],
+									"patching_rect" : [ 155.333328247070313, 239.0, 40.0, 22.0 ],
 									"text" : "date"
 								}
 
@@ -2055,14 +2056,28 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 2 ],
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 3 ],
 									"source" : [ "obj-122", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 1 ],
+									"destination" : [ "obj-2", 2 ],
 									"source" : [ "obj-129", 0 ]
 								}
 
@@ -2083,13 +2098,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-150", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-106", 0 ],
 									"source" : [ "obj-151", 1 ]
 								}
@@ -2104,15 +2112,22 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-151", 0 ],
-									"source" : [ "obj-159", 1 ]
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-159", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-159", 0 ]
+									"destination" : [ "obj-151", 0 ],
+									"source" : [ "obj-159", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 1 ],
+									"source" : [ "obj-159", 1 ]
 								}
 
 							}
@@ -2125,7 +2140,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-150", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -2215,7 +2230,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3962,6 +3977,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}
