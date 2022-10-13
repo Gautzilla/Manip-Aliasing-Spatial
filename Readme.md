@@ -1,4 +1,4 @@
-# Manip Aliasing Spatial:
+# Manip Aliasing Spatial
 
 Projet **MaxMSP** pour analyser les seuils de détection de nombre de microphones sur un système VHOA, utilisant une procédure 3I2AFC.
 
@@ -10,9 +10,12 @@ Projet **MaxMSP** pour analyser les seuils de détection de nombre de microphone
 | NombreMicros.txt | Valeurs que peut prendre nMic, le nombre de micros sur l'antenne (points sur la courbe d'égalisation). Cette variable dépendante est traitée par **indices** (de 1 à *à définir*), les nombres de micros correspondants sont spécifiés dans ce fichier. |
 
 ## Fichier d'écriture des résultats :
-Les résultats sont écrits dans le dossier `Manip-Aliasing-Spatial\Manip\resultats` (le dossier doit être présent pour que l'écriture se fasse correctement).
+Les résultats sont écrits dans le dossier `Manip-Aliasing-Spatial\Manip\resultats` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
 
 Le nom d'un fichier de résultat est formaté sous la forme `Prénom-Nom-Date-Heure`.
+
+Lors du test et après chaque essai réalisé par le sujet, un fichier de backup est enregistré dans le dossier `Manip-Aliasing-Spatial\Manip\backups` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
+Ce fichier peut être chargé manuellement en cliquant sur le message `read` dans la partie 1 du patcher `TraitementFichiers`.
 
 ## Organisation du projet MaxMSP
 
@@ -20,7 +23,7 @@ Le nom d'un fichier de résultat est formaté sous la forme `Prénom-Nom-Date-He
 | ------------ | ------------ |
 | Main | <ul><li>Choix Session (entraînement ou test).</li><li>Contrôle d'affichage des patchers.</li></ul>|
 | Interface | Interface principale du test. |
-| TraitementFichiers | <ul><li>Lit les fichiers en entrée.</li><li>Sélectionne les combinaisons de variables formant les stimulis à lire par le player audio.</li><li>Traite la réponse du sujet et met à jour les combinaisons.</li><li>Ecrit les backups *(à implémenter)* et les résultats en fin de test.</li></ul> |
+| TraitementFichiers | <ul><li>Lit les fichiers en entrée.</li><li>Sélectionne les combinaisons de variables formant les stimulis à lire par le player audio.</li><li>Traite la réponse du sujet et met à jour les combinaisons.</li><li>Ecrit les backups et les résultats en fin de test.</li></ul> |
 
 ## Programme de création des listes
 
