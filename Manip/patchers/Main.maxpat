@@ -10,7 +10,11 @@
 		}
 ,
 		"classnamespace" : "box",
+<<<<<<< Updated upstream
 		"rect" : [ 1946.0, 85.0, 1212.0, 883.0 ],
+=======
+		"rect" : [ 1954.0, 77.0, 793.0, 883.0 ],
+>>>>>>> Stashed changes
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -336,9 +340,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 550.0, 224.0, 208.5, 73.0 ],
+					"patching_rect" : [ 537.0, 226.473846435546875, 208.5, 73.0 ],
 					"presentation" : 1,
+<<<<<<< Updated upstream
 					"presentation_rect" : [ 113.75, 214.0, 208.5, 73.0 ],
+=======
+					"presentation_rect" : [ 108.0, 240.0, 208.5, 73.0 ],
+>>>>>>> Stashed changes
 					"snap" : 1,
 					"varname" : "btnTest"
 				}
@@ -354,9 +362,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 550.0, 159.0, 208.5, 73.0 ],
+					"patching_rect" : [ 533.0, 194.0, 208.5, 73.0 ],
 					"presentation" : 1,
+<<<<<<< Updated upstream
 					"presentation_rect" : [ 113.75, 139.0, 208.5, 73.0 ],
+=======
+					"presentation_rect" : [ 108.0, 154.0, 208.5, 73.0 ],
+>>>>>>> Stashed changes
 					"snap" : 1,
 					"varname" : "btnEntrainement"
 				}
@@ -415,6 +427,7 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< Updated upstream
 					"bgcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Tahoma",
@@ -433,6 +446,8 @@
 			}
 , 			{
 				"box" : 				{
+=======
+>>>>>>> Stashed changes
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "newobj",
@@ -501,6 +516,44 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 34.0, 76.0, 35.0, 22.0 ],
 					"text" : "s init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"fontsize" : 24.0,
+					"id" : "obj-45",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 471.71246337890625, 152.5, 320.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 83.29571533203125, 85.43658447265625, 257.90850830078125, 35.0 ],
+					"text" : "Choisir une session :",
+					"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.635294117647059, 0.482352941176471, 0.36078431372549, 1.0 ],
+					"id" : "obj-38",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 469.0, 171.473846435546875, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 66.25, 55.23529052734375, 292.0, 287.402587890625 ],
+					"proportion" : 0.5,
+					"rounded" : 28
 				}
 
 			}
@@ -950,8 +1003,8 @@
 , 			{
 				"name" : "texteditGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
 				}
 ,
 				"parentstyle" : "",
