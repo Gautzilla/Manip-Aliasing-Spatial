@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1946.0, 85.0, 1212.0, 883.0 ],
+		"rect" : [ 1954.0, 77.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,8 +56,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 387.4901123046875, 201.0, 22.0 ],
-					"text" : "sprintf bindto parent::%s::ignoreclick"
+					"patching_rect" : [ 220.0, 387.4901123046875, 223.0, 22.0 ],
+					"text" : "sprintf bindto parent::bP::%s::ignoreclick"
 				}
 
 			}
@@ -76,7 +76,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u004006919"
+					"varname" : "u499000406"
 				}
 
 			}
@@ -111,8 +111,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 387.4901123046875, 176.0, 22.0 ],
-					"text" : "sprintf bindto parent::%s::active"
+					"patching_rect" : [ 17.0, 387.4901123046875, 197.0, 22.0 ],
+					"text" : "sprintf bindto parent::bP::%s::active"
 				}
 
 			}
@@ -131,7 +131,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u249006923"
+					"varname" : "u763000408"
 				}
 
 			}
@@ -139,7 +139,7 @@
 				"box" : 				{
 					"comment" : "Scripting Name of the button",
 					"id" : "obj-66",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -152,7 +152,7 @@
 				"box" : 				{
 					"comment" : "Bang",
 					"id" : "obj-67",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -199,7 +199,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 238.0, 403.0, 427.0 ],
+					"patching_rect" : [ 9.0, 238.0, 484.0, 428.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -308,8 +308,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}

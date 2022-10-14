@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 812.0, 883.0 ],
+		"rect" : [ 1954.0, 85.0, 812.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 638.0, 734.70086669921875, 74.0, 114.0 ],
+					"patching_rect" : [ 638.0, 734.70086669921875, 75.0, 114.0 ],
 					"text" : "Réinitialise le moteur audio après chaque réponse pour éviter bug du matrix~"
 				}
 
@@ -310,14 +310,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 361.0, 658.13677978515625, 288.0, 22.0 ],
+					"patching_rect" : [ 361.0, 658.13677978515625, 309.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr playState @bindto parent::Interface::togglePlay",
+					"text" : "pattr playState @bindto parent::Interface::bP::togglePlay",
 					"varname" : "playState[1]"
 				}
 
