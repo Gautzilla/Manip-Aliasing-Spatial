@@ -649,7 +649,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.76690673828125, 582.3612060546875, 29.5, 22.0 ],
+					"patching_rect" : [ 711.70294189453125, 582.3612060546875, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -662,7 +662,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.76690673828125, 558.3612060546875, 57.0, 22.0 ],
+					"patching_rect" : [ 711.70294189453125, 558.3612060546875, 57.0, 22.0 ],
 					"text" : "r testEnd"
 				}
 
@@ -674,7 +674,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.76690673828125, 527.0, 29.5, 22.0 ],
+					"patching_rect" : [ 711.70294189453125, 527.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -687,7 +687,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.76690673828125, 500.598388671875, 60.0, 22.0 ],
+					"patching_rect" : [ 711.70294189453125, 500.598388671875, 60.0, 22.0 ],
 					"text" : "r fileRead"
 				}
 

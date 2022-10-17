@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 1212.0, 883.0 ],
+		"rect" : [ 2030.0, 150.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,8 +56,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.0, 387.4901123046875, 223.0, 22.0 ],
-					"text" : "sprintf bindto parent::bP::%s::ignoreclick"
+					"patching_rect" : [ 242.0, 387.4901123046875, 248.0, 22.0 ],
+					"text" : "sprintf bindto parent::bP_ifac::%s::ignoreclick"
 				}
 
 			}
@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 197.0, 417.11553955078125, 40.0, 22.0 ],
+					"patching_rect" : [ 242.0, 417.11553955078125, 40.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -76,7 +76,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u499000406"
+					"varname" : "u028001529"
 				}
 
 			}
@@ -111,8 +111,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 387.4901123046875, 197.0, 22.0 ],
-					"text" : "sprintf bindto parent::bP::%s::active"
+					"patching_rect" : [ 17.0, 387.4901123046875, 223.0, 22.0 ],
+					"text" : "sprintf bindto parent::bP_ifac::%s::active"
 				}
 
 			}
@@ -131,7 +131,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u763000408"
+					"varname" : "u537001531"
 				}
 
 			}
