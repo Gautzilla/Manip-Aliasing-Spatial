@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 1212.0, 883.0 ],
+		"rect" : [ 1946.0, 85.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,40 @@
 		"style" : "",
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1227.1541748046875, 265.5526123046875, 81.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 29.5, 52.0, 21.0 ],
+					"text" : "Centré",
+					"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-64",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1227.1541748046875, 291.0, 81.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 3.5, 81.0, 21.0 ],
+					"text" : "Plein écran",
+					"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
 					"id" : "obj-63",
