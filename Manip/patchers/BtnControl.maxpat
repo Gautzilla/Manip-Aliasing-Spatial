@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2030.0, 150.0, 1212.0, 883.0 ],
-		"bglocked" : 1,
+		"rect" : [ 1946.0, 150.0, 1212.0, 883.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 30.0, 353.0, 41.0, 22.0 ],
+					"patching_rect" : [ 36.0, 310.0, 41.0, 22.0 ],
 					"text" : "t b s s"
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 387.4901123046875, 248.0, 22.0 ],
+					"patching_rect" : [ 248.0, 344.4901123046875, 248.0, 22.0 ],
 					"text" : "sprintf bindto parent::bP_ifac::%s::ignoreclick"
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 242.0, 417.11553955078125, 40.0, 22.0 ],
+					"patching_rect" : [ 248.0, 374.11553955078125, 40.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -76,7 +76,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u028001529"
+					"varname" : "u048000641"
 				}
 
 			}
@@ -87,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 514.15679931640625, 32.0, 22.0 ],
+					"patching_rect" : [ 23.0, 471.15679931640625, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -99,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 452.285888671875, 199.0, 22.0 ],
+					"patching_rect" : [ 23.0, 409.285888671875, 199.0, 22.0 ],
 					"text" : "if $i1 == 1 && $i2 == 0 then 1 else 0"
 				}
 
@@ -111,7 +111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 387.4901123046875, 223.0, 22.0 ],
+					"patching_rect" : [ 23.0, 344.4901123046875, 223.0, 22.0 ],
 					"text" : "sprintf bindto parent::bP_ifac::%s::active"
 				}
 
@@ -123,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 17.0, 417.11553955078125, 40.0, 22.0 ],
+					"patching_rect" : [ 23.0, 374.11553955078125, 40.0, 22.0 ],
 					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -131,7 +131,7 @@
 					}
 ,
 					"text" : "pattr",
-					"varname" : "u537001531"
+					"varname" : "u766000643"
 				}
 
 			}
@@ -139,12 +139,12 @@
 				"box" : 				{
 					"comment" : "Scripting Name of the button",
 					"id" : "obj-66",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 293.0, 30.0, 30.0 ]
+					"patching_rect" : [ 36.0, 250.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -152,11 +152,11 @@
 				"box" : 				{
 					"comment" : "Bang",
 					"id" : "obj-67",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 626.66912841796875, 30.0, 30.0 ]
+					"patching_rect" : [ 23.0, 583.66912841796875, 30.0, 30.0 ]
 				}
 
 			}
@@ -167,7 +167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 17.0, 148.0, 67.0, 22.0 ],
+					"patching_rect" : [ 30.0, 150.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -181,7 +181,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 238.0, 338.0, 33.0 ],
+					"patching_rect" : [ 15.0, 195.0, 338.0, 33.0 ],
 					"suppressinlet" : 1,
 					"text" : "Passe le bang uniquement si le bouton lié est actif et n'ignore pas les clicks."
 				}
@@ -199,7 +199,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 238.0, 484.0, 428.0 ],
+					"patching_rect" : [ 15.0, 195.0, 495.0, 435.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -212,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 11.0, 112.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 112.0, 20.0 ],
 					"suppressinlet" : 1,
 					"text" : "contrôle du patcher"
 				}
@@ -230,7 +230,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 11.0, 182.0, 171.0 ],
+					"patching_rect" : [ 15.0, 15.0, 180.0, 165.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -308,6 +308,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}
