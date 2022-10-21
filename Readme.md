@@ -25,6 +25,15 @@ Ce fichier peut être chargé manuellement en cliquant sur le message `read` dan
 | Interface | Interface principale du test. |
 | TraitementFichiers | <ul><li>Lit les fichiers en entrée.</li><li>Sélectionne les combinaisons de variables formant les stimulis à lire par le player audio.</li><li>Traite la réponse du sujet et met à jour les combinaisons.</li><li>Ecrit les backups et les résultats en fin de test.</li></ul> |
 
+## Paramètres de la procédure adaptative
+
+Les paramètes liés à la procédure adaptative doivent être modifiés dans le patcher `TraitementFichiers` :
+
+| Paramètre | Onglet (**objet**) | Signification |
+| ------------ | ------------ | ------------ |
+| Nombre d'inversions | 3 (**sel** *n*) | Nombre d'inversions néecssaires pour compléter la courbe d'égalisation. |
+| Pas adaptatif | 5 (**if**) | Paramètres du pas adaptatif : `if $i1 < x then y else z` avec *x* le nombre d'inversions à faire avec le pas *y* ; *z* le pas après *x* inversions. |
+
 ## Programme de création des listes
 
 Application .NET créant les listes de combinaisons de variables au format utilisé par le programme MaxMSP.
