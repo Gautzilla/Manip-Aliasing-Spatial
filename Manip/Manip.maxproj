@@ -2,8 +2,8 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3748437441,
-	"viewrect" : [ 540.0, 84.0, 300.0, 500.0 ],
+	"modificationdate" : 3749211156,
+	"viewrect" : [ 1343.0, 215.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -65,7 +65,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 7/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial",
+					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial",
 					"projectrelativepath" : ".."
 				}
 
