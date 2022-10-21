@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3748859418,
+	"modificationdate" : 3749211156,
 	"viewrect" : [ 1343.0, 215.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -32,11 +32,6 @@
 			}
 ,
 			"AudioPlayer.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"AudioPlayerV2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -70,7 +65,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 7/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial",
+					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial",
 					"projectrelativepath" : ".."
 				}
 
