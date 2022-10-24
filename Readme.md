@@ -31,7 +31,7 @@ Les paramètes liés à la procédure adaptative doivent être modifiés dans le
 
 | Paramètre | Onglet (**objet**) | Signification |
 | ------------ | ------------ | ------------ |
-| Nombre d'inversions | 3 (**sel** *n*) | Nombre d'inversions néecssaires pour compléter la courbe d'égalisation. |
+| Nombre d'inversions | 3 (**sel** *n*) | Nombre d'inversions néecessaires pour compléter la courbe d'égalisation.|
 | Pas adaptatif | 5 (**if**) | Paramètres du pas adaptatif : `if $i1 < x then y else z` avec *x* le nombre d'inversions à faire avec le pas *y* ; *z* le pas après *x* inversions. |
 
 ## Programme de création des listes
@@ -48,10 +48,9 @@ Spécificités pour la procédure 3I2AFC, après avoir entré les différentes v
 
 | Signification | Nombre de lignes | Valeur(s) |
 | ------------ | ------------ | ------------ |
-| Variable indépendante (ici nombre de micros) | 1 | 1 (démarre avec le plus petit nombre de micros) |
-| Nombre d'inversions de la courbe | 1 | 0 |
-| Direction de la courbe d'égalisation | 1 | 1 (courbe ascendante au départ) |
-| Valeurs des inversions  | *12 (à def.)* | 0 (seront écrasées par le programme pour stocker les valeurs des inversions) |
+| Variable dépendante (ici nombre de micros) | 1 | `1` (démarre avec le plus petit nombre de micros) |
+| Direction de la courbe d'égalisation | 1 | `1` (courbe ascendante au départ) |
+| Valeurs des inversions  | 1 | `courbe` ; les valeurs aux inversions seront concaténées à la suite.|
 
 ## Divers
 [Palette](https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 "Palette")
