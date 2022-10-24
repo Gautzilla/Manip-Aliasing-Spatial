@@ -118,19 +118,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 762.6187744140625, 43.0, 22.0 ],
+					"patching_rect" : [ 481.5819091796875, 750.98681640625, 43.0, 22.0 ],
 					"text" : "v nMic"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-176",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 553.5, 727.741455078125, 32.0, 22.0 ],
-					"text" : "print"
 				}
 
 			}
@@ -142,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.0, 915.0, 40.0, 22.0 ],
+					"patching_rect" : [ 481.5819091796875, 885.0, 40.0, 22.0 ],
 					"text" : "v vInv"
 				}
 
@@ -154,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 794.95880126953125, 65.0, 22.0 ],
+					"patching_rect" : [ 481.5819091796875, 785.03582763671875, 65.0, 22.0 ],
 					"text" : "append $1"
 				}
 
@@ -167,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.0, 855.0, 50.0, 35.0 ],
+					"patching_rect" : [ 481.5819091796875, 825.0, 50.0, 35.0 ],
 					"text" : "courbe 6"
 				}
 
@@ -1243,8 +1232,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 570.15643310546875, 941.741455078125, 67.687080383300781, 60.0 ],
-					"text" : "stocke la valeur de nMic à l'inversion"
+					"patching_rect" : [ 540.0, 812.5, 137.178604125976563, 60.0 ],
+					"text" : "concatène la valeur de nMic à l'inversion à la suite des autres inversions"
 				}
 
 			}
@@ -1268,7 +1257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 762.6187744140625, 40.0, 22.0 ],
+					"patching_rect" : [ 532.796630859375, 750.98681640625, 40.0, 22.0 ],
 					"text" : "v vInv"
 				}
 
@@ -1281,7 +1270,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.0819091796875, 682.92596435546875, 64.0, 22.0 ],
+					"patching_rect" : [ 471.0819091796875, 690.14215087890625, 64.0, 22.0 ],
 					"text" : "r inversion"
 				}
 
@@ -2764,7 +2753,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3911,16 +3900,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-176", 0 ],
-					"order" : 0,
-					"source" : [ "obj-171", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
-					"order" : 1,
 					"source" : [ "obj-171", 0 ]
 				}
 
@@ -4623,15 +4603,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Train.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}
