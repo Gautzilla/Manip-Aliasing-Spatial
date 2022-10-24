@@ -486,8 +486,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 690.0, 85.0, 22.0 ],
-					"text" : "r target Preset"
+					"patching_rect" : [ 213.0, 690.0, 81.0, 22.0 ],
+					"text" : "r targetPreset"
 				}
 
 			}
