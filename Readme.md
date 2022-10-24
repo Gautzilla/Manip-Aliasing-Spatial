@@ -27,12 +27,22 @@ Ce fichier peut être chargé manuellement en cliquant sur le message `read` dan
 
 ## Paramètres de la procédure adaptative
 
-Les paramètes liés à la procédure adaptative doivent être modifiés dans le patcher `TraitementFichiers` :
+Les paramètes liés à la procédure adaptative doivent être modifiés :
 
-| Paramètre | Onglet (**objet**) | Signification |
-| ------------ | ------------ | ------------ |
-| Nombre d'inversions | 3 (**sel** *n*) | Nombre d'inversions néecessaires pour compléter la courbe d'égalisation.|
-| Pas adaptatif | 5 (**if**) | Paramètres du pas adaptatif : `if $i1 < x then y else z` avec *x* le nombre d'inversions à faire avec le pas *y* ; *z* le pas après *x* inversions. |
+| Paramètre | Patcher | Onglet (`objet`) | Signification |
+| ------------ | ------------ | ------------ | ------------ |
+| Nombre d'inversions | Main | initialisation (`loadmess`) | Nombre d'inversions néecessaires pour compléter la courbe d'égalisation.|
+| Pas adaptatif | TraitementFichiers | 5 (`if`) | Paramètres du pas adaptatif : `if $i1 <= x then y else z` avec *x* le nombre d'inversions à faire avec le pas *y* ; *z* le pas après *x* inversions. |
+
+## Départ différé des listes
+
+Pour ne pas finir le test par un grand nombre de comparaisons proches du PSE (difficile pour le sujet), le départ des différentes listes est différé :
+- Une première moitié (choisie aléatoirement) des listes est sélectionnée.
+- La courbe d'égalisation de chacune de ces listes est complétée intégralement (en alternant parmi chaque courbe à chaque essai).
+- Après que toutes les courbes de cette première moitié sont terminées, la deuxième moitié des listes est sélectionnée.
+- La courbe d'égalisation de chaque liste de cette deuxième moitié est complétée et le test prend fin.
+
+La liste totale peut être divisée en plus de deux parties, mais cela nécessite la modification du p-patcher `p indexDepart` dans le patcher `TraitementFichiers`.
 
 ## Programme de création des listes
 
