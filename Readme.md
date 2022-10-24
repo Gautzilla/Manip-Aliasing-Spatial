@@ -27,12 +27,12 @@ Ce fichier peut être chargé manuellement en cliquant sur le message `read` dan
 
 ## Paramètres de la procédure adaptative
 
-Les paramètes liés à la procédure adaptative doivent être modifiés dans le patcher `TraitementFichiers` :
+Les paramètes liés à la procédure adaptative doivent être modifiés :
 
-| Paramètre | Onglet (**objet**) | Signification |
-| ------------ | ------------ | ------------ |
-| Nombre d'inversions | 3 (**sel** *n*) | Nombre d'inversions néecessaires pour compléter la courbe d'égalisation.|
-| Pas adaptatif | 5 (**if**) | Paramètres du pas adaptatif : `if $i1 < x then y else z` avec *x* le nombre d'inversions à faire avec le pas *y* ; *z* le pas après *x* inversions. |
+| Paramètre | Patcher | Onglet (`objet`) | Signification |
+| ------------ | ------------ | ------------ | ------------ |
+| Nombre d'inversions | Main | initialisation (`loadmess`) | Nombre d'inversions néecessaires pour compléter la courbe d'égalisation.|
+| Pas adaptatif | TraitementFichiers | 5 (`if`) | Paramètres du pas adaptatif : `if $i1 <= x then y else z` avec *x* le nombre d'inversions à faire avec le pas *y* ; *z* le pas après *x* inversions. |
 
 ## Programme de création des listes
 
