@@ -1,6 +1,6 @@
 # Manip Aliasing Spatial
 
-Projet **MaxMSP** pour analyser les seuils de détection de nombre de microphones sur un système VHOA, utilisant une procédure 3I2AFC.
+Projet **MaxMSP** pour analyser les seuils de détection de l'erreur d'aliasing sur un système VHOA, utilisant une procédure 3I2AFC.
 
 ## Fichiers en entrée :
 | Fichier | Rôle |
@@ -61,6 +61,13 @@ Spécificités pour la procédure 3I2AFC, après avoir entré les différentes v
 | Variable dépendante (ici nombre de micros) | 1 | `1` (démarre avec le plus petit nombre de micros) |
 | Direction de la courbe d'égalisation | 1 | `1` (courbe ascendante au départ) |
 | Valeurs des inversions  | 1 | `courbe` ; les valeurs aux inversions seront concaténées à la suite.|
+
+## Patcher d'écoute des stimuli
+
+Se trouve dans le dossier testEcoute. 
+Permet d'écouter les stimuli générés et leur référence respective : écoute en ABX, avec indication de la bonne ou mauvaise détection de X.
+
+Une application .NET renomme les fichiers audio pour les ordonner correctement dans le polybuffer~ du patcher MaxMSP.
 
 ## Divers
 [Palette](https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 "Palette")
