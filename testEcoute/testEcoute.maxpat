@@ -306,7 +306,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 777.5, 555.0, 43.0, 22.0 ],
+					"patching_rect" : [ 30.0, 750.0, 43.0, 22.0 ],
 					"text" : "r done"
 				}
 
@@ -504,7 +504,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offcolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
-					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"oncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 817.0, 1087.0, 45.0, 45.0 ],
@@ -2237,7 +2237,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-216", 0 ],
+					"destination" : [ "obj-155", 0 ],
 					"source" : [ "obj-212", 0 ]
 				}
 
