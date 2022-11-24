@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 81.0, 842.0, 875.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 77.0, 2492.0, 1289.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -38,6 +38,31 @@
 		"style" : "",
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 154.0, 1005.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 93.0, 1005.0, 56.0, 22.0 ],
+					"text" : "r lectSeq"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
 					"id" : "obj-194",
@@ -293,7 +318,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1212.0, 51.0, 22.0 ],
+					"patching_rect" : [ 193.5, 1234.0, 51.0, 22.0 ],
 					"text" : "s pause"
 				}
 
@@ -305,7 +330,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 23.0, 1212.0, 32.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1234.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -317,7 +342,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1088.0, 51.0, 22.0 ],
+					"patching_rect" : [ 193.5, 1110.0, 51.0, 22.0 ],
 					"text" : "s pause"
 				}
 
@@ -329,7 +354,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 23.0, 1088.0, 32.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1110.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -340,7 +365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1310.0, 74.0, 20.0 ],
+					"patching_rect" : [ 193.5, 1332.0, 74.0, 20.0 ],
 					"text" : "X is playing"
 				}
 
@@ -353,7 +378,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 232.0, 985.0, 81.0, 22.0 ],
+					"patching_rect" : [ 376.0, 996.0, 81.0, 22.0 ],
 					"text" : "r dureePause"
 				}
 
@@ -366,7 +391,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 151.0, 985.0, 71.0, 22.0 ],
+					"patching_rect" : [ 295.0, 996.0, 71.0, 22.0 ],
 					"text" : "r dureeStim"
 				}
 
@@ -378,7 +403,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 1335.0, 61.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1357.0, 61.0, 22.0 ],
 					"text" : "s endPlay"
 				}
 
@@ -390,7 +415,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 23.0, 1310.0, 37.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1332.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -402,7 +427,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1281.0, 48.0, 22.0 ],
+					"patching_rect" : [ 193.5, 1303.0, 48.0, 22.0 ],
 					"text" : "s playX"
 				}
 
@@ -414,7 +439,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 23.0, 1281.0, 32.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1303.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -425,7 +450,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1242.0, 48.0, 20.0 ],
+					"patching_rect" : [ 193.5, 1264.0, 48.0, 20.0 ],
 					"text" : "pause"
 				}
 
@@ -436,7 +461,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1183.0, 74.0, 20.0 ],
+					"patching_rect" : [ 193.5, 1205.0, 74.0, 20.0 ],
 					"text" : "B is playing"
 				}
 
@@ -448,7 +473,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 23.0, 1242.0, 37.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1264.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -460,7 +485,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 23.0, 1183.0, 37.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1205.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -472,7 +497,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1154.0, 48.0, 22.0 ],
+					"patching_rect" : [ 193.5, 1176.0, 48.0, 22.0 ],
 					"text" : "s playB"
 				}
 
@@ -484,7 +509,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 23.0, 1154.0, 32.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1176.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -495,7 +520,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1120.0, 48.0, 20.0 ],
+					"patching_rect" : [ 193.5, 1142.0, 48.0, 20.0 ],
 					"text" : "pause"
 				}
 
@@ -507,7 +532,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 23.0, 1120.0, 37.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1142.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -518,7 +543,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1058.0, 74.0, 20.0 ],
+					"patching_rect" : [ 193.5, 1080.0, 74.0, 20.0 ],
 					"text" : "A is playing"
 				}
 
@@ -530,7 +555,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 1017.0, 48.0, 22.0 ],
+					"patching_rect" : [ 193.5, 1039.0, 48.0, 22.0 ],
 					"text" : "s playA"
 				}
 
@@ -542,7 +567,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 23.0, 1058.0, 37.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1080.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -554,7 +579,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 23.0, 1017.0, 32.0, 22.0 ],
+					"patching_rect" : [ 154.0, 1039.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -615,7 +640,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 985.0, 96.0, 22.0 ],
+					"patching_rect" : [ 167.0, 975.0, 96.0, 22.0 ],
 					"text" : "r filesAreLoaded"
 				}
 
@@ -644,13 +669,13 @@
 					"patching_rect" : [ 639.0, 1131.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "mc.live.gain~"
+							"parameter_longname" : "mc.live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "mc.live.gain~"
 						}
 
 					}
@@ -826,62 +851,6 @@
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "mcs.vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "BinauralDecoder.vst3",
-							"plugindisplayname" : "BinauralDecoder",
-							"pluginsavedname" : "BinauralDecoder",
-							"pluginsaveduniqueid" : 0,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "576.VMjLgbi....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LyM23hUMoFSmA0Tt3hKt7zJlcUXxEDZisVRxH1a3vVX3fjTLQmKogjYTwVXogiQY8FMwjENHIUUTkEUKMCR38TNtHzSBsFagcVUsI1Y2YTTq0TLgoVUrIVN1MDUAkTUP0TPRokZvjFRmEzQhI2ZGI0ZEYTV1cVLgQWUVE0cIIDRwTjQgASUV8DZtj1R1gDdKkicCQUPIUETMEjTZoFLogzazXjXvDkLSgWTVkEdMUUV5E0UZQ2XrgjYXcEVxU0UYgCRB4DctjFR0MyPOAUQpQUPvPDRuEkUOgFUxH1ZMs1T4AkZHYFVWgkbUcUV3fjTLQmKogTcyLzSO0DLPMDNrEFaqESVlgTUYkVUVoULUwlXPgCahoGLogzbDkFRlwTUYQWTVkEdqQDU3fDZHYFSUkEcQYUV3EDLggWTW8DZ5IESn4BdTsFMFk0ZIIyTS0DUPoVTrI1ZMIiX3fDdKIzZrE1YU0lXmcmQQsVSwDlZUwlX0gjPHMUUrElZUwlXIQiQisVRsM1Y2Y0SnQzPLYGR3sTN1k2RBsFagcVUsI1Y2YTTq0TLgoVUrIVNt3hKt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVPP4RPHQEY1UTLhkWPP4RPL4hKi4hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQFwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "BinauralDecoder",
-									"origin" : "BinauralDecoder.vst3",
-									"type" : "VST3",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "BinauralDecoder.vst3",
-										"plugindisplayname" : "BinauralDecoder",
-										"pluginsavedname" : "BinauralDecoder",
-										"pluginsaveduniqueid" : 0,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "576.VMjLgbi....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LyM23hUMoFSmA0Tt3hKt7zJlcUXxEDZisVRxH1a3vVX3fjTLQmKogjYTwVXogiQY8FMwjENHIUUTkEUKMCR38TNtHzSBsFagcVUsI1Y2YTTq0TLgoVUrIVN1MDUAkTUP0TPRokZvjFRmEzQhI2ZGI0ZEYTV1cVLgQWUVE0cIIDRwTjQgASUV8DZtj1R1gDdKkicCQUPIUETMEjTZoFLogzazXjXvDkLSgWTVkEdMUUV5E0UZQ2XrgjYXcEVxU0UYgCRB4DctjFR0MyPOAUQpQUPvPDRuEkUOgFUxH1ZMs1T4AkZHYFVWgkbUcUV3fjTLQmKogTcyLzSO0DLPMDNrEFaqESVlgTUYkVUVoULUwlXPgCahoGLogzbDkFRlwTUYQWTVkEdqQDU3fDZHYFSUkEcQYUV3EDLggWTW8DZ5IESn4BdTsFMFk0ZIIyTS0DUPoVTrI1ZMIiX3fDdKIzZrE1YU0lXmcmQQsVSwDlZUwlX0gjPHMUUrElZUwlXIQiQisVRsM1Y2Y0SnQzPLYGR3sTN1k2RBsFagcVUsI1Y2YTTq0TLgoVUrIVNt3hKt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVPP4RPHQEY1UTLhkWPP4RPL4hKi4hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQFwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
-									}
-,
-									"fileref" : 									{
-										"name" : "BinauralDecoder",
-										"filename" : "BinauralDecoder.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "86309641edbee3014580330c1bca5d06"
-									}
-
-								}
- ]
-						}
-
 					}
 ,
 					"text" : "mcs.vst~ BinauralDecoder",
@@ -1875,7 +1844,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 960.0, 450.0, 414.0 ],
+					"patching_rect" : [ 15.0, 960.0, 450.0, 424.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -1945,6 +1914,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 1 ],
 					"order" : 1,
@@ -2189,7 +2165,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -2324,6 +2300,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-194", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
