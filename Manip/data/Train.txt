@@ -1,3 +1,2 @@
-1, A 0 1 1 courbe;
-2, B 0 1 1 courbe;
-3, C 0 1 1 courbe;
+1, Ellington broadcastingstudio Extremal 6cm 1 1 courbe;
+9, pinknoise broadcastingstudio Extremal 6cm 1 1 courbe;
