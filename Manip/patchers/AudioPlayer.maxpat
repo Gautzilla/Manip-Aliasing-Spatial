@@ -39,6 +39,42 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 150.0, 1002.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 325.0, 1126.0, 57.0, 22.0 ],
+					"text" : "minimum"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 9,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+					"patching_rect" : [ 262.0, 1066.0, 103.0, 22.0 ],
+					"text" : "info~ audioBuff.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -79,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.0, 1005.0, 32.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1032.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -92,7 +128,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 1005.0, 56.0, 22.0 ],
+					"patching_rect" : [ 76.0, 1032.0, 56.0, 22.0 ],
 					"text" : "r lectSeq"
 				}
 
@@ -353,7 +389,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1234.0, 51.0, 22.0 ],
+					"patching_rect" : [ 176.5, 1261.0, 51.0, 22.0 ],
 					"text" : "s pause"
 				}
 
@@ -365,7 +401,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 154.0, 1234.0, 32.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1261.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -377,7 +413,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1110.0, 51.0, 22.0 ],
+					"patching_rect" : [ 176.5, 1137.0, 51.0, 22.0 ],
 					"text" : "s pause"
 				}
 
@@ -389,7 +425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 154.0, 1110.0, 32.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1137.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -400,7 +436,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1332.0, 74.0, 20.0 ],
+					"patching_rect" : [ 176.5, 1359.0, 74.0, 20.0 ],
 					"text" : "X is playing"
 				}
 
@@ -413,7 +449,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 996.0, 81.0, 22.0 ],
+					"patching_rect" : [ 270.0, 997.0, 81.0, 22.0 ],
 					"text" : "r dureePause"
 				}
 
@@ -426,7 +462,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.0, 996.0, 71.0, 22.0 ],
+					"patching_rect" : [ 363.0, 1092.0, 71.0, 22.0 ],
 					"text" : "r dureeStim"
 				}
 
@@ -438,7 +474,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 154.0, 1357.0, 61.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1384.0, 61.0, 22.0 ],
 					"text" : "s endPlay"
 				}
 
@@ -450,7 +486,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 154.0, 1332.0, 37.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1359.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -462,7 +498,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1303.0, 48.0, 22.0 ],
+					"patching_rect" : [ 176.5, 1330.0, 48.0, 22.0 ],
 					"text" : "s playX"
 				}
 
@@ -474,7 +510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 154.0, 1303.0, 32.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1330.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -485,7 +521,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1264.0, 48.0, 20.0 ],
+					"patching_rect" : [ 176.5, 1291.0, 48.0, 20.0 ],
 					"text" : "pause"
 				}
 
@@ -496,7 +532,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1205.0, 74.0, 20.0 ],
+					"patching_rect" : [ 176.5, 1232.0, 74.0, 20.0 ],
 					"text" : "B is playing"
 				}
 
@@ -508,7 +544,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 154.0, 1264.0, 37.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1291.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -520,7 +556,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 154.0, 1205.0, 37.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1232.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -532,7 +568,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1176.0, 48.0, 22.0 ],
+					"patching_rect" : [ 176.5, 1203.0, 48.0, 22.0 ],
 					"text" : "s playB"
 				}
 
@@ -544,7 +580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 154.0, 1176.0, 32.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1203.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -555,7 +591,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1142.0, 48.0, 20.0 ],
+					"patching_rect" : [ 176.5, 1169.0, 48.0, 20.0 ],
 					"text" : "pause"
 				}
 
@@ -567,7 +603,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 154.0, 1142.0, 37.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1169.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -578,7 +614,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1080.0, 74.0, 20.0 ],
+					"patching_rect" : [ 176.5, 1107.0, 74.0, 20.0 ],
 					"text" : "A is playing"
 				}
 
@@ -590,7 +626,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.5, 1039.0, 48.0, 22.0 ],
+					"patching_rect" : [ 176.5, 1066.0, 48.0, 22.0 ],
 					"text" : "s playA"
 				}
 
@@ -602,7 +638,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 154.0, 1080.0, 37.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1107.0, 37.0, 22.0 ],
 					"text" : "delay"
 				}
 
@@ -614,7 +650,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 154.0, 1039.0, 32.0, 22.0 ],
+					"patching_rect" : [ 137.0, 1066.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -675,7 +711,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 975.0, 96.0, 22.0 ],
+					"patching_rect" : [ 150.0, 975.0, 96.0, 22.0 ],
 					"text" : "r filesAreLoaded"
 				}
 
@@ -845,7 +881,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 119.999999999999957,
+						"originaltempo" : 119.999999999999943,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1691,7 +1727,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1935,7 +1971,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 960.0, 450.0, 424.0 ],
+					"patching_rect" : [ 15.0, 960.0, 450.0, 465.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -2008,6 +2044,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 1 ],
+					"order" : 2,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-89", 1 ],
+					"order" : 1,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 1 ],
+					"order" : 0,
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -2086,6 +2146,20 @@
 					"destination" : [ "obj-86", 2 ],
 					"order" : 1,
 					"source" : [ "obj-129", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-13", 1 ]
 				}
 
 			}
@@ -2256,7 +2330,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -2902,6 +2976,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-9", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
 					"source" : [ "obj-92", 0 ]
 				}
@@ -2930,47 +3011,12 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
-					"order" : 2,
-					"source" : [ "obj-99", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-89", 1 ],
-					"order" : 1,
-					"source" : [ "obj-99", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 1 ],
-					"order" : 0,
+					"destination" : [ "obj-10", 1 ],
 					"source" : [ "obj-99", 0 ]
 				}
 
 			}
  ],
-		"parameters" : 		{
-			"obj-6" : [ "vst~", "vst~", 0 ],
-			"obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "BinauralDecoder.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}
