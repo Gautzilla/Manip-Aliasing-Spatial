@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 81.0, 1212.0, 883.0 ],
+		"rect" : [ 1954.0, 81.0, 842.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 681.0, 1488.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-132",
 					"lastchannelcount" : 0,
@@ -427,7 +439,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 676.5, 1516.6666259765625, 60.0, 22.0 ],
+					"patching_rect" : [ 681.0, 1516.6666259765625, 60.0, 22.0 ],
 					"text" : "v colorOff"
 				}
 
@@ -1046,7 +1058,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 511.5, 1286.6666259765625, 49.0, 22.0 ],
+					"patching_rect" : [ 517.0, 1284.6666259765625, 49.0, 22.0 ],
 					"text" : "r pause"
 				}
 
@@ -1148,8 +1160,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 770.0, 1601.6666259765625, 112.0, 22.0 ],
-					"text" : "0.247 0.306 0.31 1."
+					"patching_rect" : [ 770.0, 1601.6666259765625, 119.0, 22.0 ],
+					"text" : "0.173 0.212 0.224 1."
 				}
 
 			}
@@ -1304,7 +1316,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1322,7 +1334,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 450.0, 66.0, 30.0, 37.0 ],
 					"text" : "X",
-					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1333,7 +1345,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1351,7 +1363,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 66.0, 30.0, 37.0 ],
 					"text" : "B",
-					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1362,7 +1374,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1380,7 +1392,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 300.0, 66.0, 30.0, 37.0 ],
 					"text" : "A",
-					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1392,7 +1404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 145.5, 1268.6666259765625, 32.0, 22.0 ],
+					"patching_rect" : [ 145.5, 1301.6666259765625, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -3390,6 +3402,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
 					"source" : [ "obj-107", 1 ]
 				}
@@ -4397,7 +4416,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-105", 0 ],
 					"order" : 0,
 					"source" : [ "obj-304", 0 ]
 				}
