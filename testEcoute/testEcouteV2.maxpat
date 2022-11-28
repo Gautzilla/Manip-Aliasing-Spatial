@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 81.0, 842.0, 875.0 ],
+		"rect" : [ 1954.0, 81.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,19 +37,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "ManipAliasingSpatial",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-116",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 571.75, 945.0, 31.0, 22.0 ],
-					"text" : "plug"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-132",
 					"lastchannelcount" : 0,
@@ -62,10 +51,10 @@
 					"patching_rect" : [ 384.0, 1095.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
+							"parameter_initial" : [ 0.0 ],
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -133,6 +122,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-49",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 7,
@@ -167,12 +157,12 @@
 						"snapshot" : 						{
 							"pluginname" : "ambix_rotator_o7.dll",
 							"plugindisplayname" : "ambix_rotator_o7",
-							"pluginsavedname" : "ambix_rotator_o7",
+							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtHSM4TCN3jCN1XyL0HCL3DiL4fCNh.RL8HBLtPSN1.SNwjSNwXiMxjyM4DiL0jCNh.hL8HBLtPCN4HyL2.SLvPyM3jyMyLCN3XyMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
+							"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtLCN3bSLyjCN0XCNwTyLyfSLyPCNh.RL8HBLtTCLvDSMwjSNwfCMzDyM2HCM1.SNh.hL8HBLtPSN4.SMzjSN3DSM4PCL3TiM4LCMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -189,12 +179,12 @@
 									"snapshot" : 									{
 										"pluginname" : "ambix_rotator_o7.dll",
 										"plugindisplayname" : "ambix_rotator_o7",
-										"pluginsavedname" : "ambix_rotator_o7",
+										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtHSM4TCN3jCN1XyL0HCL3DiL4fCNh.RL8HBLtPSN1.SNwjSNwXiMxjyM4DiL0jCNh.hL8HBLtPCN4HyL2.SLvPyM3jyMyLCN3XyMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
+										"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtLCN3bSLyjCN0XCNwTyLyfSLyPCNh.RL8HBLtTCLvDSMwjSNwfCMzDyM2HCM1.SNh.hL8HBLtPSN4.SMzjSN3DSM4PCL3TiM4LCMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
 									}
 ,
 									"fileref" : 									{
@@ -1274,7 +1264,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 130.304351806640625, 92.0, 37.0 ],
 					"text" : "X est B",
-					"textcolor" : [ 0.634999990463257, 0.48199999332428, 0.361000001430511, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1303,7 +1293,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 290.0, 130.304351806640625, 92.0, 37.0 ],
 					"text" : "X est A",
-					"textcolor" : [ 0.634999990463257, 0.48199999332428, 0.361000001430511, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1332,7 +1322,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 450.0, 66.0, 30.0, 37.0 ],
 					"text" : "X",
-					"textcolor" : [ 0.246999993920326, 0.305999994277954, 0.310000002384186, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1361,7 +1351,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 66.0, 30.0, 37.0 ],
 					"text" : "B",
-					"textcolor" : [ 0.246999993920326, 0.305999994277954, 0.310000002384186, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1390,7 +1380,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 300.0, 66.0, 30.0, 37.0 ],
 					"text" : "A",
-					"textcolor" : [ 0.246999993920326, 0.305999994277954, 0.310000002384186, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2035,21 +2025,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "signal" ],
 					"patching_rect" : [ 384.0, 960.0, 118.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 119.999999999999915,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "mcs.groove~ buff 64"
 				}
 
@@ -2064,13 +2039,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-101",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 384.0, 1020.0, 198.0, 22.0 ],
-					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 64, "BinauralDecoder.dll", ";" ],
+					"patching_rect" : [ 384.0, 1020.0, 190.0, 22.0 ],
+					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 2, "BinauralDecoder.dll", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -2098,12 +2074,12 @@
 						"snapshot" : 						{
 							"pluginname" : "BinauralDecoder.dll",
 							"plugindisplayname" : "BinauralDecoder",
-							"pluginsavedname" : "C:/Program Files/Steinberg/VSTPlugins/IEM/BinauralDecoder.dll",
+							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBNt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
+							"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -2120,20 +2096,20 @@
 									"snapshot" : 									{
 										"pluginname" : "BinauralDecoder.dll",
 										"plugindisplayname" : "BinauralDecoder",
-										"pluginsavedname" : "C:/Program Files/Steinberg/VSTPlugins/IEM/BinauralDecoder.dll",
+										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBNt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
+										"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
 									}
 ,
 									"fileref" : 									{
 										"name" : "BinauralDecoder",
-										"filename" : "BinauralDecoder_20221125.maxsnap",
+										"filename" : "BinauralDecoder_20221128.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "ea4ed89e4c96d925ea5039462ae31962"
+										"snapshotfileid" : "cc078206632d422b61634b6fd3e0dc89"
 									}
 
 								}
@@ -2142,7 +2118,7 @@
 
 					}
 ,
-					"text" : "mcs.vst~ 64 64 BinauralDecoder.dll",
+					"text" : "mcs.vst~ 64 2 BinauralDecoder.dll",
 					"varname" : "vst~",
 					"viewvisibility" : 0
 				}
@@ -2647,7 +2623,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 729.5, 122.0, 33.0 ],
+					"patching_rect" : [ 5.0, 729.5, 122.0, 34.0 ],
 					"text" : "Extremal unmatched : gaussLegendre"
 				}
 
@@ -3011,7 +2987,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 11.0, 112.0, 33.0 ],
+					"patching_rect" : [ 403.0, 11.0, 112.0, 34.0 ],
 					"suppressinlet" : 1,
 					"text" : "Dossier fichiers audio"
 				}
@@ -3291,7 +3267,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 946.5, 735.0, 88.0, 33.0 ],
+					"patching_rect" : [ 946.5, 735.0, 88.0, 34.0 ],
 					"suppressinlet" : 1,
 					"text" : "file 1 : son test\nfile 2 : son ref"
 				}
@@ -3495,13 +3471,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"source" : [ "obj-114", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-101", 0 ],
-					"source" : [ "obj-116", 0 ]
 				}
 
 			}
@@ -4884,17 +4853,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-132" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-101" : [ "vst~", "vst~", 0 ],
+			"obj-132" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-49" : [ "mcs.vst~", "mcs.vst~", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "BinauralDecoder_20221125.maxsnap",
+				"name" : "BinauralDecoder_20221128.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../Snapshots",
 				"type" : "mx@s",
@@ -4913,13 +4883,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
@@ -4930,8 +4900,8 @@
 , 			{
 				"name" : "Default10",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
