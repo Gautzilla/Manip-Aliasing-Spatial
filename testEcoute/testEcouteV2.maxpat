@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 81.0, 842.0, 883.0 ],
+		"rect" : [ 1954.0, 81.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1295.0, 876.0, 80.0, 22.0 ],
+					"text" : "s chargeFiles"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
 					"id" : "obj-120",
@@ -436,11 +448,11 @@
 				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 1119.0, 810.0, 107.0, 22.0 ],
-					"text" : "sel 49 50 32 30 31"
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 1119.0, 810.0, 124.0, 22.0 ],
+					"text" : "sel 49 50 32 30 31 13"
 				}
 
 			}
@@ -2162,6 +2174,24 @@
 									}
 
 								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "BinauralDecoder",
+									"origin" : "BinauralDecoder.dll",
+									"type" : "VST",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "BinauralDecoder",
+										"filename" : "BinauralDecoder_20221125.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "ea4ed89e4c96d925ea5039462ae31962"
+									}
+
+								}
  ]
 						}
 
@@ -2788,13 +2818,15 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"arrow" : 0,
+					"bgcolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "gradient",
+					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Tahoma",
 					"id" : "obj-43",
@@ -2888,17 +2920,19 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"arrow" : 0,
+					"bgcolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "gradient",
+					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Tahoma",
 					"id" : "obj-8",
-					"items" : [ 128, ",", 162, ",", 200, ",", 242, ",", 288, ",", 338, ",", 392, ",", 450, ",", 512, ",", 578, ",", 648, ",", 722, ",", 2312 ],
+					"items" : [ 64, ",", 81, ",", 100, ",", 121, ",", 144, ",", 169, ",", 196, ",", 225, ",", 256, ",", 289, ",", 324, ",", 361, ",", 1156 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2916,13 +2950,15 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"arrow" : 0,
+					"bgcolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "gradient",
+					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Tahoma",
 					"id" : "obj-7",
@@ -2944,13 +2980,15 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"arrow" : 0,
+					"bgcolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "gradient",
+					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Tahoma",
 					"id" : "obj-6",
@@ -2972,17 +3010,19 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"arrow" : 0,
+					"bgcolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color1" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "gradient",
+					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Tahoma",
 					"id" : "obj-5",
-					"items" : [ "Ellington", ",", "pinknoise", ",", "yael" ],
+					"items" : [ "noise", ",", "quartet", ",", "speech" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4729,6 +4769,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-55", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -4952,6 +4999,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "BinauralDecoder_20221125.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "BinauralDecoder_20221128.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../Snapshots",
