@@ -1819,7 +1819,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 887.51507568359375, 487.43524169921875, 55.0, 22.0 ],
-					"text" : "zl slice 4"
+					"text" : "zl slice 6"
 				}
 
 			}
@@ -6331,14 +6331,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Train.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
