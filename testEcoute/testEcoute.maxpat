@@ -40,6 +40,66 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-141",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 70.5, 244.32220458984375, 168.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 68.5, 242.82220458984375, 193.0, 35.0 ],
+					"text" : "Changer dossier contenant les fichiers uadio",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ],
+					"blinkcolor" : [ 0.635294117647059, 0.482352941176471, 0.36078431372549, 1.0 ],
+					"id" : "obj-140",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.247058823529412, 0.305882352941176, 0.309803921568627, 1.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 685.5, 24.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 42.5, 248.32220458984375, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-122",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 685.5, 84.0, 57.0, 22.0 ],
+					"text" : "tosymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 685.5, 57.0, 90.0, 22.0 ],
+					"text" : "opendialog fold"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-92",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2833,7 +2893,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 448.0, 71.500007629394531, 58.0, 22.0 ],
+					"patching_rect" : [ 448.0, 88.500007629394531, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2845,7 +2905,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.0, 135.0, 73.0, 22.0 ],
+					"patching_rect" : [ 448.0, 152.0, 73.0, 22.0 ],
 					"text" : "s folderPath"
 				}
 
@@ -2857,7 +2917,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 105.0, 526.0, 22.0 ],
+					"patching_rect" : [ 448.0, 122.0, 526.0, 22.0 ],
 					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Stimuli/\""
 				}
 
@@ -3677,6 +3737,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-125", 1 ],
+					"order" : 0,
+					"source" : [ "obj-122", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-137", 0 ],
+					"order" : 1,
+					"source" : [ "obj-122", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
@@ -3728,6 +3804,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"source" : [ "obj-140", 0 ]
 				}
 
 			}
@@ -5032,6 +5115,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-93", 0 ]
 				}
 
 			}
