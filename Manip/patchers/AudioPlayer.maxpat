@@ -210,7 +210,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "171.CMlaKA....fQPMDZ....ADjTucC....Y....A.........................................vaVMjLgXF....OMkETLU0QI4zTEQEUI4zQSABL8HBLtTiHfDSOh.iK0HBHxziHv3RMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
+							"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtjCLyTSN0jCNyjCNx.CN1DCNwXCMh.RL8HBLtbiLzXyMzjSN4bSLyfSN2bCL0.CNh.hL8HBLtbSLwTiL4.SL1PSNzbSMvjyM1TiMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -232,7 +232,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "171.CMlaKA....fQPMDZ....ADjTucC....Y....A.........................................vaVMjLgXF....OMkETLU0QI4zTEQEUI4zQSABL8HBLtTiHfDSOh.iK0HBHxziHv3RMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
+										"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtjCLyTSN0jCNyjCNx.CN1DCNwXCMh.RL8HBLtbiLzXyMzjSN4bSLyfSN2bCL0.CNh.hL8HBLtbSLwTiL4.SL1PSNzbSMvjyM1TiMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
 									}
 ,
 									"fileref" : 									{
@@ -241,6 +241,24 @@
 										"filepath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 										"filepos" : -1,
 										"snapshotfileid" : "feabe4e7216bc691830ae62a7f31334d"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ambix_rotator_o7",
+									"origin" : "ambix_rotator_o7.dll",
+									"type" : "VST",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "ambix_rotator_o7",
+										"filename" : "ambix_rotator_o7.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "63770a883ada35eecaa83b86000a5e07"
 									}
 
 								}
@@ -339,18 +357,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 239.5, 60.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -382,30 +388,6 @@
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 262.0, 1051.0, 103.0, 22.0 ],
 					"text" : "info~ audioBuff.1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.5, 30.0, 90.0, 22.0 ],
-					"text" : "loadmess 1000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 239.5, 86.000007629394531, 71.0, 22.0 ],
-					"text" : "s retardSeq"
 				}
 
 			}
@@ -963,8 +945,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.5, 30.0, 83.0, 22.0 ],
-					"text" : "loadmess 500"
+					"patching_rect" : [ 443.5, 30.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -975,8 +957,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.5, 30.0, 90.0, 22.0 ],
-					"text" : "loadmess 4000"
+					"patching_rect" : [ 333.5, 30.0, 97.0, 22.0 ],
+					"text" : "loadmess 10000"
 				}
 
 			}
@@ -1249,6 +1231,42 @@
 										"filepath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 										"filepos" : -1,
 										"snapshotfileid" : "7b801bbf92d4f288427c0c510691e458"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "BinauralDecoder",
+									"origin" : "BinauralDecoder.dll",
+									"type" : "VST",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "BinauralDecoder",
+										"filename" : "BinauralDecoder_20221125.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "ea4ed89e4c96d925ea5039462ae31962"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "BinauralDecoder",
+									"origin" : "BinauralDecoder.dll",
+									"type" : "VST",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "BinauralDecoder",
+										"filename" : "BinauralDecoder_20221128.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "cc078206632d422b61634b6fd3e0dc89"
 									}
 
 								}
@@ -2103,7 +2121,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 933.0, 615.0, 162.0, 62.0 ],
-					"presentation_linecount" : 9,
 					"suppressinlet" : 1,
 					"text" : "Envois du T3:\n\"/Yaw f. f. f.\"\n=> formatté en\n\"Yaw f. f. f.\""
 				}
@@ -3042,13 +3059,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-245", 0 ],
 					"source" : [ "obj-250", 0 ]
 				}
@@ -3294,13 +3304,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
@@ -3459,6 +3462,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "BinauralDecoder_20221125.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BinauralDecoder_20221128.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "BinauralDecoder_20221129.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 				"patcherrelativepath" : "../data",
