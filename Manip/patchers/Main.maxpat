@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 304.0, 346.0, 73.0, 22.0 ],
+					"text" : "r runBackup"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-84",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -853,7 +866,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 450.0, 63.0, 22.0 ],
+					"patching_rect" : [ 413.5, 450.0, 63.0, 22.0 ],
 					"text" : "s trainEnd"
 				}
 
@@ -865,7 +878,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 327.0, 422.0, 34.0, 22.0 ],
+					"patching_rect" : [ 413.5, 422.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -878,7 +891,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 393.5, 59.0, 22.0 ],
+					"patching_rect" : [ 413.5, 393.5, 59.0, 22.0 ],
 					"text" : "v session"
 				}
 
@@ -891,7 +904,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 365.0, 57.0, 22.0 ],
+					"patching_rect" : [ 413.5, 365.0, 57.0, 22.0 ],
 					"text" : "r testEnd"
 				}
 
@@ -1676,6 +1689,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -1810,13 +1830,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Stimuli.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
