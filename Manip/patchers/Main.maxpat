@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1946.0, 85.0, 1212.0, 961.0 ],
+		"rect" : [ 666.0, 85.0, 1212.0, 961.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-72",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 698.29998779296875, 584.0, 142.0, 49.0 ],
+					"text" : "dialog @mode 1 @label Pointer vers le dossier Manip-Aliasing-Spatial"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontface" : 1,
 					"fontname" : "Tahoma",
@@ -47,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 735.0, 508.0, 81.0, 50.0 ],
+					"patching_rect" : [ 735.0, 523.0, 81.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 54.0, 180.0, 21.0 ],
 					"text" : "Changer de dossier source",
@@ -62,7 +75,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 698.29998779296875, 582.0, 88.0, 22.0 ],
+					"patching_rect" : [ 698.29998779296875, 665.0, 88.0, 22.0 ],
 					"text" : "s sourceFolder"
 				}
 
@@ -74,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 698.29998779296875, 556.0, 101.0, 22.0 ],
+					"patching_rect" : [ 698.29998779296875, 639.0, 101.0, 22.0 ],
 					"text" : "opendialog folder"
 				}
 
@@ -90,7 +103,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.635294117647059, 0.482352941176471, 0.36078431372549, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 698.29998779296875, 517.0, 24.0, 24.0 ],
+					"patching_rect" : [ 698.29998779296875, 536.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 54.0, 24.0, 24.0 ]
 				}
@@ -849,8 +862,8 @@
 , 							{
 								"name" : "Default10",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -878,8 +891,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1752,8 +1765,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
+					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-72", 0 ]
 				}
 
 			}
@@ -1858,8 +1878,8 @@
  ],
 		"parameters" : 		{
 			"obj-45::obj-21" : [ "mcs.vst~", "mcs.vst~", 0 ],
-			"obj-45::obj-6" : [ "vst~", "vst~", 0 ],
 			"obj-45::obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
+			"obj-45::obj-6" : [ "vst~", "vst~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2001,8 +2021,8 @@
 , 			{
 				"name" : "Default10",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2030,8 +2050,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
