@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 1,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,8 +37,66 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-93",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 735.0, 508.0, 81.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 54.0, 180.0, 21.0 ],
+					"text" : "Changer de dossier source",
+					"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 698.29998779296875, 582.0, 88.0, 22.0 ],
+					"text" : "s sourceFolder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 698.29998779296875, 556.0, 101.0, 22.0 ],
+					"text" : "opendialog folder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"blinkcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"id" : "obj-71",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.635294117647059, 0.482352941176471, 0.36078431372549, 1.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 698.29998779296875, 517.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 54.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
 					"id" : "obj-70",
@@ -82,8 +140,8 @@
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "bang" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 748.0, 148.5, 76.0, 22.0 ],
 					"text" : "dialog Nom :"
 				}
@@ -132,7 +190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 200.5, 75.0, 62.0 ],
+					"patching_rect" : [ 33.0, 200.5, 75.0, 60.0 ],
 					"text" : "nombre d'inversions dans la courbe"
 				}
 
@@ -334,7 +392,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 413.5, 727.0, 206.0, 36.0 ],
+					"patching_rect" : [ 413.5, 727.0, 206.0, 35.0 ],
 					"restore" : [ 0.0, 0.0, 300.0, 300.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -613,7 +671,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-68",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 0,
 					"numoutlets" : 0,
@@ -622,8 +679,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -656,7 +713,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
@@ -841,8 +897,8 @@
 , 							{
 								"name" : "texteditGold",
 								"default" : 								{
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
 								}
 ,
 								"parentstyle" : "",
@@ -853,7 +909,7 @@
 ,
 					"patching_rect" : [ 22.0, 523.0, 111.48529052734375, 110.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 456.0, 328.0, 300.0, 300.0 ],
+					"presentation_rect" : [ 776.0, 356.0, 300.0, 300.0 ],
 					"varname" : "bP_main",
 					"viewvisibility" : 1
 				}
@@ -964,8 +1020,8 @@
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "bang" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 559.4000244140625, 206.5, 152.0, 22.0 ],
 					"text" : "dialog Entrez votre nom :"
 				}
@@ -1240,7 +1296,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 495.0, 705.0, 435.0 ],
+					"patching_rect" : [ 15.0, 495.0, 881.0, 435.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -1696,6 +1752,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -1793,11 +1863,94 @@
 			"parameterbanks" : 			{
 
 			}
-,
-			"inherited_shortname" : 1
+
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Interface.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BtnControl.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toggleXestA.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toggleA.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toggleB.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toggleXestB.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toggleX.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "btnOk.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TogglePlay.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TraitementFichiers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "btnEntrainement.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "btnTest.png",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "AudioPlayer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
@@ -1819,94 +1972,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "BtnControl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Interface.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TogglePlay.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TraitementFichiers.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ambix_rotator_o7.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../../Snapshots",
 				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "btnEntrainement.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "btnOk.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "btnTest.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleA.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleB.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleX.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleXestA.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleXestB.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
@@ -1980,8 +2049,8 @@
 , 			{
 				"name" : "texteditGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
 				}
 ,
 				"parentstyle" : "",
