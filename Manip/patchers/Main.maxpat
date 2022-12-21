@@ -62,7 +62,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 735.0, 523.0, 81.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 54.0, 180.0, 21.0 ],
+					"presentation_rect" : [ 30.0, 55.5, 180.0, 21.0 ],
 					"text" : "Changer de dossier source",
 					"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ]
 				}
@@ -1878,8 +1878,8 @@
  ],
 		"parameters" : 		{
 			"obj-45::obj-21" : [ "mcs.vst~", "mcs.vst~", 0 ],
-			"obj-45::obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-45::obj-6" : [ "vst~", "vst~", 0 ],
+			"obj-45::obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
