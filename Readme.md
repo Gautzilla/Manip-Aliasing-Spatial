@@ -65,6 +65,15 @@ Spécificités pour la procédure 3I2AFC, après avoir entré les différentes v
 | Direction de la courbe d'égalisation | 1 | `1` (courbe ascendante au départ) |
 | Valeurs des inversions  | 1 | `courbe` ; les valeurs aux inversions seront concaténées à la suite.|
 
+## Rotation de la scène en temps réel
+
+Le patcher `AudioPlayer` utilise les VST suivants pour manipuler et décoder le champ ambisonique :
+
+| VST | Définition |
+| ------------ |  ------------ |
+| [Ambix Rotator](http://www.matthiaskronlachner.com/?p=2015 "ambix_rotator_07_.dll") | <ul><li>Effectue la rotation du champ ambisonique.</li><li>Reçoit les informations de Yaw Pitch et Roll en UDP : <ul><li>Port 4040</li><li>Format `/Yaw [0., 1.]` `/Pitch [0., 1.]` `/Roll [0., 1.]`</li></ul></li></ul> |
+| [Binaural Decoder](https://plugins.iem.at/docs/plugindescriptions/#binauraldecoder "BinauralDecoder.dll") | <ul><li>Décode les fichiers HOA d'ordre 7 en des fichiers binauraux</li><li>Permet d'ajouter un filtre de compensation du casque audio (voir paramètres du VST)</li></ul>|
+
 ## Patcher d'écoute des stimuli
 
 Se trouve dans le dossier testEcoute. 
