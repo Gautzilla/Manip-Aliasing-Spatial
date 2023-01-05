@@ -7,7 +7,7 @@ Projet **MaxMSP** pour analyser les seuils de détection de l'erreur d'aliasing 
 | ------------ | ------------ |
 | Train.txt | Conditions expérimentales pour la session d'entraînement. |
 | Stimuli.txt | Conditions expérimentales pour la session de test. |
-| NombreMicros.txt | Valeurs que peut prendre nMic, le nombre de micros sur l'antenne (points sur la courbe d'égalisation). Cette variable dépendante est traitée par **indices** (de 1 à *à définir*), les nombres de micros correspondants sont spécifiés dans ce fichier. |
+| NombreMicros.txt | Valeurs que peut prendre nMic, le nombre de micros sur l'antenne (points sur la courbe d'égalisation). Cette variable dépendante est traitée par **indices** (de 1 à 13). Les nombres de micros correspondants sont spécifiés dans ce fichier, précédés du nom de la grille correspondante (Extremal ou Gauss-Legendre). |
 
 ## Fichier d'écriture des résultats
 Les résultats sont écrits dans le dossier `Manip-Aliasing-Spatial\Manip\resultats` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
@@ -24,6 +24,7 @@ Ce fichier peut être chargé manuellement en cliquant sur le message `read` dan
 | Main | <ul><li>Choix Session (entraînement ou test).</li><li>Contrôle d'affichage des patchers.</li></ul>|
 | Interface | Interface principale du test. |
 | TraitementFichiers | <ul><li>Lit les fichiers en entrée.</li><li>Sélectionne les combinaisons de variables formant les stimulis à lire par le player audio.</li><li>Traite la réponse du sujet et met à jour les combinaisons.</li><li>Ecrit les backups et les résultats en fin de test.</li></ul> |
+| AudioPlayer | <ul><li>Charge les fichiers audio correspondants à chaque essai.</li><li>Gère la rotation HOA (via une connection UDP avec un tracker) et le décodage binaural.</li><li>Gère l'écoute séquentielle ABX.</li></ul>|
 
 ## Paramètres de la procédure adaptative
 
@@ -32,7 +33,7 @@ Les paramètes liés à la procédure adaptative doivent être modifiés :
 | Paramètre | Patcher | Onglet (`objet`) | Signification |
 | ------------ | ------------ | ------------ | ------------ |
 | Nombre d'inversions | Main | initialisation (`loadmess`) | Nombre d'inversions néecessaires pour compléter la courbe d'égalisation.|
-| Pas adaptatif | TraitementFichiers | 5 (`if`) | Paramètres du pas adaptatif : `if $i1 <= x then y else z` avec *x* le nombre d'inversions à faire avec le pas *y* ; *z* le pas après *x* inversions. |
+| Pas adaptatif | TraitementFichiers | 0 | Paramètres du pas adaptatif : nombre d'inversions pour changer de pas, pas avant/après changement. |
 
 ## Départ différé des listes
 
@@ -43,6 +44,8 @@ Pour ne pas finir le test par un grand nombre de comparaisons proches du PSE (di
 - La courbe d'égalisation de chaque liste de cette deuxième moitié est complétée et le test prend fin.
 
 La liste totale peut être divisée en plus de deux parties, mais cela nécessite la modification du p-patcher `p indexDepart` dans le patcher `TraitementFichiers`.
+Le départ différé est activé si la *value* `v departDiffere` vaut `2` et désactivé si `v departDiffere` vaut `1` (voir patcher `TraitementFichiers`). 
+Par défaut, le départ différé est désactivé pour la phase d'entraînement et activé pour la phase de test.
 
 ## Programme de création des listes
 
@@ -68,6 +71,10 @@ Se trouve dans le dossier testEcoute.
 Permet d'écouter les stimuli générés et leur référence respective : écoute en ABX, avec indication de la bonne ou mauvaise détection de X.
 
 Une application .NET renomme les fichiers audio pour les ordonner correctement dans le polybuffer~ du patcher MaxMSP.
+
+## Mode debug
+
+Lors du test, un bouton dans le coin supérieur gauche permet d'afficher un *mode debug*, qui indique l'état des courbes d'égalisation ainsi que les informations sur l'essai en cours (état des variables indépendantes, du nombre de microphones, qui de A ou B est X...).
 
 ## Divers
 [Palette](https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 "Palette")
