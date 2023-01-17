@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 81.0, 1212.0, 883.0 ],
+		"rect" : [ 1958.0, 81.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,102 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-90",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 913.0, 840.0, 140.0, 22.0 ],
+					"text" : "prepend \"Quaternion q3\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 880.0, 819.0, 140.0, 22.0 ],
+					"text" : "prepend \"Quaternion q2\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1011.5, 734.0, 47.0, 22.0 ],
+					"text" : "zl.nth 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 870.0, 795.0, 140.0, 22.0 ],
+					"text" : "prepend \"Quaternion q1\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 860.5, 765.0, 140.0, 22.0 ],
+					"text" : "prepend \"Quaternion q0\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 959.5, 734.0, 47.0, 22.0 ],
+					"text" : "zl.nth 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 910.5, 734.0, 47.0, 22.0 ],
+					"text" : "zl.nth 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 860.5, 734.0, 47.0, 22.0 ],
+					"text" : "zl.nth 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-72",
 					"linecount" : 2,
@@ -546,7 +642,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1020.0, 1125.0, 58.0, 22.0 ],
+					"patching_rect" : [ 1001.0, 1135.0, 58.0, 22.0 ],
 					"text" : "r tracking"
 				}
 
@@ -558,7 +654,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 888.5, 71.0, 22.0 ],
+					"patching_rect" : [ 860.5, 885.0, 71.0, 22.0 ],
 					"text" : "s tracking"
 				}
 
@@ -570,8 +666,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 870.0, 854.5, 139.0, 22.0 ],
-					"text" : "regexp / @substitute %0"
+					"patching_rect" : [ 860.5, 705.0, 199.0, 22.0 ],
+					"text" : "regexp /Quaternion @substitute %0"
 				}
 
 			}
@@ -582,7 +678,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 791.5, 77.0, 22.0 ],
+					"patching_rect" : [ 860.5, 660.0, 77.0, 22.0 ],
 					"text" : "prepend port"
 				}
 
@@ -595,7 +691,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 761.5, 58.0, 22.0 ],
+					"patching_rect" : [ 860.5, 636.0, 58.0, 22.0 ],
 					"text" : "r udpPort"
 				}
 
@@ -607,7 +703,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 820.5, 97.0, 22.0 ],
+					"patching_rect" : [ 860.5, 684.0, 97.0, 22.0 ],
 					"text" : "udpreceive 4040"
 				}
 
@@ -662,7 +758,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtLCN3bSLyjCN0XCNwTyLyfSLyPCNh.RL8HBLtTCLvDSMwjSNwfCMzDyM2HCM1.SNh.hL8HBLtPSN4.SMzjSN3DSM4PCL3TiM4LCMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
+							"blob" : "241.CMlaKA....fQPMDZ....ADjTucC....Y....A.........................................PsVMjLgvJ....OMkETLU0QI4zTEQEUI4zQSABL8HBLtLCN3bSLyjCN0XCNwTyLyfSLyPCNh.RL8HBLtTCLvDSMwjSNwfCMzDyM2HCM1.SNh.hL8HBLtPSN4.SMzjSN3DSM4PCL3TiM4LCMh.xL8HBLh.BM8HBLh.RM8HBLh.hM8HBLh.xM8HBLtjCN0.CM1.iL4.SNvfCNwLCM2XiMh.BN8HBLh.xWw80XnElamUFY8HRLh7hO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -684,7 +780,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "228.CMlaKA....fQPMDZ....ADjTucC....Y....A..........................................pVMjLg7I....OMkETLU0QI4zTEQEUI4zQSABL8HBLtLCN3bSLyjCN0XCNwTyLyfSLyPCNh.RL8HBLtTCLvDSMwjSNwfCMzDyM2HCM1.SNh.hL8HBLtPSN4.SMzjSN3DSM4PCL3TiM4LCMh.xL8HBLh.BM8HBLtTiHfTSOh.iK0HBH1ziHv3RMh.xM8HBLtTiHffSOh.iHf7UbeMFZg41YkQVOh.iHu3C."
+										"blob" : "241.CMlaKA....fQPMDZ....ADjTucC....Y....A.........................................PsVMjLgvJ....OMkETLU0QI4zTEQEUI4zQSABL8HBLtLCN3bSLyjCN0XCNwTyLyfSLyPCNh.RL8HBLtTCLvDSMwjSNwfCMzDyM2HCM1.SNh.hL8HBLtPSN4.SMzjSN3DSM4PCL3TiM4LCMh.xL8HBLh.BM8HBLh.RM8HBLh.hM8HBLh.xM8HBLtjCN0.CM1.iL4.SNvfCNwLCM2XiMh.BN8HBLh.xWw80XnElamUFY8HRLh7hO.."
 									}
 ,
 									"fileref" : 									{
@@ -693,6 +789,24 @@
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "63770a883ada35eecaa83b86000a5e07"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "ambix_rotator_o7",
+									"origin" : "ambix_rotator_o7.dll",
+									"type" : "VST",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "ambix_rotator_o7",
+										"filename" : "ambix_rotator_o7_20230106.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "3662b5ee41b36475e6be07309bfb4253"
 									}
 
 								}
@@ -1288,7 +1402,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBNt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
+							"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1301,7 +1415,7 @@
 									"origin" : "BinauralDecoder.dll",
 									"type" : "VST",
 									"subtype" : "AudioEffect",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"pluginname" : "BinauralDecoder.dll",
 										"plugindisplayname" : "BinauralDecoder",
@@ -1310,33 +1424,15 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBNt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
+										"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
 									}
 ,
 									"fileref" : 									{
 										"name" : "BinauralDecoder",
-										"filename" : "BinauralDecoder_20221125.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filename" : "BinauralDecoder.maxsnap",
+										"filepath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 										"filepos" : -1,
-										"snapshotfileid" : "ea4ed89e4c96d925ea5039462ae31962"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "BinauralDecoder",
-									"origin" : "BinauralDecoder.dll",
-									"type" : "VST",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "BinauralDecoder",
-										"filename" : "BinauralDecoder_20221128.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "cc078206632d422b61634b6fd3e0dc89"
+										"snapshotfileid" : "eac4714f1a7443b53b255709764c72eb"
 									}
 
 								}
@@ -1930,7 +2026,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3184,7 +3280,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
+					"destination" : [ "obj-75", 0 ],
+					"order" : 3,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"order" : 2,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"order" : 1,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"order" : 0,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -3261,8 +3382,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-89", 0 ],
+					"source" : [ "obj-78", 0 ]
 				}
 
 			}
@@ -3296,6 +3438,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-155", 1 ],
 					"source" : [ "obj-86", 0 ]
 				}
@@ -3303,8 +3452,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-90", 0 ]
 				}
 
 			}
@@ -3323,40 +3500,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-21" : [ "mcs.vst~", "mcs.vst~", 0 ],
-			"obj-6" : [ "vst~", "vst~", 0 ],
-			"obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "BinauralDecoder_20221125.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "BinauralDecoder_20221128.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ambix_rotator_o7.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
