@@ -549,8 +549,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.638290405273438, 214.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"patching_rect" : [ 149.0, 221.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -817,7 +817,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "862.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LfHVMjLgjw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzxLtXCNv.CL2jyLzTyMvLSLxHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSN4.CLv.yMxPyM4HCM3HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CL1.CLv.CMwjiMwXiM4jiLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLt.yLx.CLv.iMzfCM4fSMyTiLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvDyLv.CLvDSLzPCMvjSL3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzBLtXyL4jSN4LCN4XCM3PyL2TiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhzRLtPyMv.CLwHiLvbCLyDiL0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
+							"blob" : "858.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LfGVMjLgTw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzBM03RLv.CLvXSLvLSMwTiMxHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtXSL1.CLv.SM1HiM1bCNzbiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3hLyHCLv.SLwHSMyLSM1jyLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOh.iK1fSNv.CLwHSN1jSN2.yMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtLCLxjSN4jyMyHSN2DSL4DiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK4PiK1XCLv.yL1XiLw.SNyfiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhDCLv3BN3.CLvPCN3HCNwHSMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuL0Xk4VYR8FcgQ2ax8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuL0Xk4VYR8FcgQ2ax4C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -839,7 +839,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "862.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LfHVMjLgjw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzxLtXCNv.CL2jyLzTyMvLSLxHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSN4.CLv.yMxPyM4HCM3HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CL1.CLv.CMwjiMwXiM4jiLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLt.yLx.CLv.iMzfCM4fSMyTiLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvDyLv.CLvDSLzPCMvjSL3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzBLtXyL4jSN4LCN4XCM3PyL2TiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhzRLtPyMv.CLwHiLvbCLyDiL0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
+										"blob" : "858.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LfGVMjLgTw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzBM03RLv.CLvXSLvLSMwTiMxHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtXSL1.CLv.SM1HiM1bCNzbiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3hLyHCLv.SLwHSMyLSM1jyLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOh.iK1fSNv.CLwHSN1jSN2.yMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtLCLxjSN4jyMyHSN2DSL4DiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK4PiK1XCLv.yL1XiLw.SNyfiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhDCLv3BN3.CLvPCN3HCNwHSMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuL0Xk4VYR8FcgQ2ax8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuL0Xk4VYR8FcgQ2ax4C."
 									}
 ,
 									"fileref" : 									{
@@ -869,7 +869,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 168.0, 347.0, 61.0, 22.0 ],
+					"patching_rect" : [ 169.0, 348.404266357421875, 61.0, 22.0 ],
 					"text" : "delay 100"
 				}
 
@@ -2035,7 +2035,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 315.0, 36.322208404541016, 30.0, 37.0 ],
 					"text" : "A",
-					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3334,13 +3334,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 11,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 237.0, 555.0, 337.0, 36.0 ],
-					"text" : "combine quartet _ broadcastingstudio _ Extremal _ 64 _ 6cm _o7 _90.wav @padding 0 0 0 0 0 0 4 0 0 0"
+					"patching_rect" : [ 237.0, 555.0, 537.0, 22.0 ],
+					"text" : "combine quartet _ broadcastingstudio _ Extremal _ 64 _ 6cm _o7 _90 @padding 0 0 0 0 0 0 4 0 0 0"
 				}
 
 			}
@@ -3975,7 +3974,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1140.0, 540.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "Envoi vers SceneRotator:\nW X Y Z"
 				}
@@ -4026,7 +4024,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1140.0, 300.0, 135.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "Sortie du HeadTracker:\nW X Y Z"
 				}
@@ -4059,7 +4056,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1440.0, 440.0, 180.0, 75.0 ],
-					"presentation_linecount" : 5,
 					"suppressinlet" : 1,
 					"text" : "Qoffset = Q0* \n(Q0: rotation de l'origine du repère à l'origine souhaitée)\n\n=> Qtot = Qoffset * QheadTrack"
 				}
@@ -5824,7 +5820,48 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"order" : 1,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 5,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 4,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 3,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 2,
 					"source" : [ "obj-92", 0 ]
 				}
 
