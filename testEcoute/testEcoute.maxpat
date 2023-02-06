@@ -40,6 +40,132 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-148",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1335.658536672592163, 114.541446685791016, 168.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 27.5, 182.448764801025391, 77.0, 21.0 ],
+					"text" : "Ordre HOA",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-147",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1336.658536672592163, 87.541446685791016, 168.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 44.5, 157.478397369384766, 60.0, 21.0 ],
+					"text" : "Azimuth",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-146",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1337.658536672592163, 64.541446685791016, 168.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 44.5, 132.508029937744141, 60.0, 21.0 ],
+					"text" : "Rayon",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-120",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 146.79677677154541, 168.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 107.537662506103516, 102.5, 21.0 ],
+					"text" : "Nombre micros",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-112",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1258.5, 171.988271713256836, 168.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 44.5, 82.567295074462891, 60.0, 21.0 ],
+					"text" : "Grille",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-111",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1305.5, 130.094653129577637, 168.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 44.5, 57.596927642822266, 60.0, 21.0 ],
+					"text" : "Salle",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"fontface" : 1,
+					"fontname" : "Tahoma",
+					"id" : "obj-102",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1320.00006103515625, 159.0, 168.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 44.5, 32.626560211181641, 60.0, 21.0 ],
+					"text" : "Extrait",
+					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -268,7 +394,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1155.0, 276.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 179.82220458984375, 155.0, 23.0 ],
+					"presentation_rect" : [ 106.5, 182.448764801025391, 155.0, 23.0 ],
 					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "radius[2]"
@@ -1146,7 +1272,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 692.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 155.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 106.5, 157.478397369384766, 155.0, 23.0 ],
 					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "radius[1]"
@@ -1234,7 +1360,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.0, 144.0, 168.0, 21.0 ],
+					"patching_rect" : [ 1218.042661666870117, 101.446804046630859, 168.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.5, 254.017852783203125, 20.0, 21.0 ],
 					"text" : "2.",
@@ -1252,7 +1378,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 114.0, 168.0, 21.0 ],
+					"patching_rect" : [ 1183.042661666870117, 71.446804046630859, 168.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.5, 226.0, 20.0, 21.0 ],
 					"text" : "1.",
@@ -1271,7 +1397,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 142.0, 168.0, 35.0 ],
+					"patching_rect" : [ 1211.042661666870117, 99.446804046630859, 168.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.5, 254.017852783203125, 193.0, 21.0 ],
 					"text" : "Lancer la séquence (espace)",
@@ -1288,7 +1414,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, 137.0, 168.0, 21.0 ],
+					"patching_rect" : [ 1270.042661666870117, 94.446804046630859, 168.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.5, 226.0, 168.0, 21.0 ],
 					"text" : "Charger les sons (entrée)",
@@ -3674,7 +3800,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 644.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 130.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 106.5, 132.508029937744141, 155.0, 23.0 ],
 					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "radius"
@@ -3776,7 +3902,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 592.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 105.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 106.5, 107.537662506103516, 155.0, 23.0 ],
 					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "nMic"
@@ -3806,7 +3932,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 300.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 80.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 106.5, 82.567295074462891, 155.0, 23.0 ],
 					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "pattern"
@@ -3836,7 +3962,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 271.2978515625, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 55.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 106.5, 57.596927642822266, 155.0, 23.0 ],
 					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "room"
@@ -3866,7 +3992,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 242.595733642578125, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 30.0, 155.0, 23.0 ],
+					"presentation_rect" : [ 106.5, 32.626560211181641, 155.0, 23.0 ],
 					"textcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "source"
