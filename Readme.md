@@ -49,7 +49,7 @@ Par défaut, le départ différé est désactivé pour la phase d'entraînement 
 
 ## Programme de création des listes
 
-Exécutable : `Manip-Aliasing-Spatial\creationListes\bin\Debug\net7.0\creationListes.exe`.
+Exécutable : `Manip-Aliasing-Spatial\creationListes\Build\creationListes.exe`.
 
 Variables à placer dans le fichier `variables.txt` :
 - 1 variable par ligne
