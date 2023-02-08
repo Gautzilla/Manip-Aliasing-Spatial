@@ -71,7 +71,7 @@ Le patcher `AudioPlayer` utilise les VST suivants pour manipuler et décoder le 
 
 | VST | Définition |
 | ------------ |  ------------ |
-| [Ambix Rotator](http://www.matthiaskronlachner.com/?p=2015 "ambix_rotator_07_.dll") | <ul><li>Effectue la rotation du champ ambisonique.</li><li>Reçoit les informations de Yaw Pitch et Roll en UDP : <ul><li>Port 4040</li><li>Format `/Yaw [0., 1.]` `/Pitch [0., 1.]` `/Roll [0., 1.]`</li></ul></li></ul> |
+| [SceneRotator](https://plugins.iem.at/docs/scenerotator/ "Scene Rotator (IEM)") | <ul><li>Effectue la rotation du champ ambisonique.</li><li>Reçoit un quaternion representant l'orientation du *head tracker* en UDP : <ul><li>Port 4040</li><li>Format `f. f. f. f.` dans l'ordre `W X Y Z` (avec `q = W + Xi + Yj + Zk`)</li></ul></li></ul> |
 | [Binaural Decoder](https://plugins.iem.at/docs/plugindescriptions/#binauraldecoder "BinauralDecoder.dll") | <ul><li>Décode les fichiers HOA d'ordre 7 en des fichiers binauraux</li><li>Permet d'ajouter un filtre de compensation du casque audio (voir paramètres du VST)</li></ul>|
 
 ## Patcher d'écoute des stimuli
@@ -79,7 +79,7 @@ Le patcher `AudioPlayer` utilise les VST suivants pour manipuler et décoder le 
 Se trouve dans le dossier testEcoute. 
 Permet d'écouter les stimuli générés et leur référence respective : écoute en ABX, avec indication de la bonne ou mauvaise détection de X.
 
-Une application .NET renomme les fichiers audio pour les ordonner correctement dans le polybuffer~ du patcher MaxMSP.
+Une application .NET permet de renommer les fichiers audio pour les ordonner correctement dans le polybuffer~ du patcher MaxMSP.
 
 ## Mode debug
 
