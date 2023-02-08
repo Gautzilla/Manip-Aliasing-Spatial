@@ -9,7 +9,13 @@ namespace creationListesTestManip
     {
         static void Main(string[] args)
         {
-            string[][] conditions = File.ReadAllLines(@"variables.txt").Select(line => line.Split(' ').ToArray()).ToArray();
+            Console.WriteLine("Entrer le chemin du fichier \"variables.txt\".");
+            Console.WriteLine("[ENTREE] : fichier \"variables.txt\" dans le même dossier que l'exécutable.");
+
+            string inputPath = Console.ReadLine();
+            inputPath = inputPath == string.Empty ? @"variables.txt" : inputPath;
+
+            string[][] conditions = File.ReadAllLines(inputPath).Select(line => line.Split(' ').ToArray()).ToArray();
 
             string[] lists = CreateLists(conditions);
 
