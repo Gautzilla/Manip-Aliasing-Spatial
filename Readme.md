@@ -71,7 +71,7 @@ Le patcher `AudioPlayer` utilise les VST suivants pour manipuler et décoder le 
 
 | VST | Définition |
 | ------------ |  ------------ |
-| [SceneRotator](https://plugins.iem.at/docs/scenerotator/ "Scene Rotator (IEM)") | <ul><li>Effectue la rotation du champ ambisonique.</li><li>Reçoit un quaternion representant l'orientation du *head tracker* en UDP : <ul><li>Port 4040</li><li>Format `f. f. f. f.` dans l'ordre `W X Y Z` (avec `q = W + Xi + Yj + Zk`)</li></ul></li><li>L'orientation de la scène est réinitialisée automatiquement au début de chaque essai (l'orientation actuelle du *head tracker* devient alors la référence pour une orientation frontale).</li></ul> |
+| [SceneRotator](https://plugins.iem.at/docs/scenerotator/ "Scene Rotator (IEM)") | <ul><li>Effectue la rotation du champ ambisonique.</li><li>Reçoit un quaternion representant l'orientation du *head tracker* en UDP : <ul><li>Port 4040</li><li>Format `\Quaternion f. f. f. f.` dans l'ordre `W X Y Z` (avec `q = W + Xi + Yj + Zk`). Exemple : `\Quaternion 1. 0. 0. 0.`</li></ul></li><li>L'orientation de la scène est réinitialisée automatiquement au début de chaque essai (l'orientation actuelle du *head tracker* devient alors la référence pour une orientation frontale).</li></ul> |
 | [Binaural Decoder](https://plugins.iem.at/docs/plugindescriptions/#binauraldecoder "BinauralDecoder.dll") | <ul><li>Décode les fichiers HOA d'ordre 7 en des fichiers binauraux</li><li>Permet d'ajouter un filtre de compensation du casque audio (voir paramètres du VST)</li></ul>|
 
 ## Patcher d'écoute des stimuli
