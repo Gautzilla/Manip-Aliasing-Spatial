@@ -49,13 +49,13 @@ Par défaut, le départ différé est désactivé pour la phase d'entraînement 
 
 ## Programme de création des listes
 
-Application .NET créant les listes de combinaisons de variables au format utilisé par le programme MaxMSP.
+Exécutable : `Manip-Aliasing-Spatial\creationListes\Build\creationListes.exe`.
 
 Variables à placer dans le fichier `variables.txt` :
 - 1 variable par ligne
 - niveaux de chaque variable séparés par des espaces
 
-Combinaisons créées par l'application dans le fichier `listes.txt`.
+Combinaisons créées par l'application dans le fichier `listes.txt`, dans le même dossier que l'exécutable.
 
 Spécificités pour la procédure 3I2AFC, après avoir entré les différentes variables :
 
@@ -64,6 +64,24 @@ Spécificités pour la procédure 3I2AFC, après avoir entré les différentes v
 | Variable dépendante (ici nombre de micros) | 1 | `1` (démarre avec le plus petit nombre de micros) |
 | Direction de la courbe d'égalisation | 1 | `1` (courbe ascendante au départ) |
 | Valeurs des inversions  | 1 | `courbe` ; les valeurs aux inversions seront concaténées à la suite.|
+
+Exemple de fichier `variables.txt` :
+
+    pinkNoise drums speech
+    FreeField ReverberantRoom
+    1
+    1
+    courbe
+
+Donne en sortie le fichier `listes.txt` correspondant :
+
+    1, pinkNoise FreeField 1 1 courbe;
+    2, pinkNoise ReverberantRoom 1 1 courbe;
+    3, drums FreeField 1 1 courbe;
+    4, drums ReverberantRoom 1 1 courbe;
+    5, speech FreeField 1 1 courbe;
+    6, speech ReverberantRoom 1 1 courbe;
+
 
 ## Rotation de la scène en temps réel
 
