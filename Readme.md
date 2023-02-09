@@ -12,7 +12,7 @@ Projet **MaxMSP** pour analyser les seuils de détection de l'erreur d'aliasing 
 ## Fichier d'écriture des résultats
 Les résultats sont écrits dans le dossier `Manip-Aliasing-Spatial\Manip\resultats` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
 
-Le nom d'un fichier de résultat est formaté sous la forme `Prénom-Nom-Date-Heure`.
+Le nom d'un fichier de résultat est formaté sous la forme `Prénom-Nom_Date_Heure`.
 
 Lors du test et après chaque essai réalisé par le sujet, un fichier de backup est enregistré dans le dossier `Manip-Aliasing-Spatial\Manip\backups` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
 Ce fichier peut être chargé manuellement en cliquant sur le message `read` dans la partie 1 du patcher `TraitementFichiers`.
