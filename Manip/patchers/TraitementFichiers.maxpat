@@ -40,6 +40,43 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-246",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 643.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 87.7518310546875, 643.0, 42.0, 22.0 ],
+					"text" : "gate 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-245",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "bang" ],
+					"patching_rect" : [ 170.862075805664062, 640.96295166015625, 101.0, 50.0 ],
+					"text" : "dialog @mode 1 @label Cliquer pour reprendre."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-257",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -108,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.203125, 550.0313720703125, 59.0, 22.0 ],
+					"patching_rect" : [ 251.416286468505859, 556.75140380859375, 59.0, 22.0 ],
 					"text" : "v session"
 				}
 
@@ -121,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.203125, 576.0533447265625, 87.0, 22.0 ],
+					"patching_rect" : [ 251.416286468505859, 582.77337646484375, 87.0, 22.0 ],
 					"text" : "v departDiffere"
 				}
 
@@ -146,7 +183,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 143.398681640625, 643.14825439453125, 75.0, 22.0 ],
+					"patching_rect" : [ 176.111843109130859, 612.60174560546875, 75.0, 22.0 ],
 					"text" : "s runBackup"
 				}
 
@@ -156,10 +193,10 @@
 					"id" : "obj-232",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 155.398681640625, 576.0533447265625, 42.0, 22.0 ],
-					"text" : "t b b 2"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "int", "int" ],
+					"patching_rect" : [ 164.611843109130859, 580.5836181640625, 52.0, 22.0 ],
+					"text" : "t b b 2 2"
 				}
 
 			}
@@ -171,7 +208,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.611831665039062, 538.7373046875, 79.0, 22.0 ],
+					"patching_rect" : [ 164.611843109130859, 556.75140380859375, 79.0, 22.0 ],
 					"text" : "r loadBackup"
 				}
 
@@ -2105,24 +2142,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-62",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 253.203125, 637.14825439453125, 100.0, 34.0 ],
-					"text" : "Pour charger un fichier de backup"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.398681640625, 643.14825439453125, 33.0, 22.0 ],
+					"patching_rect" : [ 54.611843109130859, 579.715667724609375, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -3813,7 +3838,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.7518310546875, 542.7373046875, 57.0, 22.0 ],
+					"patching_rect" : [ 31.7518310546875, 518.888336181640625, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -3861,7 +3886,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 54.611843109130859, 509.7373046875, 211.0, 22.0 ],
+					"patching_rect" : [ 54.611843109130859, 485.888336181640625, 211.0, 22.0 ],
 					"text" : "regexp session @substitute Stimuli.txt"
 				}
 
@@ -3873,7 +3898,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 31.611843109130859, 481.7373046875, 203.0, 22.0 ],
+					"patching_rect" : [ 31.611843109130859, 457.888336181640625, 203.0, 22.0 ],
 					"text" : "regexp session @substitute Train.txt"
 				}
 
@@ -3899,7 +3924,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 31.7518310546875, 632.0, 103.0, 22.0 ],
+					"patching_rect" : [ 31.7518310546875, 608.151031494140625, 103.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -3916,7 +3941,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.7518310546875, 571.7373046875, 80.0, 22.0 ],
+					"patching_rect" : [ 31.7518310546875, 547.888336181640625, 80.0, 22.0 ],
 					"text" : "prepend read"
 				}
 
@@ -3946,7 +3971,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.7518310546875, 662.2000732421875, 62.0, 22.0 ],
+					"patching_rect" : [ 87.7518310546875, 668.96295166015625, 62.0, 22.0 ],
 					"text" : "s fileRead"
 				}
 
@@ -5979,7 +6004,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-234", 0 ],
-					"source" : [ "obj-232", 0 ]
+					"source" : [ "obj-232", 1 ]
 				}
 
 			}
@@ -6002,7 +6027,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"source" : [ "obj-232", 1 ]
+					"source" : [ "obj-232", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-232", 3 ]
 				}
 
 			}
@@ -6059,6 +6091,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-201", 0 ],
 					"source" : [ "obj-243", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-245", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-246", 0 ]
 				}
 
 			}
@@ -6192,7 +6238,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
+					"destination" : [ "obj-62", 1 ],
 					"source" : [ "obj-41", 2 ]
 				}
 
@@ -6315,6 +6361,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-245", 0 ],
+					"source" : [ "obj-62", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
