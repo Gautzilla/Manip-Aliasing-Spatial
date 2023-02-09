@@ -2213,7 +2213,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2050.0, 174.0, 1212.0, 883.0 ],
+						"rect" : [ 1958.0, 174.0, 1212.0, 883.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2284,8 +2284,8 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 369.0, 173.0, 22.0 ],
-									"text" : "sprintf symout %s/%s%s%s.txt"
+									"patching_rect" : [ 50.0, 369.0, 186.0, 22.0 ],
+									"text" : "sprintf symout %s/%s_%s_%s.txt"
 								}
 
 							}
@@ -4057,7 +4057,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 93.0, 120.0, 1212.0, 883.0 ],
+						"rect" : [ 248.0, 164.0, 1212.0, 883.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4128,8 +4128,8 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 369.0, 173.0, 22.0 ],
-									"text" : "sprintf symout %s/%s%s%s.txt"
+									"patching_rect" : [ 50.0, 369.0, 186.0, 22.0 ],
+									"text" : "sprintf symout %s/%s_%s_%s.txt"
 								}
 
 							}
