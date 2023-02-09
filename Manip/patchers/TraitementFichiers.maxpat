@@ -76,25 +76,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-248",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.575241088867188, 285.0, 57.0, 22.0 ],
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-252",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.611846923828125, 255.0, 155.0, 22.0 ],
-					"text" : "append Manip/data/session"
+					"patching_rect" : [ 199.611846923828125, 270.5001220703125, 134.591278076171875, 36.0 ],
+					"text" : "sprintf symout %sManip/data/session"
 				}
 
 			}
@@ -106,7 +95,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.611846923828125, 225.0, 86.0, 22.0 ],
+					"patching_rect" : [ 199.611846923828125, 249.5001220703125, 86.0, 22.0 ],
 					"text" : "r sourceFolder"
 				}
 
@@ -6076,13 +6065,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 1 ],
-					"source" : [ "obj-248", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-248", 0 ],
 					"source" : [ "obj-252", 0 ]
 				}
 
