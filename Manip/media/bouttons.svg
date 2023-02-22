@@ -4,7 +4,7 @@
    sodipodi:docname="bouttons.svg"
    inkscape:export-ydpi="99.750008"
    inkscape:export-xdpi="99.750008"
-   inkscape:export-filename="C:\Users\Gauthier\Documents\Max 8\Projects\Manip-Aliasing-Spatial\Manip\media\toggleCisOdd.png"
+   inkscape:export-filename="C:\Users\Gauthier\Documents\Max 8\Projects\Manip-Aliasing-Spatial\Manip\media\toggleC.png"
    id="svg8"
    version="1.1"
    viewBox="0 0 33.866665 50.800004"
@@ -484,9 +484,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="202.99337"
-     inkscape:cx="-233.9317"
-     inkscape:zoom="1.5837956"
+     inkscape:cy="212.07012"
+     inkscape:cx="40.62817"
+     inkscape:zoom="1.1199126"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -507,12 +507,12 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-179.43477,-122.19478)"
+     transform="translate(-189.38281,44.692639)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <g
-       transform="translate(0,0.52908212)"
+       transform="translate(44.651922,-0.65218565)"
        inkscape:export-ydpi="100.029"
        inkscape:export-xdpi="100.029"
        id="g4463">
@@ -1436,7 +1436,7 @@
                id="tspan4089"
                x="44.72459"
                y="-33.979252"
-               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">X</tspan></text>
+               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">C</tspan></text>
         </g>
       </g>
     </g>
@@ -1474,7 +1474,7 @@
                y="-33.979252"
                x="44.72459"
                id="tspan4117"
-               sodipodi:role="line">X</tspan></text>
+               sodipodi:role="line">C</tspan></text>
         </g>
       </g>
     </g>
@@ -1505,7 +1505,7 @@
              id="tspan4131"
              x="44.72459"
              y="-33.979252"
-             style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">X</tspan></text>
+             style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">C</tspan></text>
       </g>
     </g>
     <g
@@ -1535,11 +1535,12 @@
              y="-33.979252"
              x="44.72459"
              id="tspan4143"
-             sodipodi:role="line">X</tspan></text>
+             sodipodi:role="line">C</tspan></text>
       </g>
     </g>
     <g
-       id="g4397">
+       id="g4397"
+       transform="translate(44.651922,-1.1812678)">
       <rect
          ry="6.2175007"
          y="-44.030888"
@@ -1567,7 +1568,7 @@
            sodipodi:role="line">OK</tspan></text>
     </g>
     <g
-       transform="translate(16.933334,3.1750011)"
+       transform="translate(61.585256,1.9937333)"
        id="g4326">
       <circle
          style="fill:#a27b5c;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
@@ -1588,7 +1589,7 @@
            style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.264583">OK</tspan></text>
     </g>
     <g
-       transform="translate(-3.308794,18.940519)"
+       transform="translate(41.343128,17.759251)"
        id="g4365">
       <circle
          style="fill:#2c3639;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
@@ -1609,7 +1610,7 @@
            style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.264583">OK</tspan></text>
     </g>
     <g
-       transform="translate(0,16.933334)"
+       transform="translate(44.651922,15.752066)"
        id="g4433">
       <rect
          style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
@@ -2099,7 +2100,7 @@
                y="-33.979252"
                x="44.72459"
                id="tspan1263"
-               sodipodi:role="line">X</tspan></text>
+               sodipodi:role="line">C</tspan></text>
         </g>
       </g>
     </g>
@@ -2137,7 +2138,7 @@
                id="tspan1277"
                x="44.72459"
                y="-33.979252"
-               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">X</tspan></text>
+               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">C</tspan></text>
         </g>
       </g>
     </g>
@@ -3062,6 +3063,264 @@
              x="147.6915"
              y="149.3073"
              style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.264583">C</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(45.124429,0.52908246)"
+       id="g20771">
+      <rect
+         y="-45.089222"
+         x="189.5153"
+         height="16.668335"
+         width="16.668335"
+         id="rect20759"
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1" />
+      <rect
+         y="-28.155888"
+         x="189.5153"
+         height="16.668335"
+         width="16.668335"
+         id="rect20761"
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1" />
+      <rect
+         y="-11.222555"
+         x="189.5153"
+         height="16.668335"
+         width="16.668335"
+         id="rect20763"
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1" />
+      <rect
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
+         id="rect20765"
+         width="16.668335"
+         height="16.668335"
+         x="206.44864"
+         y="-45.089222" />
+      <rect
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
+         id="rect20767"
+         width="16.668335"
+         height="16.668335"
+         x="206.44864"
+         y="-28.155886" />
+      <rect
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
+         id="rect20769"
+         width="16.668335"
+         height="16.668335"
+         x="206.44864"
+         y="-11.222552" />
+    </g>
+    <g
+       transform="translate(140.49654,0.82577068)"
+       id="g20785">
+      <rect
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
+         id="rect20773"
+         width="12.435001"
+         height="15.610001"
+         x="96.259857"
+         y="-44.856659"
+         ry="6.2175007" />
+      <g
+         style="stroke-width:1.34044"
+         transform="matrix(0.74602538,0,0,0.74602538,68.958685,-9.8950668)"
+         id="g20783">
+        <g
+           transform="translate(0,-0.17636808)"
+           id="g20781">
+          <circle
+             style="fill:#a27b5c;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.355214;stroke-linecap:round;stroke-opacity:1"
+             id="circle20775"
+             cx="44.929668"
+             cy="-38.353275"
+             r="8.3341675" />
+          <text
+             xml:space="preserve"
+             style="font-weight:bold;font-size:12px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+             x="44.72459"
+             y="-33.979252"
+             id="text20779"><tspan
+               sodipodi:role="line"
+               id="tspan20777"
+               x="44.72459"
+               y="-33.979252"
+               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">X</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g20799"
+       transform="translate(140.49654,34.692439)">
+      <rect
+         ry="6.2175007"
+         y="-44.856659"
+         x="96.259857"
+         height="15.610001"
+         width="12.435001"
+         id="rect20787"
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1" />
+      <g
+         id="g20797"
+         transform="matrix(0.74602538,0,0,0.74602538,68.958685,-9.8950668)"
+         style="stroke-width:1.34044">
+        <g
+           id="g20795"
+           transform="translate(0,-0.17636808)">
+          <circle
+             r="8.3341675"
+             cy="-38.353275"
+             cx="44.929668"
+             id="circle20789"
+             style="fill:#2c3639;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.355214;stroke-linecap:round;stroke-opacity:1" />
+          <text
+             id="text20793"
+             y="-33.979252"
+             x="44.72459"
+             style="font-weight:bold;font-size:12px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+             xml:space="preserve"><tspan
+               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+               y="-33.979252"
+               x="44.72459"
+               id="tspan20791"
+               sodipodi:role="line">X</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(214.97757,5.8315538)"
+       id="g20811">
+      <g
+         style="fill:#dcd7c9;fill-opacity:1;stroke-width:1.34044"
+         transform="matrix(0.74602538,0,0,0.74602538,11.410995,-8.2848334)"
+         id="g20801" />
+      <g
+         id="g20809"
+         transform="matrix(0.74602538,0,0,0.74602538,11.410995,-11.857425)"
+         style="stroke-width:1.34044">
+        <circle
+           style="fill:#a27b5c;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.355214;stroke-linecap:round;stroke-opacity:1"
+           id="circle20803"
+           cx="44.929668"
+           cy="-38.353275"
+           r="8.3341675" />
+        <text
+           xml:space="preserve"
+           style="font-weight:bold;font-size:12px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+           x="44.72459"
+           y="-33.979252"
+           id="text20807"><tspan
+             sodipodi:role="line"
+             id="tspan20805"
+             x="44.72459"
+             y="-33.979252"
+             style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">X</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g20823"
+       transform="translate(214.97757,22.764888)">
+      <g
+         id="g20813"
+         transform="matrix(0.74602538,0,0,0.74602538,11.410995,-8.2848334)"
+         style="fill:#dcd7c9;fill-opacity:1;stroke-width:1.34044" />
+      <g
+         style="stroke-width:1.34044"
+         transform="matrix(0.74602538,0,0,0.74602538,11.410995,-11.857425)"
+         id="g20821">
+        <circle
+           r="8.3341675"
+           cy="-38.353275"
+           cx="44.929668"
+           id="circle20815"
+           style="fill:#a27b5c;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.355214;stroke-linecap:round;stroke-opacity:1" />
+        <text
+           id="text20819"
+           y="-33.979252"
+           x="44.72459"
+           style="font-weight:bold;font-size:12px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+           xml:space="preserve"><tspan
+             style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+             y="-33.979252"
+             x="44.72459"
+             id="tspan20817"
+             sodipodi:role="line">X</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g20837"
+       transform="translate(124.04115,-16.107566)">
+      <rect
+         ry="6.2175007"
+         y="-8.8734236"
+         x="112.71525"
+         height="13.493436"
+         width="12.435001"
+         id="rect20825"
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1" />
+      <g
+         id="g20835"
+         transform="matrix(0.74602538,0,0,0.74602538,85.414078,26.088169)"
+         style="stroke-width:1.34044">
+        <g
+           id="g20833"
+           transform="translate(0,-0.17636808)">
+          <circle
+             r="8.3341675"
+             cy="-38.353275"
+             cx="44.929668"
+             id="circle20827"
+             style="fill:#a27b5c;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.355214;stroke-linecap:round;stroke-opacity:1" />
+          <text
+             id="text20831"
+             y="-33.979252"
+             x="44.72459"
+             style="font-weight:bold;font-size:12px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+             xml:space="preserve"><tspan
+               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+               y="-33.979252"
+               x="44.72459"
+               id="tspan20829"
+               sodipodi:role="line">X</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(140.97449,0.82576839)"
+       id="g20851">
+      <rect
+         style="fill:#dcd7c9;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.264999;stroke-linecap:round;stroke-opacity:1"
+         id="rect20839"
+         width="12.435001"
+         height="13.493436"
+         x="112.71525"
+         y="-8.8734236"
+         ry="6.2175007" />
+      <g
+         style="stroke-width:1.34044"
+         transform="matrix(0.74602538,0,0,0.74602538,85.414078,26.088169)"
+         id="g20849">
+        <g
+           transform="translate(0,-0.17636808)"
+           id="g20847">
+          <circle
+             style="fill:#2c3639;fill-opacity:1;stroke:#3f4e4f;stroke-width:0.355214;stroke-linecap:round;stroke-opacity:1"
+             id="circle20841"
+             cx="44.929668"
+             cy="-38.353275"
+             r="8.3341675" />
+          <text
+             xml:space="preserve"
+             style="font-weight:bold;font-size:12px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657"
+             x="44.72459"
+             y="-33.979252"
+             id="text20845"><tspan
+               sodipodi:role="line"
+               id="tspan20843"
+               x="44.72459"
+               y="-33.979252"
+               style="fill:#3f4e4f;fill-opacity:1;stroke-width:0.354657">X</tspan></text>
+        </g>
       </g>
     </g>
   </g>
