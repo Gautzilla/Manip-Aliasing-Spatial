@@ -1,6 +1,7 @@
+
 # Manip Aliasing Spatial
 
-Projet **MaxMSP** pour analyser les seuils de détection de l'erreur d'aliasing sur un système VHOA, utilisant une procédure 3I2AFC.
+Projet **MaxMSP** pour analyser les seuils de détection de l'erreur d'aliasing sur un système VHOA, utilisant une procédure 3I/3AFC.
 
 ## Fichiers en entrée :
 | Fichier | Rôle |
@@ -24,7 +25,7 @@ Ce fichier peut être chargé manuellement en cliquant sur le message `read` dan
 | Main | <ul><li>Choix Session (entraînement ou test).</li><li>Contrôle d'affichage des patchers.</li></ul>|
 | Interface | Interface principale du test. |
 | TraitementFichiers | <ul><li>Lit les fichiers en entrée.</li><li>Sélectionne les combinaisons de variables formant les stimulis à lire par le player audio.</li><li>Traite la réponse du sujet et met à jour les combinaisons.</li><li>Ecrit les backups et les résultats en fin de test.</li></ul> |
-| AudioPlayer | <ul><li>Charge les fichiers audio correspondants à chaque essai.</li><li>Gère la rotation HOA (via une connection UDP avec un tracker) et le décodage binaural.</li><li>Gère l'écoute séquentielle ABX.</li></ul>|
+| AudioPlayer | <ul><li>Charge les fichiers audio correspondants à chaque essai.</li><li>Gère la rotation HOA (via une connection UDP avec un tracker) et le décodage binaural.</li><li>Gère l'écoute séquentielle ABC.</li></ul>|
 
 ## Paramètres de la procédure adaptative
 
@@ -95,13 +96,13 @@ Le patcher `AudioPlayer` utilise les VST suivants pour manipuler et décoder le 
 ## Patcher d'écoute des stimuli
 
 Se trouve dans le dossier testEcoute. 
-Permet d'écouter les stimuli générés et leur référence respective : écoute en ABX, avec indication de la bonne ou mauvaise détection de X.
+Permet d'écouter les stimuli générés et leur référence respective : écoute en ABC (2 stimuli égaux parmi A, B et C, la tâche étant de détecter l'intrus parmi les 3), avec indication de la bonne ou mauvaise détection de l'intrus.
 
 Une application .NET permet de renommer les fichiers audio pour les ordonner correctement dans le polybuffer~ du patcher MaxMSP.
 
 ## Mode debug
 
-Lors du test, un bouton dans le coin supérieur gauche permet d'afficher un *mode debug*, qui indique l'état des courbes d'égalisation ainsi que les informations sur l'essai en cours (état des variables indépendantes, du nombre de microphones, qui de A ou B est X...).
+Lors du test, un bouton dans le coin supérieur gauche permet d'afficher un *mode debug*, qui indique l'état des courbes d'égalisation ainsi que les informations sur l'essai en cours (état des variables indépendantes, du nombre de microphones, qui de A, B ou C est l'intrus...).
 
 ## Divers
 [Palette](https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 "Palette")
