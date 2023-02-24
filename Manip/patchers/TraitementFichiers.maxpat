@@ -94,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 643.0, 70.0, 22.0 ],
+					"patching_rect" : [ 16.7481689453125, 643.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 87.7518310546875, 643.0, 42.0, 22.0 ],
+					"patching_rect" : [ 89.5, 643.0, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 170.862075805664062, 640.96295166015625, 101.0, 50.0 ],
+					"patching_rect" : [ 172.610244750976562, 640.96295166015625, 101.0, 50.0 ],
 					"text" : "dialog @mode 1 @label Cliquer pour reprendre."
 				}
 
@@ -168,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.611846923828125, 270.5001220703125, 134.591278076171875, 36.0 ],
+					"patching_rect" : [ 183.575241088867188, 270.5001220703125, 134.591278076171875, 36.0 ],
 					"text" : "sprintf symout %sManip/data/session"
 				}
 
@@ -181,7 +181,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.611846923828125, 249.5001220703125, 86.0, 22.0 ],
+					"patching_rect" : [ 183.575241088867188, 249.5001220703125, 86.0, 22.0 ],
 					"text" : "r sourceFolder"
 				}
 
@@ -194,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.416286468505859, 556.75140380859375, 59.0, 22.0 ],
+					"patching_rect" : [ 253.164455413818359, 556.75140380859375, 59.0, 22.0 ],
 					"text" : "v session"
 				}
 
@@ -207,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.416286468505859, 582.77337646484375, 87.0, 22.0 ],
+					"patching_rect" : [ 253.164455413818359, 582.77337646484375, 87.0, 22.0 ],
 					"text" : "v departDiffere"
 				}
 
@@ -232,7 +232,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.111843109130859, 612.60174560546875, 75.0, 22.0 ],
+					"patching_rect" : [ 177.860012054443359, 612.60174560546875, 75.0, 22.0 ],
 					"text" : "s runBackup"
 				}
 
@@ -244,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "int", "int" ],
-					"patching_rect" : [ 164.611843109130859, 580.5836181640625, 52.0, 22.0 ],
+					"patching_rect" : [ 166.360012054443359, 580.5836181640625, 52.0, 22.0 ],
 					"text" : "t b b 2 2"
 				}
 
@@ -257,7 +257,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.611843109130859, 556.75140380859375, 79.0, 22.0 ],
+					"patching_rect" : [ 166.360012054443359, 556.75140380859375, 79.0, 22.0 ],
 					"text" : "r loadBackup"
 				}
 
@@ -2134,7 +2134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.611843109130859, 579.715667724609375, 33.0, 22.0 ],
+					"patching_rect" : [ 56.360012054443359, 579.715667724609375, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -3801,7 +3801,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.7518310546875, 518.888336181640625, 57.0, 22.0 ],
+					"patching_rect" : [ 33.5, 518.888336181640625, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -3813,7 +3813,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 31.611843109130859, 346.688232421875, 42.0, 22.0 ],
+					"patching_rect" : [ 33.5, 345.3824462890625, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -3849,7 +3849,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 54.611843109130859, 485.888336181640625, 211.0, 22.0 ],
+					"patching_rect" : [ 56.360012054443359, 485.888336181640625, 211.0, 22.0 ],
 					"text" : "regexp session @substitute Stimuli.txt"
 				}
 
@@ -3861,7 +3861,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 31.611843109130859, 457.888336181640625, 203.0, 22.0 ],
+					"patching_rect" : [ 33.5, 457.888336181640625, 203.0, 22.0 ],
 					"text" : "regexp session @substitute Train.txt"
 				}
 
@@ -3874,7 +3874,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.575241088867188, 334.688232421875, 86.0, 105.0 ],
+					"patching_rect" : [ 116.575241088867188, 329.5, 86.0, 105.0 ],
 					"text" : "\"C:/Users/Gauthier/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data/session\""
 				}
 
@@ -3887,7 +3887,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 31.7518310546875, 608.151031494140625, 103.0, 22.0 ],
+					"patching_rect" : [ 33.5, 608.151031494140625, 103.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -3904,7 +3904,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.7518310546875, 547.888336181640625, 80.0, 22.0 ],
+					"patching_rect" : [ 33.5, 547.888336181640625, 80.0, 22.0 ],
 					"text" : "prepend read"
 				}
 
@@ -3934,7 +3934,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.7518310546875, 668.96295166015625, 62.0, 22.0 ],
+					"patching_rect" : [ 89.5, 668.96295166015625, 62.0, 22.0 ],
 					"text" : "s fileRead"
 				}
 
