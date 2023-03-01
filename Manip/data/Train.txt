@@ -1,2 +1,2 @@
-1, quartet broadcastingstudio Extremal 6cm 1 1 courbe;
-2, noise broadcastingstudio Extremal 6cm 1 1 courbe;
+1, quartet broadcastingstudio GaussLegendre 8cm 1 1 courbe;
+2, noise broadcastingstudio GaussLegendre 8cm 1 1 courbe;
