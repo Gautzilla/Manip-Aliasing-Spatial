@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 2492.0, 1289.0 ],
+		"rect" : [ 1958.0, 81.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,69 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+					"id" : "obj-129",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 713.88153076171875, 896.725830078125, 48.0, 22.0 ],
+					"text" : "s ready"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-128",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 713.88153076171875, 837.0, 29.0, 22.0 ],
+					"text" : "r ok"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-108",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 749.88153076171875, 777.0, 45.0, 22.0 ],
+					"text" : "r begin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 713.88153076171875, 868.725830078125, 55.0, 22.0 ],
+					"text" : "onebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "bang" ],
+					"patching_rect" : [ 749.88153076171875, 801.0, 108.0, 64.0 ],
+					"text" : "dialog Presser Entrée pour démarrer @mode 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-255",
 					"maxclass" : "newobj",
@@ -762,7 +825,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 744.38153076171875, 906.5, 150.0, 34.0 ],
+					"patching_rect" : [ 744.38153076171875, 929.0, 150.0, 34.0 ],
 					"text" : "Vérifie s'il y a encore des courbes incomplètes"
 				}
 
@@ -957,8 +1020,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 719.22601318359375, 541.39508056640625, 48.0, 22.0 ],
-					"text" : "s ready"
+					"patching_rect" : [ 719.22601318359375, 541.39508056640625, 47.0, 22.0 ],
+					"text" : "s begin"
 				}
 
 			}
@@ -2075,8 +2138,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.5819091796875, 885.0, 37.0, 50.0 ],
-					"text" : "courbe 4 2"
+					"patching_rect" : [ 481.5819091796875, 885.0, 31.0, 50.0 ],
+					"text" : "courbe 1"
 				}
 
 			}
@@ -3874,8 +3937,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.575241088867188, 329.5, 86.0, 105.0 ],
-					"text" : "\"C:/Users/Gauthier/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data/session\""
+					"patching_rect" : [ 116.575241088867188, 329.5, 101.0, 105.0 ],
+					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data/session\""
 				}
 
 			}
@@ -4419,7 +4482,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -5017,6 +5080,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-109", 0 ]
 				}
@@ -5138,6 +5215,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
 					"source" : [ "obj-127", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-128", 0 ]
 				}
 
 			}
@@ -6433,6 +6517,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-129", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-192", 0 ],
 					"source" : [ "obj-70", 0 ]
 				}
@@ -6579,6 +6670,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
