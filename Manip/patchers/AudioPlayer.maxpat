@@ -1239,8 +1239,8 @@
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 975.0, 1224.0, 181.0, 22.0 ],
-					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 64, "SceneRotator.dll", ";" ],
+					"patching_rect" : [ 975.0, 1224.0, 166.0, 22.0 ],
+					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 64, "SceneRotator", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -1273,7 +1273,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "860.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................L.HVMjLgbw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhPCLtPiL4jSNxXyM0bCNwHSMh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOhzBLtDiMvjSN4jSMybCM1bSN0biHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKyTCN4jSN4XyM0bSMvbyLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BLyLSN4jSN2jCM4XCLvHiLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK4DSNv.CLwPCN2byLwjyLzHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRLy3RMx.CLvPiL2HCM1.SNzHxK9vCTAIUPMARZj0iHx8FcgQWZu41TkEWck41XkIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH4E1ch.hcgwVck0iHwTSMtDyLv.CLzfCNxfSLxTiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSMVYtUlTuQWXz8lbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSMVYtUlTuQWXz8lb9.."
+							"blob" : "859.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LvGVMjLgXw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzRLx3RL1.CLvLiM1HSLvjyL3HxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtfyMw.CLv.SMwPSN3PSLyDiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKwPSM4jSN4XCNvTSL4DCLzHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLtDSNy.CLv.yM3HCLwHSNyjiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BMxjCLv.CLx.CLxbSL1.iMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHxTiKz.SN4fCNz.yLyHCLyDiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhzRM03hLv.CLvPSM2biMyXyMxHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1295,7 +1295,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "860.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................L.HVMjLgbw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhPCLtPiL4jSNxXyM0bCNwHSMh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOhzBLtDiMvjSN4jSMybCM1bSN0biHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKyTCN4jSN4XyM0bSMvbyLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BLyLSN4jSN2jCM4XCLvHiLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK4DSNv.CLwPCN2byLwjyLzHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRLy3RMx.CLvPiL2HCM1.SNzHxK9vCTAIUPMARZj0iHx8FcgQWZu41TkEWck41XkIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH4E1ch.hcgwVck0iHwTSMtDyLv.CLzfCNxfSLxTiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSMVYtUlTuQWXz8lbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSMVYtUlTuQWXz8lb9.."
+										"blob" : "859.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LvGVMjLgXw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzRLx3RL1.CLvLiM1HSLvjyL3HxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtfyMw.CLv.SMwPSN3PSLyDiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKwPSM4jSN4XCNvTSL4DCLzHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLtDSNy.CLv.yM3HCLwHSNyjiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BMxjCLv.CLx.CLxbSL1.iMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHxTiKz.SN4fCNz.yLyHCLyDiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhzRM03hLv.CLvPSM2biMyXyMxHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
 									}
 ,
 									"fileref" : 									{
@@ -1312,7 +1312,7 @@
 
 					}
 ,
-					"text" : "mcs.vst~ 64 64 SceneRotator.dll",
+					"text" : "mcs.vst~ 64 64 SceneRotator",
 					"varname" : "mcs.vst~",
 					"viewvisibility" : 0
 				}
@@ -1641,8 +1641,8 @@
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 975.0, 1254.0, 192.0, 22.0 ],
-					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 2, "BinauralDecoder.dll", ";" ],
+					"patching_rect" : [ 975.0, 1254.0, 176.0, 22.0 ],
+					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 2, "BinauralDecoder", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -1688,7 +1688,7 @@
 									"origin" : "BinauralDecoder.dll",
 									"type" : "VST",
 									"subtype" : "AudioEffect",
-									"embed" : 1,
+									"embed" : 0,
 									"snapshot" : 									{
 										"pluginname" : "BinauralDecoder.dll",
 										"plugindisplayname" : "BinauralDecoder",
@@ -1703,45 +1703,9 @@
 									"fileref" : 									{
 										"name" : "BinauralDecoder",
 										"filename" : "BinauralDecoder.maxsnap",
-										"filepath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-										"filepos" : -1,
-										"snapshotfileid" : "eac4714f1a7443b53b255709764c72eb"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "BinauralDecoder",
-									"origin" : "BinauralDecoder.dll",
-									"type" : "VST",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "BinauralDecoder",
-										"filename" : "BinauralDecoder.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "3030a234fa311c85b2ac4447d2543bb8"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "BinauralDecoder",
-									"origin" : "BinauralDecoder.dll",
-									"type" : "VST",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "BinauralDecoder",
-										"filename" : "BinauralDecoder.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "87085aa276cef2f314404895cf822afe"
 									}
 
 								}
@@ -1750,7 +1714,7 @@
 
 					}
 ,
-					"text" : "mcs.vst~ 64 2 BinauralDecoder.dll",
+					"text" : "mcs.vst~ 64 2 BinauralDecoder",
 					"varname" : "vst~",
 					"viewvisibility" : 0
 				}
@@ -2251,7 +2215,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3829,6 +3793,46 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-21" : [ "mcs.vst~", "mcs.vst~", 0 ],
+			"obj-53" : [ "mcs.vst~[1]", "mcs.vst~[1]", 0 ],
+			"obj-6" : [ "vst~", "vst~", 0 ],
+			"obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "BinauralDecoder.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "EnergyVisualizer.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SceneRotator.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

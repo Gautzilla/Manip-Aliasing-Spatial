@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2173.0, 247.0, 572.0, 522.0 ],
+		"rect" : [ 2233.0, 205.0, 572.0, 522.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2292,8 +2292,8 @@
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 384.0, 990.0, 183.0, 22.0 ],
-					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 64, "SceneRotator.dll", ";" ],
+					"patching_rect" : [ 384.0, 990.0, 166.0, 22.0 ],
+					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 64, "SceneRotator", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -2326,7 +2326,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "859.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LvGVMjLgXw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhDCMt.SMv.CLy.SMwbSM2fSLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iKxHiMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtDyL2.CLv.CNyjiLyLyL4fiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHv3BLzbCLv.CL0.SMzPyMyfyM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3RN1HSN4jSN4jSMxLSL1HCNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsjiKvTCLv.yLvTSL2TyM3DiLh7hO7.UPRETSfjFY8HhbuQWXzk1atMUYwUWYtMVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdgcmHfXWXrUWY8HRL0HiKzbCLv.SLxHCL2.yLwHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
+							"blob" : "861.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LPHVMjLgfw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzhL13RN1.CLvXyMwLCN1bSL4HxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjiM4.CLvDCLw.CN4PyM2TiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BL1LCLv.CL3HSN1jiM1TSMyHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLtHyL2.CLvDCL2biM0DSN2fiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvPyL4jSN4XSN4TSNxTSNvLiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK43hLx.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhbiKz.SN4fCNz.yLyHCLyDiLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuL0Xk4VYR8FcgQ2ax8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuL0Xk4VYR8FcgQ2ax4C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -2339,7 +2339,7 @@
 									"origin" : "SceneRotator.dll",
 									"type" : "VST",
 									"subtype" : "AudioEffect",
-									"embed" : 1,
+									"embed" : 0,
 									"snapshot" : 									{
 										"pluginname" : "SceneRotator.dll",
 										"plugindisplayname" : "SceneRotator",
@@ -2348,7 +2348,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "859.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LvGVMjLgXw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhDCMt.SMv.CLy.SMwbSM2fSLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iKxHiMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtDyL2.CLv.CNyjiLyLyL4fiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHv3BLzbCLv.CL0.SMzPyMyfyM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3RN1HSN4jSN4jSMxLSL1HCNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsjiKvTCLv.yLvTSL2TyM3DiLh7hO7.UPRETSfjFY8HhbuQWXzk1atMUYwUWYtMVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdgcmHfXWXrUWY8HRL0HiKzbCLv.SLxHCL2.yLwHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
+										"blob" : "861.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LPHVMjLgfw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhzhL13RN1.CLvXyMwLCN1bSL4HxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjiM4.CLvDCLw.CN4PyM2TiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BL1LCLv.CL3HSN1jiM1TSMyHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLtHyL2.CLvDCL2biM0DSN2fiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvPyL4jSN4XSN4TSNxTSNvLiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK43hLx.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOhbiKz.SN4fCNz.yLyHCLyDiLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuL0Xk4VYR8FcgQ2ax8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuL0Xk4VYR8FcgQ2ax4C."
 									}
 ,
 									"fileref" : 									{
@@ -2365,7 +2365,7 @@
 
 					}
 ,
-					"text" : "mcs.vst~ 64 64 SceneRotator.dll",
+					"text" : "mcs.vst~ 64 64 SceneRotator",
 					"varname" : "mcs.vst~",
 					"viewvisibility" : 0
 				}
@@ -3524,8 +3524,8 @@
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 384.0, 1020.0, 192.0, 22.0 ],
-					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 2, "BinauralDecoder.dll", ";" ],
+					"patching_rect" : [ 384.0, 1020.0, 176.0, 22.0 ],
+					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 2, "BinauralDecoder", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -3571,7 +3571,7 @@
 									"origin" : "BinauralDecoder.dll",
 									"type" : "VST",
 									"subtype" : "AudioEffect",
-									"embed" : 1,
+									"embed" : 0,
 									"snapshot" : 									{
 										"pluginname" : "BinauralDecoder.dll",
 										"plugindisplayname" : "BinauralDecoder",
@@ -3597,7 +3597,7 @@
 
 					}
 ,
-					"text" : "mcs.vst~ 64 2 BinauralDecoder.dll",
+					"text" : "mcs.vst~ 64 2 BinauralDecoder",
 					"varname" : "vst~",
 					"viewvisibility" : 0
 				}
