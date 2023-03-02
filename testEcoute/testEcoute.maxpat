@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 743.0, 247.0, 572.0, 522.0 ],
+		"rect" : [ 2173.0, 247.0, 572.0, 522.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "ManipAliasingSpatial",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.109803921568627, 0.482352941176471, 0.537254901960784, 1.0 ],
@@ -170,7 +171,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.607142865657806, 228.12499588727951, 168.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.5, 224.5, 182.285720825195313, 21.0 ],
+					"presentation_rect" : [ 68.5, 224.5, 182.285720825195312, 21.0 ],
 					"text" : "Charger les fichiers (entree)",
 					"textcolor" : [ 0.862745106220245, 0.843137264251709, 0.788235306739807, 1.0 ]
 				}
@@ -459,7 +460,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 452.741058349609375, 100.626556396484375, 54.517856597900391, 37.0 ],
 					"text" : "C",
-					"textcolor" : [ 0.172999992966652, 0.211999997496605, 0.224000006914139, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1197,7 +1198,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 1344.0, 133.0, 33.0 ],
+					"patching_rect" : [ 200.0, 1344.0, 133.0, 34.0 ],
 					"text" : "Change number of commands here"
 				}
 
@@ -1209,7 +1210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 655.5, 1348.0, 110.0, 33.0 ],
+					"patching_rect" : [ 655.5, 1348.0, 110.0, 34.0 ],
 					"text" : "Modify commands here"
 				}
 
@@ -1221,7 +1222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 1611.5, 105.0, 33.0 ],
+					"patching_rect" : [ 302.0, 1611.5, 105.0, 34.0 ],
 					"text" : "last stimulus causes endPlay"
 				}
 
@@ -1318,7 +1319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 164.333328247070313, 1380.0, 29.5, 22.0 ],
+					"patching_rect" : [ 164.333328247070312, 1380.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -2211,14 +2212,34 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 450.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
+						"slidercolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"tribordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"tricolor" : 						{
+							"expression" : ""
+						}
+,
+						"trioncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
+							"parameter_initial" : [ 0.0 ],
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -2265,6 +2286,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-49",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 7,
@@ -2299,12 +2321,12 @@
 						"snapshot" : 						{
 							"pluginname" : "SceneRotator.dll",
 							"plugindisplayname" : "SceneRotator",
-							"pluginsavedname" : "SceneRotator",
+							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "754.CMlaKA....fQPMDZ....AL0XR8F..PPA....A........................................HfsVMjLgzp....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
+							"blob" : "859.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LvGVMjLgXw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhDCMt.SMv.CLy.SMwbSM2fSLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iKxHiMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtDyL2.CLv.CNyjiLyLyL4fiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHv3BLzbCLv.CL0.SMzPyMyfyM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3RN1HSN4jSN4jSMxLSL1HCNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsjiKvTCLv.yLvTSL2TyM3DiLh7hO7.UPRETSfjFY8HhbuQWXzk1atMUYwUWYtMVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdgcmHfXWXrUWY8HRL0HiKzbCLv.SLxHCL2.yLwHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -2321,12 +2343,12 @@
 									"snapshot" : 									{
 										"pluginname" : "SceneRotator.dll",
 										"plugindisplayname" : "SceneRotator",
-										"pluginsavedname" : "SceneRotator",
+										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "754.CMlaKA....fQPMDZ....AL0XR8F..PPA....A........................................HfsVMjLgzp....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhH2azEFco8laSUVb0UlaiUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjWX2IBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
+										"blob" : "859.CMlaKA....fQPMDZ....AL0XR8F..P.A....A........................................LvGVMjLgXw....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSMVYtUlTuQWXz8lbfzTZjkFQkYWZiUlSg0VY8HhHfzTZjkFQkYWZiU1TigVYsUVOh.iH9vCTAIUPMARZj0iHo4lckIGcPkFciglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzEUcgQWYx4VZu4lHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhjla1UlbzI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjla1UlbzkUX2IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBboQ2XnIBH1EFa0UVOhDCMt.SMv.CLy.SMwbSM2fSLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iKxHiMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtDyL2.CLv.CNyjiLyLyL4fiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHv3BLzbCLv.CL0.SMzPyMyfyM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3RN1HSN4jSN4jSMxLSL1HCNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsjiKvTCLv.yLvTSL2TyM3DiLh7hO7.UPRETSfjFY8HhbuQWXzk1atMUYwUWYtMVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdgcmHfXWXrUWY8HRL0HiKzbCLv.SLxHCL2.yLwHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTiUlakI0azEFcuI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTiUlakI0azEFcuImO.."
 									}
 ,
 									"fileref" : 									{
@@ -2334,7 +2356,7 @@
 										"filename" : "SceneRotator.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "3cb24e1754235bb910525c5083c1517c"
+										"snapshotfileid" : "307330e6b0231b12db1895fed52360de"
 									}
 
 								}
@@ -2966,7 +2988,7 @@
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"oncolor" : [ 0.631, 0.278, 0.18, 1.0 ],
+					"oncolor" : [ 0.384, 0.627, 0.337, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1500.0, 1514.553571432828903, 65.964286804199219, 65.964286804199219 ],
@@ -3253,7 +3275,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 380.482147216796875, 100.626556396484375, 55.0, 37.0 ],
 					"text" : "B",
-					"textcolor" : [ 0.172999992966652, 0.211999997496605, 0.224000006914139, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3283,7 +3305,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 305.0, 100.626556396484375, 55.0, 37.0 ],
 					"text" : "A",
-					"textcolor" : [ 0.172999992966652, 0.211999997496605, 0.224000006914139, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3312,7 +3334,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 465.0, 36.322208404541016, 30.0, 37.0 ],
 					"text" : "C",
-					"textcolor" : [ 0.172999992966652, 0.211999997496605, 0.224000006914139, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3341,7 +3363,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 390.0, 36.322208404541016, 30.0, 37.0 ],
 					"text" : "B",
-					"textcolor" : [ 0.172999992966652, 0.211999997496605, 0.224000006914139, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3370,7 +3392,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 315.0, 36.322208404541016, 30.0, 37.0 ],
 					"text" : "A",
-					"textcolor" : [ 0.172999992966652, 0.211999997496605, 0.224000006914139, 1.0 ],
+					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3482,21 +3504,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "signal" ],
 					"patching_rect" : [ 384.0, 960.0, 118.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 120.000000000000014,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "mcs.groove~ buff 64"
 				}
 
@@ -3511,6 +3518,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-101",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 7,
@@ -3545,12 +3553,12 @@
 						"snapshot" : 						{
 							"pluginname" : "BinauralDecoder.dll",
 							"plugindisplayname" : "BinauralDecoder",
-							"pluginsavedname" : "BinauralDecoder",
+							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..X.A....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBNt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
+							"blob" : "378.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DfOVMjLgTS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOhHiLt.iHu3COPEjTA0DHoQVOhjlavUGcOIGYkI2TkQGco41Yh.hcgwVck0iH33BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuHTZtEVcxEFaDU1XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuHTZtEVcxEFaDU1XuQVYx4C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -3567,12 +3575,12 @@
 									"snapshot" : 									{
 										"pluginname" : "BinauralDecoder.dll",
 										"plugindisplayname" : "BinauralDecoder",
-										"pluginsavedname" : "BinauralDecoder",
+										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "377.CMlaKA....fQPMDZ....AHTZDUF..X.A....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBNt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
+										"blob" : "378.CMlaKA....fQPMDZ....AHTZDUF..Xv.....A........................................DfOVMjLgTS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOhHiLt.iHu3COPEjTA0DHoQVOhjlavUGcOIGYkI2TkQGco41Yh.hcgwVck0iH33BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuHTZtEVcxEFaDU1XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuHTZtEVcxEFaDU1XuQVYx4C."
 									}
 ,
 									"fileref" : 									{
@@ -3580,7 +3588,7 @@
 										"filename" : "BinauralDecoder.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "87085aa276cef2f314404895cf822afe"
+										"snapshotfileid" : "3030a234fa311c85b2ac4447d2543bb8"
 									}
 
 								}
@@ -4040,12 +4048,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-125",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 685.5, 101.446807861328125, 255.0, 22.0 ],
-					"text" : "C:/Users/Gauthier/Desktop/"
+					"patching_rect" : [ 685.5, 101.446807861328125, 255.0, 50.0 ],
+					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Stimuli/\""
 				}
 
 			}
@@ -4081,7 +4090,7 @@
 					"numinlets" : 11,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 237.0, 555.0, 346.0, 35.0 ],
+					"patching_rect" : [ 237.0, 555.0, 346.0, 36.0 ],
 					"text" : "combine quartet _ broadcastingstudio _ Extremal _ 64 _ 6cm _o7 _90 @padding 0 0 0 0 0 0 4 0 0 0"
 				}
 
@@ -4378,7 +4387,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 600.0, 11.0, 83.5, 33.0 ],
+					"patching_rect" : [ 600.0, 11.0, 83.5, 34.0 ],
 					"suppressinlet" : 1,
 					"text" : "Dossier fichiers audio"
 				}
@@ -4596,7 +4605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 946.5, 735.0, 88.0, 33.0 ],
+					"patching_rect" : [ 946.5, 735.0, 88.0, 34.0 ],
 					"suppressinlet" : 1,
 					"text" : "file 1 : son test\nfile 2 : son ref"
 				}
@@ -4716,7 +4725,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1050.0, 990.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1050.0, 990.0, 150.0, 34.0 ],
 					"suppressinlet" : 1,
 					"text" : "Envoi vers SceneRotator:\nW X Y Z"
 				}
@@ -4766,7 +4775,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1050.0, 735.0, 135.0, 33.0 ],
+					"patching_rect" : [ 1050.0, 735.0, 135.0, 34.0 ],
 					"suppressinlet" : 1,
 					"text" : "Sortie du HeadTracker:\nW X Y Z"
 				}
@@ -4798,7 +4807,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1350.0, 875.0, 180.0, 74.0 ],
+					"patching_rect" : [ 1350.0, 875.0, 180.0, 75.0 ],
 					"suppressinlet" : 1,
 					"text" : "Qoffset = Q0* \n(Q0: rotation de l'origine du repère à l'origine souhaitée)\n\n=> Qtot = Qoffset * QheadTrack"
 				}
@@ -7036,20 +7045,21 @@
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "BinauralDecoder.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SceneRotator.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
