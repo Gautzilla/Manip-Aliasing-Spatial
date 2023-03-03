@@ -1,8 +1,8 @@
-1, quartet broadcastingstudio Extremal 6cm 1 1 courbe;
-2, quartet broadcastingstudio Extremal 8cm 1 1 courbe;
-3, quartet broadcastingstudio GaussLegendre 6cm 1 1 courbe;
-4, quartet broadcastingstudio GaussLegendre 8cm 1 1 courbe;
-5, noise broadcastingstudio Extremal 6cm 1 1 courbe;
-6, noise broadcastingstudio Extremal 8cm 1 1 courbe;
-7, noise broadcastingstudio GaussLegendre 6cm 1 1 courbe;
-8, noise broadcastingstudio GaussLegendre 8cm 1 1 courbe;
+1, quartet controlroom Extremal 6cm 1 1 courbe;
+2, quartet controlroom Extremal 8cm 1 1 courbe;
+3, quartet controlroom GaussLegendre 6cm 1 1 courbe;
+4, quartet controlroom GaussLegendre 8cm 1 1 courbe;
+5, noise controlroom Extremal 6cm 1 1 courbe;
+6, noise controlroom Extremal 8cm 1 1 courbe;
+7, noise controlroom GaussLegendre 6cm 1 1 courbe;
+8, noise controlroom GaussLegendre 8cm 1 1 courbe;
