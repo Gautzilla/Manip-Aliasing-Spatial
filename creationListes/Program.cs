@@ -70,7 +70,7 @@ namespace creationListesTestManip
                     indexes[cond] = (i/condsAfter)%(conditions[cond].Length);                    
                 }
                 if (fileType == FileType.Stimuli) output[i] = string.Join(" ", conditions.Select((c,i) => c[indexes[i]]).Prepend((i+1).ToString()+",")) + ";";
-                if (fileType == FileType.TestCases) output[i] = "\"" + string.Join(" ", conditions.Select((c,i) => c[indexes[i]])) + "\";";
+                if (fileType == FileType.TestCases) output[i] = "\"" + string.Join(" ", conditions.Select((c,i) => c[indexes[i]])) + "\",;";
             }
 
             return output;
