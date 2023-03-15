@@ -449,8 +449,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1755.0, 108.526321411132812, 51.0, 65.052642822265625 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 1079.0, 1544.0, 97.0 ],
 					"proportion" : 0.5
 				}
 
@@ -466,8 +464,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1584.0, 108.526321411132812, 51.0, 65.052642822265625 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 90.25, 190.526320999999996, 201.0, 275.052642999999989 ],
 					"proportion" : 0.5
 				}
 
@@ -859,7 +855,7 @@
 					"patching_rect" : [ 1090.034423828125, 120.552642822265625, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.4111328125, 373.24212646484375, 50.0, 22.0 ],
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.862745106220245, 0.843137264251709, 0.788235306739807, 1.0 ]
 				}
 
@@ -899,7 +895,7 @@
 					"patching_rect" : [ 1030.271240234375, 120.552642822265625, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.4111328125, 329.93157958984375, 50.0, 22.0 ],
-					"text" : "1",
+					"text" : "0",
 					"textcolor" : [ 0.862745106220245, 0.843137264251709, 0.788235306739807, 1.0 ]
 				}
 
@@ -982,7 +978,7 @@
 					"patching_rect" : [ 964.75, 158.052642822265625, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.4111328125, 243.310531616210938, 50.0, 22.0 ],
-					"text" : "0",
+					"text" : "1",
 					"textcolor" : [ 0.862745106220245, 0.843137264251709, 0.788235306739807, 1.0 ]
 				}
 
@@ -1031,7 +1027,7 @@
 					"patching_rect" : [ 893.4111328125, 152.052642822265625, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.4111328125, 286.621063232421875, 50.0, 22.0 ],
-					"text" : "B",
+					"text" : "C",
 					"textcolor" : [ 0.862745106220245, 0.843137264251709, 0.788235306739807, 1.0 ]
 				}
 
@@ -1602,13 +1598,99 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-71",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 276.0, 686.6722412109375, 61.0, 22.0 ],
+									"text" : "sprintf %s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-65",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 276.0, 716.6722412109375, 41.0, 22.0 ],
+									"text" : "line 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "int" ],
+									"patching_rect" : [ 405.0, 593.344482421875, 55.0, 22.0 ],
+									"text" : "t 0. 1000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+									"id" : "obj-63",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 405.0, 566.6722412109375, 60.0, 22.0 ],
+									"text" : "r fileRead"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-61",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 276.0, 626.6722412109375, 50.0, 36.0 ],
+									"text" : "0.083333"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 276.0, 656.6722412109375, 362.0, 22.0 ],
+									"text" : "combine initialValue \", \" destinationValue \" \" rampTime @triggers 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "float", "float", "bang" ],
+									"patching_rect" : [ 255.0, 593.344482421875, 40.0, 22.0 ],
+									"text" : "t f f b"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-41",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 315.0, 660.0, 40.0, 22.0 ],
-									"text" : "* 100."
+									"patching_rect" : [ 276.0, 746.6722412109375, 47.0, 22.0 ],
+									"text" : "* 1000."
 								}
 
 							}
@@ -1624,10 +1706,10 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 315.0, 690.0, 123.0, 30.0 ],
+									"patching_rect" : [ 276.0, 776.6722412109375, 123.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 44.5, 600.0, 311.0, 15.0 ],
-									"size" : 100.0
+									"size" : 1000.0
 								}
 
 							}
@@ -1639,7 +1721,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 630.0, 79.0, 22.0 ],
+									"patching_rect" : [ 255.0, 566.6722412109375, 79.0, 22.0 ],
 									"text" : "r progression"
 								}
 
@@ -2566,7 +2648,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
+									"destination" : [ "obj-42", 0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -2594,6 +2676,27 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-54", 2 ],
+									"source" : [ "obj-42", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"source" : [ "obj-42", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 1 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-44", 0 ]
 								}
@@ -2603,6 +2706,55 @@
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-71", 0 ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-61", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 4 ],
+									"source" : [ "obj-64", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-65", 0 ],
+									"source" : [ "obj-71", 0 ]
 								}
 
 							}
@@ -2733,7 +2885,7 @@
 ,
 					"patching_rect" : [ 1410.963623046875, 212.0526123046875, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.0, 178.0, 400.0, 600.0 ],
+					"presentation_rect" : [ 406.0, 158.0, 400.0, 641.0 ],
 					"varname" : "bP_ifac",
 					"viewvisibility" : 1
 				}
@@ -3522,7 +3674,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3970,7 +4122,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 329.93756103515625, 980.39202880859375, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "2"
 				}
 
 			}
@@ -6333,71 +6485,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "BtnControl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TogglePlay.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "btnOk.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleA.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleAisOdd.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleB.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleBisOdd.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleC.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggleCisOdd.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
