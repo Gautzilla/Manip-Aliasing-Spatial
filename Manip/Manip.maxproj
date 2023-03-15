@@ -2,8 +2,8 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3753772229,
-	"viewrect" : [ 1343.0, 215.0, 300.0, 500.0 ],
+	"modificationdate" : 3761735583,
+	"viewrect" : [ 2089.0, 299.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,7 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"Interface.maxpat" : 			{
+			"AudioPlayer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -26,12 +26,12 @@
 				"local" : 1
 			}
 ,
-			"TraitementFichiers.maxpat" : 			{
+			"Interface.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"AudioPlayer.maxpat" : 			{
+			"TraitementFichiers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -56,6 +56,16 @@
 			"NombreMicros.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
+			}
+,
+			"Essais.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
+					"projectrelativepath" : "./data"
+				}
+
 			}
 
 		}
