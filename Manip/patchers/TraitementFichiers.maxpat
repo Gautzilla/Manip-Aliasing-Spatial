@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1958.0, 81.0, 1212.0, 883.0 ],
+		"rect" : [ 1954.0, 81.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-306",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 749.88153076171875, 772.0, 55.0, 22.0 ],
+					"text" : "onebang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
 					"id" : "obj-308",
@@ -524,7 +536,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1792.0, 403.936531066894531, 99.0, 119.0 ],
+					"patching_rect" : [ 1792.0, 403.936531066894531, 101.0, 119.0 ],
 					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data/Reponses.txt\""
 				}
 
@@ -1016,7 +1028,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 749.88153076171875, 777.0, 45.0, 22.0 ],
+					"patching_rect" : [ 749.88153076171875, 739.59893798828125, 45.0, 22.0 ],
 					"text" : "r begin"
 				}
 
@@ -1139,7 +1151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 771.892578125, 739.59893798828125, 70.0, 22.0 ],
+					"patching_rect" : [ 874.844482421875, 705.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -3072,7 +3084,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 481.5819091796875, 885.0, 69.0, 22.0 ],
-					"text" : "courbe 2"
+					"text" : "courbe 1 1"
 				}
 
 			}
@@ -6127,7 +6139,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
+					"destination" : [ "obj-306", 0 ],
 					"source" : [ "obj-108", 0 ]
 				}
 
@@ -7556,6 +7568,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-303", 0 ],
 					"source" : [ "obj-305", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-306", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-129", 0 ],
+					"source" : [ "obj-306", 1 ]
 				}
 
 			}
