@@ -7,24 +7,54 @@ namespace creationListesTestManip
 {
     class Program
     {
+        enum FileType
+        {
+            Stimuli,
+            TestCases
+        }
+        private static string _createStimuliFileHotkey = "S";
+        private static string _createStimuliFileText = "Crée une liste de stimuli pour le test.";
+        private static string _createTestCasesFileHotkey = "T";
+        private static string _createTestCasesFileText = "Crée une liste contenant tous les essais (VI et VD confondues).";
+        private static Func<string, string, string> _showHotkey = ((hotkey, text) => $"\r\t\"{hotkey}\"\t=>\t{text}");
         static void Main(string[] args)
         {
+            string userInput;
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine($"Taper :");
+                Console.WriteLine(_showHotkey(_createStimuliFileHotkey, _createStimuliFileText));
+                Console.WriteLine(_showHotkey(_createTestCasesFileHotkey, _createTestCasesFileText));
+                userInput = Console.ReadKey().KeyChar.ToString().ToLower();
+                if (userInput == _createStimuliFileHotkey.ToLower() || userInput == _createTestCasesFileHotkey.ToLower())
+                {
+                    break;
+                }
+            }
+            Console.WriteLine("\r\n");
+            if (userInput == _createStimuliFileHotkey.ToLower()) WriteFile(FileType.Stimuli);
+            if (userInput == _createTestCasesFileHotkey.ToLower()) WriteFile(FileType.TestCases);
+        }
+
+        static void WriteFile(FileType fileType)
+        {
             Console.WriteLine("Entrer le chemin du fichier \"variables.txt\".");
-            Console.WriteLine("[ENTREE] : fichier \"variables.txt\" dans le même dossier que l'exécutable.");
+            Console.WriteLine("[ENTREE] : fichier \"variables.txt\" dans le même dossier que l'exécutable.\r\n");
 
             string inputPath = Console.ReadLine();
             inputPath = inputPath == string.Empty ? @"variables.txt" : inputPath;
 
             string[][] conditions = File.ReadAllLines(inputPath).Select(line => line.Split(' ').ToArray()).ToArray();
 
-            string[] lists = CreateLists(conditions);
+            string[] lists = CreateLists(conditions, fileType);
 
             bool toPath = true;
             string path = @"listes.txt";
             WriteLists(lists, toPath, path);
         }
 
-        static string[] CreateLists(string[][] conditions)
+        static string[] CreateLists(string[][] conditions, FileType fileType)
         {
             int allConds = conditions.Select(s => s.Length).Aggregate((a,b) => a*b);
             string[] output = new string[allConds];
@@ -39,7 +69,8 @@ namespace creationListesTestManip
                     int condsAfter = conditions.Skip(cond+1).Select(c => c.Length).Aggregate(1,(a,b) => a*b);
                     indexes[cond] = (i/condsAfter)%(conditions[cond].Length);                    
                 }
-                output[i] = string.Join(" ", conditions.Select((c,i) => c[indexes[i]]).Prepend((i+1).ToString()+",")) + ";";
+                if (fileType == FileType.Stimuli) output[i] = string.Join(" ", conditions.Select((c,i) => c[indexes[i]]).Prepend((i+1).ToString()+",")) + ";";
+                if (fileType == FileType.TestCases) output[i] = "\"" + string.Join(" ", conditions.Select((c,i) => c[indexes[i]])) + "\",;";
             }
 
             return output;
