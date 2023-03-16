@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3761735583,
+	"modificationdate" : 3761808924,
 	"viewrect" : [ 2089.0, 299.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -43,6 +43,11 @@
 		}
 ,
 		"data" : 		{
+			"Reponses.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
 			"Train.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
@@ -56,16 +61,6 @@
 			"NombreMicros.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
-			}
-,
-			"Essais.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-					"projectrelativepath" : "./data"
-				}
-
 			}
 
 		}

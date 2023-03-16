@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 81.0, 1212.0, 883.0 ],
+		"rect" : [ 1958.0, 81.0, 1212.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 760.0, 291.0, 87.0, 22.0 ],
-					"text" : "s trialsFilePath"
+					"patching_rect" : [ 760.0, 291.0, 107.0, 22.0 ],
+					"text" : "s answersFilePath"
 				}
 
 			}
@@ -83,8 +83,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 748.0, 206.5, 358.0, 22.0 ],
-					"text" : "dialog Pointer vers le fichier de sauvegarde des essais: @mode 1"
+					"patching_rect" : [ 748.0, 206.5, 373.0, 22.0 ],
+					"text" : "dialog Pointer vers le fichier de sauvegarde des réponses: @mode 1"
 				}
 
 			}
@@ -1603,6 +1603,7 @@
 							}
 , 							{
 								"box" : 								{
+									"active" : 0,
 									"id" : "obj-5",
 									"inactiveimage" : 1,
 									"maxclass" : "pictctrl",
@@ -2906,17 +2907,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Gauthier-Berthomieu.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/essais",
-				"patcherrelativepath" : "../essais",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Interface.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Reponses.txt",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

@@ -81,8 +81,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1792.0, 663.699951171875, 85.0, 22.0 ],
-					"text" : "r trialsFilePath"
+					"patching_rect" : [ 1792.0, 663.699951171875, 105.0, 22.0 ],
+					"text" : "r answersFilePath"
 				}
 
 			}
@@ -94,13 +94,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1792.0, 725.5567626953125, 64.0, 22.0 ],
+					"patching_rect" : [ 1792.0, 725.5567626953125, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll essais"
+					"text" : "coll reponses"
 				}
 
 			}
@@ -112,8 +112,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1932.0, 509.949951171875, 121.0, 22.0 ],
-					"text" : "v writeTrialCommand"
+					"patching_rect" : [ 1932.0, 509.949951171875, 139.0, 22.0 ],
+					"text" : "v writeAnswerCommand"
 				}
 
 			}
@@ -221,8 +221,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 279.0, 43.0, 22.0 ],
-									"text" : "essais"
+									"patching_rect" : [ 50.0, 279.0, 58.0, 22.0 ],
+									"text" : "reponses"
 								}
 
 							}
@@ -420,7 +420,7 @@
 						"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 1932.0, 475.687255859375, 145.0, 22.0 ],
+					"patching_rect" : [ 1932.0, 475.687255859375, 162.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 						"description" : "",
@@ -430,7 +430,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p FormatNameWriteTrials"
+					"text" : "p FormatNameWriteAnswers"
 				}
 
 			}
@@ -504,13 +504,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1899.5, 1138.86138916015625, 64.0, 22.0 ],
+					"patching_rect" : [ 1899.5, 1138.86138916015625, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll essais"
+					"text" : "coll reponses"
 				}
 
 			}
@@ -535,8 +535,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1792.0, 403.936531066894531, 101.0, 119.0 ],
-					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data/Essais.txt\""
+					"patching_rect" : [ 1792.0, 403.936531066894531, 97.0, 119.0 ],
+					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data/Reponses.txt\""
 				}
 
 			}
@@ -560,8 +560,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1874.0, 355.51458740234375, 139.0, 36.0 ],
-					"text" : "sprintf symout %sManip/data/Essais.txt"
+					"patching_rect" : [ 1874.0, 355.51458740234375, 158.0, 36.0 ],
+					"text" : "sprintf symout %sManip/data/Reponses.txt"
 				}
 
 			}
@@ -586,13 +586,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1792.0, 561.687255859375, 64.0, 22.0 ],
+					"patching_rect" : [ 1792.0, 561.687255859375, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll essais"
+					"text" : "coll reponses"
 				}
 
 			}
