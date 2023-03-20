@@ -18,6 +18,11 @@ Le nom d'un fichier de résultat est formaté sous la forme `Prénom-Nom_Date_He
 Lors du test et après chaque essai réalisé par le sujet, un fichier de backup est enregistré dans le dossier `Manip-Aliasing-Spatial\Manip\backups` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
 Ce fichier peut être chargé manuellement en cliquant sur le message `read` dans la partie 1 du patcher `TraitementFichiers`.
 
+## Fichier d'écriture des réponses
+Les réponses du sujet à chacune des comparaisons ABC sont écrites dans un fichier au nom du sujet, dans le dossier `Manip-Aliasing-Spatial\Manip\reponses`.
+Lors du chargement de backup, le fichier d'écriture des réponses doit être pointé pour que les réponses y soient ajoutées.
+Chaque fichier d'écriture des réponse est constitué de listes correspondant à chaque essai (combinaisons des niveaux des variables indépendantes et dépendantes), suivies d'une série de `1` (bonne réponse) et de `0` (mauvaise réponse).
+
 ## Organisation du projet MaxMSP
 
 | Patcher | Rôle |
