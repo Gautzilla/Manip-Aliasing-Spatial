@@ -200,8 +200,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 567.0, 372.0, 240.0, 104.0 ],
-						"bglocked" : 0,
+						"rect" : [ 2379.0, 272.0, 240.0, 71.0 ],
+						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -254,18 +254,6 @@
 							}
 , 							{
 								"box" : 								{
-									"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
-									"id" : "obj-27",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 432.0, 79.0, 22.0 ],
-									"text" : "s binauSetup"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-24",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -284,40 +272,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 330.0, 300.0, 55.0, 22.0 ],
 									"text" : "dac~ 1 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Tahoma",
-									"id" : "obj-11",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 384.5, 82.0, 35.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 60.0, 67.0, 180.0, 21.0 ],
-									"text" : "Décodage binaural",
-									"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-									"blinkcolor" : [ 0.862745098039216, 0.843137254901961, 0.788235294117647, 1.0 ],
-									"id" : "obj-12",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"outlinecolor" : [ 0.635294117647059, 0.482352941176471, 0.36078431372549, 1.0 ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 330.0, 390.0, 24.0, 24.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 67.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -566,38 +520,6 @@
 								"box" : 								{
 									"background" : 1,
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.501960784313725 ],
-									"id" : "obj-25",
-									"maxclass" : "comment",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 341.0, 105.0, 20.0 ],
-									"suppressinlet" : 1,
-									"text" : "Decodage Binau"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 270.0,
-									"background" : 1,
-									"bgcolor" : [ 0.384313725490196, 0.556862745098039, 0.564705882352941, 1.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-									"id" : "obj-26",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 341.0, 150.0, 135.0 ],
-									"proportion" : 0.5,
-									"prototypename" : "backgroundPanel"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"background" : 1,
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.501960784313725 ],
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 0,
@@ -751,13 +673,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-90", 0 ],
 									"source" : [ "obj-112", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
-									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -2867,9 +2782,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-45::obj-21" : [ "mcs.vst~", "mcs.vst~", 0 ],
-			"obj-45::obj-53" : [ "mcs.vst~[1]", "mcs.vst~[1]", 0 ],
-			"obj-45::obj-6" : [ "vst~", "vst~", 0 ],
+			"obj-45::obj-6" : [ "vst~", "mcs.vst~[1]", 0 ],
 			"obj-45::obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"parameterbanks" : 			{
 
@@ -2879,6 +2792,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Ambi Head HD.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "AudioPlayer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
@@ -2886,24 +2806,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "BinauralDecoder.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "BtnControl.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "EnergyVisualizer.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
@@ -2918,13 +2824,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SceneRotator.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Snapshots",
-				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
