@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 1958.0, 81.0, 842.0, 883.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -171,7 +171,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Quaternion QX QY QZ QW",
 									"id" : "obj-88",
 									"index" : 1,
 									"maxclass" : "inlet",
@@ -184,7 +184,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Instructions Yaw Pitch Roll [0., 1.]",
 									"id" : "obj-89",
 									"index" : 1,
 									"maxclass" : "outlet",
@@ -204,7 +204,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 45.0, 13.0, 240.0, 34.0 ],
 									"suppressinlet" : 1,
-									"text" : "Formate le quaternion qw qx qy qz en Yaw Pitch Roll, adapté à AmbiHeadHD"
+									"text" : "Formate le quaternion qx qy qz qw en Yaw Pitch Roll, adapté à AmbiHeadHD"
 								}
 
 							}
@@ -288,7 +288,7 @@
 						"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 867.5, 945.0, 115.0, 22.0 ],
+					"patching_rect" : [ 867.5, 945.0, 128.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 						"description" : "",
@@ -298,7 +298,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p t3ToAmbiHeadHD"
+					"text" : "p quatToAmbiHeadHD"
 				}
 
 			}
@@ -323,7 +323,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "mcs.vst~[1]",
+							"parameter_longname" : "vst~",
 							"parameter_shortname" : "mcs.vst~[1]",
 							"parameter_type" : 3
 						}
@@ -352,7 +352,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "486.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DfpVMjLgDZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RM77hTuQGV9viTuQWV9.iK0vyKR8FcY4COR8FcZ4CLtPCN3fCN4vyKR8FcZ4COGEVZt4CLtjCOubTXo4lO7jFY3ITXyMmPu81bz4CL77RZjgmPgM2bB81ayQmO7L0alEFTxU1bkQmSg0VY9vyKS8lYgAkbkMWYz4TXsUlO7jFY3gjboIGU4AWY9.COujFY3gjboIGU4AWY9vSZjgWRtAWczMzatYVZm4iM77RZjgWRtAWczMzatYVZm4COoQFdGUUR9.COujFY3cTUI4COoQFdDUlYgUGazYTZrQWYxQUdvUlOxvyKoQFdDUlYgUGazYTZrQWYxQUdvUlO7TVdkMWRvMEcxklam4SLxbiKv3BLtDCOuTVdkMWRvMEcxklam4COkkWYyQTYrQWXT01b9.COuTVdkMGQkwFcgQUay4CO0QFbP8lbz4yMv.CL77RcjAGTuIGc9vyKR81az4C."
+							"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BM4biLxHCOuH0azgkO7H0azkkOv3BM3fCN3jCOuH0azkkO7H0azokOv3BM1DSLwDCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmO2.CLvvyK0QFbP8lbz4COuH0auQmO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -374,7 +374,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "486.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DfpVMjLgDZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RM77hTuQGV9viTuQWV9.iK0vyKR8FcY4COR8FcZ4CLtPCN3fCN4vyKR8FcZ4COGEVZt4CLtjCOubTXo4lO7jFY3ITXyMmPu81bz4CL77RZjgmPgM2bB81ayQmO7L0alEFTxU1bkQmSg0VY9vyKS8lYgAkbkMWYz4TXsUlO7jFY3gjboIGU4AWY9.COujFY3gjboIGU4AWY9vSZjgWRtAWczMzatYVZm4iM77RZjgWRtAWczMzatYVZm4COoQFdGUUR9.COujFY3cTUI4COoQFdDUlYgUGazYTZrQWYxQUdvUlOxvyKoQFdDUlYgUGazYTZrQWYxQUdvUlO7TVdkMWRvMEcxklam4SLxbiKv3BLtDCOuTVdkMWRvMEcxklam4COkkWYyQTYrQWXT01b9.COuTVdkMGQkwFcgQUay4CO0QFbP8lbz4yMv.CL77RcjAGTuIGc9vyKR81az4C."
+										"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BM4biLxHCOuH0azgkO7H0azkkOv3BM3fCN3jCOuH0azkkO7H0azokOv3BM1DSLwDCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmO2.CLvvyK0QFbP8lbz4COuH0auQmO.."
 									}
 ,
 									"fileref" : 									{
@@ -2228,7 +2228,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2563,7 +2563,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 855.0, 855.0, 150.0, 34.0 ],
 					"suppressinlet" : 1,
-					"text" : "Envoi vers Ambix Rotator:\nW X Y Z"
+					"text" : "Envoi vers AmbiHead : Eulers [0., 1.]"
 				}
 
 			}
@@ -3762,30 +3762,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-6" : [ "mcs.vst~[1]", "mcs.vst~[1]", 0 ],
-			"obj-92" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "Ambi Head HD.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
