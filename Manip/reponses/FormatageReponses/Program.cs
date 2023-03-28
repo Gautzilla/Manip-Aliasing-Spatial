@@ -33,7 +33,7 @@ class Program
         while(true)
         {
             Console.WriteLine($"Answers directory path:\r\n");
-            _answersFolder = Console.ReadLine();
+            _answersFolder = Console.ReadLine() ?? string.Empty;
 
             if (Directory.Exists(_answersFolder)) break;
 
