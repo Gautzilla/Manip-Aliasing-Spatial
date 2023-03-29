@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1958.0, 81.0, 842.0, 883.0 ],
+		"rect" : [ 38.0, 81.0, 1482.0, 939.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3117,8 +3117,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.5819091796875, 885.0, 95.0, 22.0 ],
-					"text" : "courbe 2 1 3 1 2"
+					"patching_rect" : [ 481.5819091796875, 885.0, 102.0, 22.0 ],
+					"text" : "courbe\\, 2 1 3 1 2"
 				}
 
 			}
@@ -5461,7 +5461,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -8194,6 +8194,15 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "Reponses.txt",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
