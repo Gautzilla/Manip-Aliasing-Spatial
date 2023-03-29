@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 1958.0, 81.0, 1212.0, 883.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -39,6 +39,55 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 450.5, 408.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 413.5, 405.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "bang" ],
+					"patching_rect" : [ 495.0, 454.0, 207.0, 22.0 ],
+					"text" : "dialog Test terminé\\, merci ! @mode 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "bang" ],
+					"patching_rect" : [ 478.5999755859375, 408.0, 241.4000244140625, 36.0 ],
+					"text" : "dialog Entraînement terminé\\, vous pouvez lancer le test. @mode 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "newobj",
@@ -1038,7 +1087,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.4000244140625, 414.0, 73.0, 22.0 ],
+					"patching_rect" : [ 605.9000244140625, 363.0, 73.0, 22.0 ],
 					"text" : "AudioPlayer",
 					"varname" : "Interface[2]"
 				}
@@ -1566,6 +1615,7 @@
 							}
 , 							{
 								"box" : 								{
+									"active" : 0,
 									"id" : "obj-5",
 									"inactiveimage" : 1,
 									"maxclass" : "pictctrl",
@@ -1762,7 +1812,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.5, 450.0, 63.0, 22.0 ],
+					"patching_rect" : [ 426.5, 454.0, 63.0, 22.0 ],
 					"text" : "s trainEnd"
 				}
 
@@ -1774,7 +1824,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 413.5, 422.0, 34.0, 22.0 ],
+					"patching_rect" : [ 413.5, 380.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -1787,7 +1837,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.5, 393.5, 59.0, 22.0 ],
+					"patching_rect" : [ 413.5, 350.0, 59.0, 22.0 ],
 					"text" : "v session"
 				}
 
@@ -1800,7 +1850,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.5, 365.0, 57.0, 22.0 ],
+					"patching_rect" : [ 413.5, 321.0, 57.0, 22.0 ],
 					"text" : "r testEnd"
 				}
 
@@ -1874,7 +1924,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.4000244140625, 381.0, 108.0, 22.0 ],
+					"patching_rect" : [ 605.9000244140625, 330.0, 108.0, 22.0 ],
 					"text" : "TraitementFichiers",
 					"varname" : "TraitementFichiers"
 				}
@@ -2362,8 +2412,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-107", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-117", 0 ],
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -2385,6 +2456,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-117", 0 ]
 				}
 
 			}
@@ -2943,7 +3021,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Stimuli.txt",
+				"name" : "Reponses.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
