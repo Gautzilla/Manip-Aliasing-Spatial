@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-337",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 239.164455413818359, 360.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-307",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1290,7 +1302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.957672119140625, 362.7113037109375, 87.0, 22.0 ],
+					"patching_rect" : [ 239.164455413818359, 390.0, 87.0, 22.0 ],
 					"text" : "v departDiffere"
 				}
 
@@ -3094,8 +3106,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.5819091796875, 885.0, 69.0, 22.0 ],
-					"text" : "courbe 2"
+					"patching_rect" : [ 481.5819091796875, 885.0, 95.0, 22.0 ],
+					"text" : "courbe 3 1 4 1 2"
 				}
 
 			}
@@ -4845,7 +4857,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
 					"patching_rect" : [ 116.575241088867188, 283.0, 32.0, 22.0 ],
-					"text" : "t b 1"
+					"text" : "t b 2"
 				}
 
 			}
@@ -7661,6 +7673,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-175", 0 ],
+					"source" : [ "obj-337", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -7696,7 +7715,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-306", 1 ],
+					"order" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -7887,7 +7915,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-175", 0 ],
+					"destination" : [ "obj-337", 0 ],
 					"order" : 0,
 					"source" : [ "obj-65", 1 ]
 				}
@@ -7918,7 +7946,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-175", 0 ],
+					"destination" : [ "obj-337", 0 ],
 					"order" : 0,
 					"source" : [ "obj-66", 1 ]
 				}
