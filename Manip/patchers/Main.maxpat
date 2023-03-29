@@ -297,8 +297,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 459.0, 478.0, 250.0, 104.0 ],
-						"bglocked" : 1,
+						"rect" : [ 553.0, 186.0, 290.0, 119.0 ],
+						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -327,13 +327,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-19",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 420.0, 35.0, 22.0 ],
-									"text" : "open"
+									"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 363.0, 441.0, 76.0, 22.0 ],
+									"text" : "s resetOffset"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "open", "bang" ],
+									"patching_rect" : [ 330.0, 410.25, 52.0, 22.0 ],
+									"text" : "t open b"
 								}
 
 							}
@@ -344,7 +356,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 450.0, 101.0, 22.0 ],
+									"patching_rect" : [ 330.0, 465.0, 101.0, 22.0 ],
 									"text" : "s openAmbiHead"
 								}
 
@@ -696,7 +708,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 348.5, 150.0, 135.0 ],
+									"patching_rect" : [ 315.0, 348.5, 150.0, 145.5 ],
 									"proportion" : 0.5,
 									"prototypename" : "backgroundPanel"
 								}
@@ -850,7 +862,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
+									"destination" : [ "obj-18", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -872,7 +884,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"source" : [ "obj-19", 0 ]
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-18", 1 ]
 								}
 
 							}
