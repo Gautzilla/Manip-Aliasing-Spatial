@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1958.0, 81.0, 842.0, 883.0 ],
+		"rect" : [ 1040.0, 81.0, 842.0, 883.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1012.0, 1227.5, 99.0, 22.0 ],
+					"text" : "r openAmbiHead"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.811764705882353, 0.494117647058824, 0.247058823529412, 1.0 ],
 					"id" : "obj-90",
@@ -624,7 +637,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "495.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DvrVMjLgnZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkO43hMk0BL0vyKR8FcX4COR8FcY4CLtPyM2byMwvyKR8FcY4COR8FcZ4CLt.CM3jSMzvyKR8FcZ4COGEVZt4CLtjCOubTXo4lO7jFY3ITXyMmPu81bz4CL77RZjgmPgM2bB81ayQmO7L0alEFTxU1bkQmSg0VY9vyKS8lYgAkbkMWYz4TXsUlO7jFY3gjboIGU4AWY9.COujFY3gjboIGU4AWY9vSZjgWRtAWczMzatYVZm4iM77RZjgWRtAWczMzatYVZm4COoQFdGUUR9.COujFY3cTUI4COoQFdDUlYgUGazYTZrQWYxQUdvUlOxvyKoQFdDUlYgUGazYTZrQWYxQUdvUlO7TVdkMWRvMEcxklam4SLxbiKv3BLtDCOuTVdkMWRvMEcxklam4COkkWYyQTYrQWXT01b9.COuTVdkMGQkwFcgQUay4CO0QFbP8lbz4yMv.CL77RcjAGTuIGc9vyKR81az4C."
+							"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BL3XyM1HCOuH0azgkO7H0azkkOv3hL2TiM3bCOuH0azkkO7H0azokOv3hL4.yLyHCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmO2.CLvvyK0QFbP8lbz4COuH0auQmO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -646,7 +659,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "495.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DvrVMjLgnZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkO43hMk0BL0vyKR8FcX4COR8FcY4CLtPyM2byMwvyKR8FcY4COR8FcZ4CLt.CM3jSMzvyKR8FcZ4COGEVZt4CLtjCOubTXo4lO7jFY3ITXyMmPu81bz4CL77RZjgmPgM2bB81ayQmO7L0alEFTxU1bkQmSg0VY9vyKS8lYgAkbkMWYz4TXsUlO7jFY3gjboIGU4AWY9.COujFY3gjboIGU4AWY9vSZjgWRtAWczMzatYVZm4iM77RZjgWRtAWczMzatYVZm4COoQFdGUUR9.COujFY3cTUI4COoQFdDUlYgUGazYTZrQWYxQUdvUlOxvyKoQFdDUlYgUGazYTZrQWYxQUdvUlO7TVdkMWRvMEcxklam4SLxbiKv3BLtDCOuTVdkMWRvMEcxklam4COkkWYyQTYrQWXT01b9.COuTVdkMGQkwFcgQUay4CO0QFbP8lbz4yMv.CL77RcjAGTuIGc9vyKR81az4C."
+										"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BL3XyM1HCOuH0azgkO7H0azkkOv3hL2TiM3bCOuH0azkkO7H0azokOv3hL4.yLyHCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmO2.CLvvyK0QFbP8lbz4COuH0auQmO.."
 									}
 ,
 									"fileref" : 									{
@@ -1693,7 +1706,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1002.5, 1215.0, 93.0, 22.0 ],
+					"patching_rect" : [ 1002.5, 1198.0, 93.0, 22.0 ],
 					"text" : "r sceneRotation"
 				}
 
@@ -3326,6 +3339,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-231", 0 ],
 					"source" : [ "obj-207", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
