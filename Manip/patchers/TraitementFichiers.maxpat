@@ -7697,7 +7697,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-306", 1 ],
+					"order" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
 
