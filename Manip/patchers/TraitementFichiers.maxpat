@@ -976,7 +976,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1440.0, 277.5001220703125, 29.5, 22.0 ],
+					"patching_rect" : [ 1440.0, 288.5001220703125, 29.5, 22.0 ],
 					"text" : "*"
 				}
 
@@ -989,7 +989,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1440.0, 240.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1440.0, 235.098236083984375, 100.0, 22.0 ],
 					"text" : "r totalListNumber"
 				}
 
@@ -1002,7 +1002,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 240.0, 73.0, 22.0 ],
+					"patching_rect" : [ 1450.5, 261.316802978515625, 73.0, 22.0 ],
 					"text" : "r nombreInv"
 				}
 
@@ -2375,7 +2375,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-84",
-									"int" : 1,
 									"maxclass" : "gswitch",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -3096,7 +3095,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 481.5819091796875, 885.0, 69.0, 22.0 ],
-					"text" : "courbe 1 1"
+					"text" : "courbe 2"
 				}
 
 			}
@@ -4846,7 +4845,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
 					"patching_rect" : [ 116.575241088867188, 283.0, 32.0, 22.0 ],
-					"text" : "t b 2"
+					"text" : "t b 1"
 				}
 
 			}
@@ -5439,7 +5438,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -8138,15 +8137,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Reponses.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
