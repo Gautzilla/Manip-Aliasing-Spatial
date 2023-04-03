@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-309",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 771.892578125, 1111.1373291015625, 202.0, 22.0 ],
+					"text" : "regexp courbe @substitute courbe\\\\\\,"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-307",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -4326,7 +4338,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 721.67041015625, 1135.474853515625, 48.0, 22.0 ],
+					"patching_rect" : [ 719.22601318359375, 1140.0, 48.0, 22.0 ],
 					"text" : "s ready"
 				}
 
@@ -4755,7 +4767,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 920.0963134765625, 1093.5367431640625, 57.0, 22.0 ],
+					"patching_rect" : [ 920.0963134765625, 1085.21630859375, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -4767,7 +4779,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 771.892578125, 1104.005859375, 78.0, 22.0 ],
+					"patching_rect" : [ 771.892578125, 1085.21630859375, 78.0, 22.0 ],
 					"text" : "sprintf %i %s"
 				}
 
@@ -4804,7 +4816,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 771.392578125, 1135.474853515625, 103.0, 22.0 ],
+					"patching_rect" : [ 771.892578125, 1140.0, 103.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -5439,7 +5451,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-96",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -6291,7 +6303,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-309", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -7608,6 +7620,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-309", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-290", 1 ],
 					"source" : [ "obj-311", 0 ]
 				}
@@ -8156,15 +8175,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Reponses.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
