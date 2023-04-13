@@ -1,0 +1,51 @@
+{
+	"pattrstorage" : 	{
+		"name" : "settings",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"ProcedureAdaptative::nombreInversionsAvantPasAdaptatif" : [ 2 ],
+					"ProcedureAdaptative::nombreInversionsTotal" : [ 12 ],
+					"ProcedureAdaptative::pasAprèsAdaptation" : [ 1 ],
+					"ProcedureAdaptative::pasAvantAdaptation" : [ 1 ],
+					"Stimuli::dureeMaxStimuli" : [ 10000 ],
+					"Stimuli::dureePause" : [ 0 ],
+					"UDP::portUDP" : [ 4040 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"ProcedureAdaptative::nombreInversionsAvantPasAdaptatif" : [ 2 ],
+					"ProcedureAdaptative::nombreInversionsTotal" : [ 5 ],
+					"ProcedureAdaptative::pasAprèsAdaptation" : [ 1 ],
+					"ProcedureAdaptative::pasAvantAdaptation" : [ 1 ],
+					"Stimuli::dureeMaxStimuli" : [ 10000 ],
+					"Stimuli::dureePause" : [ 0 ],
+					"UDP::portUDP" : [ 4040 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"ProcedureAdaptative::nombreInversionsAvantPasAdaptatif" : [ 2 ],
+					"ProcedureAdaptative::nombreInversionsTotal" : [ 12 ],
+					"ProcedureAdaptative::pasAprèsAdaptation" : [ 1 ],
+					"ProcedureAdaptative::pasAvantAdaptation" : [ 1 ],
+					"Stimuli::dureeMaxStimuli" : [ 100 ],
+					"Stimuli::dureePause" : [ 0 ],
+					"UDP::portUDP" : [ 4040 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
