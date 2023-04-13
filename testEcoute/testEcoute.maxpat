@@ -40,28 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-110",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 990.0, 323.0, 49.0, 22.0 ],
-					"text" : "print ref"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-107",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 990.0, 300.0, 55.0, 22.0 ],
-					"text" : "print test"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontface" : 1,
 					"fontname" : "Tahoma",
@@ -200,7 +178,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BM4byLxDCOuH0azgkO7H0azkkOv3BM1fSN2HCOuH0azkkO7H0azokOv3hL0LCL4LCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmO2.CLvvyK0QFbP8lbz4COuH0auQmO.."
+							"blob" : "494.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DfrVMjLgjZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RMxTSNzHCOuH0azgkO7H0azkkOv3BMyPyMxbCOuH0azkkO7H0azokOv3RM3DCN77hTuQmV9vyQgkla9.iK4vyKGEVZt4COoQFdBE1byIzauMGc9.COujFY3ITXyMmPu81bz4COS8lYgAkbkMWYz4TXsUlO77xTuYVXPIWYyUFcNEVak4COoQFdHIWZxQUdvUlOvvyKoQFdHIWZxQUdvUlO7jFY3kjavUGcC8lalk1Y9XCOujFY3kjavUGcC8lalk1Y9vSZjg2QUkjOvvyKoQFdGUUR9vSZjgGQkYVX0wFcFkFazUlbTkGbk4iL77RZjgGQkYVX0wFcFkFazUlbTkGbk4COkkWYykDbSQmbo41Y9DiL23BLt.iKwvyKkkWYykDbSQmbo41Y9vSY4U1bDUFazEFUsMmOvvyKkkWYyQTYrQWXT01b9vScjAGTuIGc9bCLv.COuTGYvA0axQmO77hTu8Fc9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -222,7 +200,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BM4byLxDCOuH0azgkO7H0azkkOv3BM1fSN2HCOuH0azkkO7H0azokOv3hL0LCL4LCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmO2.CLvvyK0QFbP8lbz4COuH0auQmO.."
+										"blob" : "494.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DfrVMjLgjZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RMxTSNzHCOuH0azgkO7H0azkkOv3BMyPyMxbCOuH0azkkO7H0azokOv3RM3DCN77hTuQmV9vyQgkla9.iK4vyKGEVZt4COoQFdBE1byIzauMGc9.COujFY3ITXyMmPu81bz4COS8lYgAkbkMWYz4TXsUlO77xTuYVXPIWYyUFcNEVak4COoQFdHIWZxQUdvUlOvvyKoQFdHIWZxQUdvUlO7jFY3kjavUGcC8lalk1Y9XCOujFY3kjavUGcC8lalk1Y9vSZjg2QUkjOvvyKoQFdGUUR9vSZjgGQkYVX0wFcFkFazUlbTkGbk4iL77RZjgGQkYVX0wFcFkFazUlbTkGbk4COkkWYykDbSQmbo41Y9DiL23BLt.iKwvyKkkWYykDbSQmbo41Y9vSY4U1bDUFazEFUsMmOvvyKkkWYyQTYrQWXT01b9vScjAGTuIGc9bCLv.COuTGYvA0axQmO77hTu8Fc9.."
 									}
 ,
 									"fileref" : 									{
@@ -974,7 +952,7 @@
 					"patching_rect" : [ 1117.446428269147873, 30.0, 103.053571730852127, 21.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 135.0, 450.0, 75.0, 35.0 ],
+					"presentation_rect" : [ 135.0, 450.0, 76.0, 35.0 ],
 					"text" : "Start/Stop DSP",
 					"textcolor" : [ 0.862745106220245, 0.843137264251709, 0.788235306739807, 1.0 ],
 					"textjustification" : 1
@@ -1189,7 +1167,6 @@
 					"fontsize" : 24.0,
 					"gradient" : 1,
 					"id" : "obj-389",
-					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -1198,7 +1175,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 555.0, 90.0, 60.0, 37.0 ],
 					"text" : "C",
-					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3787,7 +3764,6 @@
 					"fontsize" : 24.0,
 					"gradient" : 1,
 					"id" : "obj-159",
-					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -3796,7 +3772,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 480.0, 90.0, 60.0, 37.0 ],
 					"text" : "B",
-					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3817,7 +3793,6 @@
 					"fontsize" : 24.0,
 					"gradient" : 1,
 					"id" : "obj-158",
-					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -3826,7 +3801,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 90.0, 59.878048896789551, 37.0 ],
 					"text" : "A",
-					"textcolor" : [ 0.173, 0.212, 0.224, 1.0 ],
+					"textcolor" : [ 0.635, 0.482, 0.361, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -6823,16 +6798,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"order" : 0,
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
-					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -6967,16 +6933,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
-					"order" : 0,
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"order" : 1,
 					"source" : [ "obj-47", 0 ]
 				}
 
