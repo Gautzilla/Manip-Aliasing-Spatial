@@ -40,6 +40,43 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-109",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 480.0, 510.0, 90.0, 48.0 ],
+					"text" : "1 : Vraie manip\n2 : Prétest\n3 : Debug"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubblesize" : 64,
+					"id" : "obj-104",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
+					"patching_rect" : [ 585.0, 510.0, 210.0, 75.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-54", "number", "int", 12, 5, "obj-60", "number", "int", 2, 5, "obj-79", "number", "int", 1, 5, "obj-80", "number", "int", 1, 5, "obj-95", "number", "int", 10000, 5, "obj-97", "number", "int", 0, 5, "obj-100", "number", "int", 4040 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-54", "number", "int", 5, 5, "obj-60", "number", "int", 2, 5, "obj-79", "number", "int", 1, 5, "obj-80", "number", "int", 1, 5, "obj-95", "number", "int", 10000, 5, "obj-97", "number", "int", 0, 5, "obj-100", "number", "int", 4040 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-54", "number", "int", 12, 5, "obj-60", "number", "int", 2, 5, "obj-79", "number", "int", 1, 5, "obj-80", "number", "int", 1, 5, "obj-95", "number", "int", 100, 5, "obj-97", "number", "int", 0, 5, "obj-100", "number", "int", 4040 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
 					"id" : "obj-103",
 					"maxclass" : "newobj",
@@ -529,6 +566,37 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 15.0, 765.0, 180.0 ],
+					"proportion" : 0.5,
+					"prototypename" : "backgroundPanel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-101",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 465.0, 465.0, 135.0, 20.0 ],
+					"suppressinlet" : 1,
+					"text" : "Presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.384313725490196, 0.556862745098039, 0.564705882352941, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-102",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 465.0, 465.0, 435.0, 135.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
