@@ -343,6 +343,30 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 435.0, 525.0, 70.0, 22.0 ],
+									"text" : "loadmess 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 330.0, 570.0, 85.0, 22.0 ],
+									"text" : "s openPresets"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-43",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -428,26 +452,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-28",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 600.0, 89.0, 22.0 ],
-									"presentation_linecount" : 2,
-									"text" : "storagewindow"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
 									"id" : "obj-25",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 630.0, 95.0, 22.0 ],
-									"text" : "s toPattrStorage"
+									"patching_rect" : [ 435.0, 645.0, 81.0, 22.0 ],
+									"text" : "s recallPreset"
 								}
 
 							}
@@ -1069,8 +1080,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-28", 0 ]
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -1092,7 +1103,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-28", 0 ],
+									"destination" : [ "obj-27", 0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -2072,7 +2083,7 @@
 ,
 					"patching_rect" : [ 22.0, 523.0, 111.48529052734375, 110.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 591.0, 319.0, 300.0, 300.0 ],
+					"presentation_rect" : [ 456.0, 328.0, 300.0, 300.0 ],
 					"varname" : "bP_main",
 					"viewvisibility" : 1
 				}
@@ -3207,6 +3218,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "settings.json",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
