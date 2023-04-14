@@ -36,9 +36,9 @@ Chaque fichier d'écriture des réponse est constitué de listes correspondant �
 
 Les paramètes liés à la procédure adaptative, aux stimuli ou à la connexion UDP peuvent être modifiés.
 
+Dans les options (bouton <img src="https://github.com/Gautzilla/Manip-Aliasing-Spatial/blob/main/Manip/media/setupBtnSolo.png?raw=true" width="20" height="20"> de l'écran principal `Main`), sélectionner `Test settings` pour modifier les trois présets, sélectionnables via `Recall Settings`.
 
-
-Dans les options (<img src="https://github.com/Gautzilla/Manip-Aliasing-Spatial/blob/main/Manip/media/setupBtnSolo.png?raw=true" width="20" height="20"> de l'écran principal `Main`), sélectionner `Test settings` pour modifier les trois présets, sélectionnables via `Recall Settings`.
+Les présets sont sauvegardés dans le fichier `Manip-Aliasing-Spatial/Manip/settings.json`.
 
 | Section | Paramètre | Signification |
 | ------------ | ------------ |------------ |
