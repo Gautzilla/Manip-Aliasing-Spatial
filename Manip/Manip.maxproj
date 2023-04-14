@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3761808924,
+	"modificationdate" : 3764231550,
 	"viewrect" : [ 2089.0, 299.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -32,6 +32,11 @@
 			}
 ,
 			"TraitementFichiers.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Settings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
