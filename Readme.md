@@ -32,14 +32,23 @@ Chaque fichier d'écriture des réponse est constitué de listes correspondant �
 | TraitementFichiers | <ul><li>Lit les fichiers en entrée.</li><li>Sélectionne les combinaisons de variables formant les stimulis à lire par le player audio.</li><li>Traite la réponse du sujet et met à jour les combinaisons.</li><li>Ecrit les backups et les résultats en fin de test.</li></ul> |
 | AudioPlayer | <ul><li>Charge les fichiers audio correspondants à chaque essai.</li><li>Gère la rotation HOA (via une connection UDP avec un tracker) et le décodage binaural.</li><li>Gère l'écoute séquentielle ABC.</li></ul>|
 
-## Paramètres de la procédure adaptative
+## Paramètres du test
 
-Les paramètes liés à la procédure adaptative doivent être modifiés :
+Les paramètes liés à la procédure adaptative, aux stimuli ou à la connexion UDP peuvent être modifiés.
 
-| Paramètre | Patcher | Onglet (`objet`) | Signification |
-| ------------ | ------------ | ------------ | ------------ |
-| Nombre d'inversions | Main | initialisation (`loadmess`) | Nombre d'inversions néecessaires pour compléter la courbe d'égalisation.|
-| Pas adaptatif | TraitementFichiers | 0 | Paramètres du pas adaptatif : nombre d'inversions pour changer de pas, pas avant/après changement. |
+
+
+Dans les options (<img src="https://github.com/Gautzilla/Manip-Aliasing-Spatial/blob/main/Manip/media/setupBtnSolo.png?raw=true" width="20" height="20"> de l'écran principal `Main`), sélectionner `Test settings` pour modifier les trois présets, sélectionnables via `Recall Settings`.
+
+| Section | Paramètre | Signification |
+| ------------ | ------------ |------------ |
+| **Procédure adaptative** | `nombreInversionsAvantPasAdaptatif` |Nombre d'inversions avant que le pas de la courbe d'égalisation soit adapté.|
+| **Procédure adaptative** | `nombreInversionsTotal` |Nombre total d'inversions nécessaires pour compléter une courbe d'égalisation.|
+| **Procédure adaptative** | `pasAprèsAdaptation` |Pas de la courbe d'égalisation après l'adaptation du pas.|
+| **Procédure adaptative** | `pasAvantAdaptation` |Pas de la courbe d'égalisation avant l'adaptation du pas.|
+| **Stimuli** | `dureeMaxStimuli` |Durée maximale de chaque stimulus. Si les fichiers sont plus courts que cette durée, ils sont joués en entier.|
+| **Stimuli** | `dureePause` |Durée de la pause entre chaque stimulus A, B et C.|
+| **UDP** | `portUDP` |Port UDP sur lequel lire les informations de tracking.|
 
 ## Départ différé des listes
 
