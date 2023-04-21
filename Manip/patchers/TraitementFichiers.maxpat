@@ -40,6 +40,44 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-251",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 990.0, 495.0, 40.0, 22.0 ],
+					"text" : "r nVar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-332",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1976.0, 974.5, 29.5, 22.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-331",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1976.0, 945.13555908203125, 40.0, 22.0 ],
+					"text" : "r nVar"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
 					"id" : "obj-319",
 					"maxclass" : "newobj",
@@ -753,8 +791,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1792.0, 403.936531066894531, 101.0, 119.0 ],
-					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data/Reponses.txt\""
+					"patching_rect" : [ 1792.0, 403.936531066894531, 87.0, 119.0 ],
+					"text" : "\"C:/Users/Gauthier/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data/Reponses.txt\""
 				}
 
 			}
@@ -2436,6 +2474,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-84",
+									"int" : 1,
 									"maxclass" : "gswitch",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -3155,8 +3194,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.5819091796875, 885.0, 69.0, 22.0 ],
-					"text" : "courbe 1 1"
+					"patching_rect" : [ 481.5819091796875, 885.0, 162.0, 22.0 ],
+					"text" : "courbe\\, 1 1 3 1 2 1 3 1 2 1 2"
 				}
 
 			}
@@ -4955,7 +4994,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 116.575241088867188, 329.5, 101.0, 105.0 ],
-					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data/session\""
+					"text" : "\"C:/Users/Gauthier/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data/session\""
 				}
 
 			}
@@ -5606,7 +5645,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1065.0, 15.0, 180.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "Calcule le nombre de variables"
 				}
@@ -7324,6 +7362,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-193", 1 ],
+					"source" : [ "obj-251", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 1 ],
 					"source" : [ "obj-252", 0 ]
 				}
@@ -7811,6 +7856,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-322", 0 ],
 					"source" : [ "obj-324", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-332", 0 ],
+					"source" : [ "obj-331", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-280", 1 ],
+					"source" : [ "obj-332", 0 ]
 				}
 
 			}
