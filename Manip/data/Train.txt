@@ -1,2 +1,2 @@
-1, quartet controlroom GaussLegendre 8cm 1 1 courbe;
-2, noise controlroom GaussLegendre 8cm 1 1 courbe;
+1, quartet controlroom Extremal 8cm noeq 7 1 courbe;
+2, noise controlroom Extremal 8cm noeq 7 1 courbe;

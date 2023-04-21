@@ -1,7 +1,8 @@
-quartet noise speech
-broadcastingstudio controlroom
+quartet noise
+controlroom
 Extremal GaussLegendre
 6cm 8cm
-1
+eq noeq
+7
 1
 courbe
