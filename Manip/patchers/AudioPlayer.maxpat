@@ -913,7 +913,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 525.0, 525.0, 370.0, 22.0 ],
-					"text" : "regexp _[^\\\\W_]+_\\\\d+_\\\\d+[^\\\\W_]+(_[^\\\\W_]+)?_o7 @substitute %0"
+					"text" : "regexp _[^\\\\W_]+_\\\\d+_\\\\d+[^\\\\W_]+_o7(_[^\\\\W_]+)? @substitute %0"
 				}
 
 			}
@@ -2233,11 +2233,11 @@
 				"box" : 				{
 					"id" : "obj-86",
 					"maxclass" : "newobj",
-					"numinlets" : 12,
+					"numinlets" : 13,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 435.0, 557.0, 22.0 ],
-					"text" : "combine extrait _ salle _ disposition _ nMic _ rayon _ egalisation _o7.wav @padding 0 0 0 0 0 0 4 0 0 0"
+					"patching_rect" : [ 45.0, 435.0, 560.0, 22.0 ],
+					"text" : "combine extrait _ salle _ disposition _ nMic _ rayon _o7 _ egalisation .wav @padding 0 0 0 0 0 0 4 0 0 0"
 				}
 
 			}
@@ -2938,7 +2938,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 10 ],
+					"destination" : [ "obj-86", 11 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
