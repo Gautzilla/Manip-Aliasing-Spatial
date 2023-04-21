@@ -76,7 +76,7 @@ Spécificités pour la procédure 3I2AFC, après avoir entré les différentes v
 
 | Signification | Nombre de lignes | Valeur(s) |
 | ------------ | ------------ | ------------ |
-| Variable dépendante (ici nombre de micros) | 1 | `1` (démarre avec le plus petit nombre de micros) |
+| Variable dépendante (ici ordre de la grille) | 1 | `7` (démarre avec l'ordre le plus petit N=7) |
 | Direction de la courbe d'égalisation | 1 | `1` (courbe ascendante au départ) |
 | Valeurs des inversions  | 1 | `courbe` ; les valeurs aux inversions seront concaténées à la suite.|
 
@@ -84,18 +84,18 @@ Exemple de fichier `variables.txt` :
 
     pinkNoise drums speech
     FreeField ReverberantRoom
-    1
+    7
     1
     courbe
 
 Donne en sortie le fichier `listes.txt` correspondant :
 
-    1, pinkNoise FreeField 1 1 courbe;
-    2, pinkNoise ReverberantRoom 1 1 courbe;
-    3, drums FreeField 1 1 courbe;
-    4, drums ReverberantRoom 1 1 courbe;
-    5, speech FreeField 1 1 courbe;
-    6, speech ReverberantRoom 1 1 courbe;
+    1, pinkNoise FreeField 7 1 courbe;
+    2, pinkNoise ReverberantRoom 7 1 courbe;
+    3, drums FreeField 7 1 courbe;
+    4, drums ReverberantRoom 7 1 courbe;
+    5, speech FreeField 7 1 courbe;
+    6, speech ReverberantRoom 7 1 courbe;
 
 
 ## Rotation de la scène en temps réel

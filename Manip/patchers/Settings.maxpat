@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 81.0, 842.0, 883.0 ],
+		"rect" : [ 823.0, 147.0, 1229.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 876.0, 165.0, 123.0, 22.0 ],
+					"text" : "s ordreGrilleMinimum"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.0, 45.0, 60.0, 22.0 ],
+					"text" : "loadmess"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "message",
@@ -264,11 +288,11 @@
 					"id" : "obj-23",
 					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 540.0, 60.0, 450.0, 36.0 ],
-					"text" : "route nombreInversionsTotal nombreInversionsAvantPasAdaptatif pasAvantAdaptation pasAprèsAdaptation"
+					"text" : "route nombreInversionsTotal nombreInversionsAvantPasAdaptatif pasAvantAdaptation pasAprèsAdaptation ordreGrilleMinimum"
 				}
 
 			}
@@ -344,7 +368,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -483,7 +507,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -647,13 +671,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1958.0, 81.0, 842.0, 883.0 ],
+						"rect" : [ 1211.0, 169.0, 515.0, 883.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -683,6 +707,30 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 330.0, 240.0, 60.0, 22.0 ],
+									"varname" : "ordreGrilleMinimum"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 45.0, 240.0, 150.0, 20.0 ],
+									"text" : "Ordre de grille minimum"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -692,6 +740,7 @@
 									"restore" : 									{
 										"nombreInversionsAvantPasAdaptatif" : [ 2 ],
 										"nombreInversionsTotal" : [ 12 ],
+										"ordreGrilleMinimum" : [ 7 ],
 										"pasAprèsAdaptation" : [ 1 ],
 										"pasAvantAdaptation" : [ 1 ]
 									}
@@ -834,7 +883,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 22.5, 30.0, 442.5, 240.0 ],
+									"patching_rect" : [ 22.5, 30.0, 442.5, 285.0 ],
 									"proportion" : 0.5,
 									"prototypename" : "backgroundPanel"
 								}
@@ -937,19 +986,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
-					"id" : "obj-110",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 45.0, 31.0, 22.0 ],
-					"text" : "r init"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-109",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -1030,7 +1066,7 @@
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 69, 1167, 519 ]
 					}
 ,
 					"text" : "pattrstorage settings",
@@ -1119,8 +1155,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 375.0, 300.0, 36.0 ],
-					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Stimuli/\"",
+					"patching_rect" : [ 525.0, 375.0, 278.0, 36.0 ],
+					"text" : "D:/Audio/HDAudio3D/ManipAliasingSpatial/Stimuli/",
 					"varname" : "stimuliFolderPath"
 				}
 
@@ -1297,13 +1333,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
-					"source" : [ "obj-110", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-113", 1 ]
 				}
@@ -1388,6 +1417,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-23", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -1432,6 +1468,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1536,6 +1579,15 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "settings.json",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 2092.0, 1273.0 ],
+		"rect" : [ 42.0, 85.0, 2492.0, 1289.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -655,14 +655,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "AmbiHeadHD.vst3",
+							"pluginname" : "AmbiHeadHD.dll",
 							"plugindisplayname" : "Ambi Head HD",
 							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "949.VMjLgv5....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XSM23hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtfDTjYTR5AkaA4hKtfDTPgzYDEkKDYVPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAQDcUMTRSgjXF4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoQUc3XzX4XWdU8VTFMlazLES2bCdU8VTFMlazLzSRgiQigEMCwDcTMzS0gDLgo2Yq8zMHASX5s1ZOY2LR0zM2fFU0E0UVkicoQUcQ0lU43RZKAic4sjT3XzXZQyPOcTQVoEczLDSzo1POUmXTg0azv1S2nlQYMSRTgUdM0FT0gSLhoGMCwzM2HkVpcVaPcVSxHlP3DSX4EUaOcCSvDFaEYDU3UULhsVTsM0YvXUV4XWdKMENrk0YAslXq0zUYoGMTg0bUw1S2nlQYMyYpI1aIcTUzDzUYkiKC8TcpYTVyblZh8VRGUEMAcUV4X2TZo1YWIEcAc0X50jdgQWVVoUazjFS2biTZo1YWIEcAc0X50jdgQWVVoUazLzSuEkQjcTUUIUNtLzS0olQYMyXTUURzLzSuEkQjQTUrk0YUcTX5kEUZIWTWkEdQUEY1UEaOgmc4szaQYDYDUEaYcVUGEldYQkVxE0UYgWTUQlcUw1S2PkUjsVSWIkcMUzX3sFag0FMSwDdhk1R1MiPLQGQC8TcTYEYq0zURYWSEMFdqwVXsQyPOs1ZWkUdQQUVxE0UXQELwHVNtLzS0QkUjsVSGE0Z2YzXmEUUgkGMC8DLQYjXPgCahoGMC0jcPMDS2biTioVPGQUcIczX4XWdKIENwDldzLjKt3hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQF4RPDYFTzDzUXkWSG4RPDYmKtnWPt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgEOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
+							"blob" : "481.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DPoVMjLgvY....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RM77hTuQGV9viTuQWV9.iK0vyKR8FcY4COR8FcZ4CLtTCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclOxvyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmOz.CMvvyK0QFbP8lbz4COuH0auQmO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -672,19 +672,19 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "Ambi Head HD",
-									"origin" : "AmbiHeadHD.vst3",
-									"type" : "VST3",
+									"origin" : "AmbiHeadHD.dll",
+									"type" : "VST",
 									"subtype" : "AudioEffect",
 									"embed" : 1,
 									"snapshot" : 									{
-										"pluginname" : "AmbiHeadHD.vst3",
+										"pluginname" : "AmbiHeadHD.dll",
 										"plugindisplayname" : "Ambi Head HD",
 										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "949.VMjLgv5....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XSM23hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtfDTjYTR5AkaA4hKtfDTPgzYDEkKDYVPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAQDcUMTRSgjXF4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcoQUc3XzX4XWdU8VTFMlazLES2bCdU8VTFMlazLzSRgiQigEMCwDcTMzS0gDLgo2Yq8zMHASX5s1ZOY2LR0zM2fFU0E0UVkicoQUcQ0lU43RZKAic4sjT3XzXZQyPOcTQVoEczLDSzo1POUmXTg0azv1S2nlQYMSRTgUdM0FT0gSLhoGMCwzM2HkVpcVaPcVSxHlP3DSX4EUaOcCSvDFaEYDU3UULhsVTsM0YvXUV4XWdKMENrk0YAslXq0zUYoGMTg0bUw1S2nlQYMyYpI1aIcTUzDzUYkiKC8TcpYTVyblZh8VRGUEMAcUV4X2TZo1YWIEcAc0X50jdgQWVVoUazjFS2biTZo1YWIEcAc0X50jdgQWVVoUazLzSuEkQjcTUUIUNtLzS0olQYMyXTUURzLzSuEkQjQTUrk0YUcTX5kEUZIWTWkEdQUEY1UEaOgmc4szaQYDYDUEaYcVUGEldYQkVxE0UYgWTUQlcUw1S2PkUjsVSWIkcMUzX3sFag0FMSwDdhk1R1MiPLQGQC8TcTYEYq0zURYWSEMFdqwVXsQyPOs1ZWkUdQQUVxE0UXQELwHVNtLzS0QkUjsVSGE0Z2YzXmEUUgkGMC8DLQYjXPgCahoGMC0jcPMDS2biTioVPGQUcIczX4XWdKIENwDldzLjKt3hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQF4RPDYFTzDzUXkWSG4RPDYmKtnWPt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgEOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
+										"blob" : "481.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DPoVMjLgvY....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RM77hTuQGV9viTuQWV9.iK0vyKR8FcY4COR8FcZ4CLtTCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclOxvyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmOz.CMvvyK0QFbP8lbz4COuH0auQmO.."
 									}
 ,
 									"fileref" : 									{
@@ -692,7 +692,7 @@
 										"filename" : "Ambi Head HD.maxsnap",
 										"filepath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data",
 										"filepos" : -1,
-										"snapshotfileid" : "04cbd599a9df771c940fc4bdacc59b3f"
+										"snapshotfileid" : "75fcc7714f076709eecfa87549eae179"
 									}
 
 								}

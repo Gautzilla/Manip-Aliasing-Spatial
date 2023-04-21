@@ -395,7 +395,7 @@
 									"presentation_rect" : [ 60.0, 165.0, 18.0, 50.0 ],
 									"shape" : 2,
 									"size" : 3,
-									"value" : 0
+									"value" : 2
 								}
 
 							}
@@ -1901,7 +1901,6 @@
 							}
 , 							{
 								"box" : 								{
-									"active" : 0,
 									"id" : "obj-5",
 									"inactiveimage" : 1,
 									"maxclass" : "pictctrl",
