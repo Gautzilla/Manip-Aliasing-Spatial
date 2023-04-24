@@ -3,5 +3,15 @@
 		"Gauss-Legendre" : 1,
 		"Extremal" : 1
 	}
+,
+	"Gauthier_BerthomieuZilla" : 	{
+		"Gauss-Legendre" : 0,
+		"Extremal" : 0
+	}
+,
+	"Gaut_Gaut" : 	{
+		"Gauss-Legendre" : 1,
+		"Extremal" : 0
+	}
 
 }

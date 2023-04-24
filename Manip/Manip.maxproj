@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3765190812,
+	"modificationdate" : 3765195506,
 	"viewrect" : [ 2089.0, 299.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -48,12 +48,12 @@
 		}
 ,
 		"data" : 		{
-			"Stimuli.txt" : 			{
+			"Reponses.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"Reponses.txt" : 			{
+			"Stimuli.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -70,6 +70,16 @@
 ,
 			"subtests.json" : 			{
 				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Stimuli_Extremal.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"Stimuli_Gauss-Legendre.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 
