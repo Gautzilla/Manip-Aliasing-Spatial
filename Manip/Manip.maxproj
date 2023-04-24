@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3764231550,
+	"modificationdate" : 3765190812,
 	"viewrect" : [ 2089.0, 299.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -31,12 +31,12 @@
 				"local" : 1
 			}
 ,
-			"TraitementFichiers.maxpat" : 			{
+			"Settings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Settings.maxpat" : 			{
+			"TraitementFichiers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -48,6 +48,11 @@
 		}
 ,
 		"data" : 		{
+			"Stimuli.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
 			"Reponses.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
@@ -58,13 +63,13 @@
 				"local" : 1
 			}
 ,
-			"Stimuli.txt" : 			{
+			"NombreMicros.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"NombreMicros.txt" : 			{
-				"kind" : "textfile",
+			"subtests.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 
@@ -75,7 +80,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial",
+					"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial",
 					"projectrelativepath" : ".."
 				}
 
