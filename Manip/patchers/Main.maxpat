@@ -456,7 +456,7 @@
 					"fontface" : 1,
 					"fontname" : "Tahoma",
 					"id" : "obj-169",
-					"items" : "Gauss-Legendre",
+					"items" : [ "Gauss-Legendre", ",", "Extremal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3256,7 +3256,7 @@
 									"fontface" : 1,
 									"fontname" : "Tahoma",
 									"id" : "obj-112",
-									"items" : "<empty>",
+									"items" : [ "Gauthier", "Berthomieu", ",", "Prénom", "Nom" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3591,7 +3591,7 @@
 ,
 					"patching_rect" : [ 22.0, 523.0, 111.48529052734375, 110.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1096.0, 514.0, 300.0, 345.0 ],
+					"presentation_rect" : [ 907.0, 514.0, 300.0, 345.0 ],
 					"varname" : "bP_main",
 					"viewvisibility" : 1
 				}
@@ -5458,17 +5458,17 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Reponses.txt",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Settings.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Stimuli_Gauss-Legendre.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
