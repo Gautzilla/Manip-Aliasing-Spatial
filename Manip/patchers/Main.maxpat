@@ -456,7 +456,7 @@
 					"fontface" : 1,
 					"fontname" : "Tahoma",
 					"id" : "obj-169",
-					"items" : [ "Gauss-Legendre", ",", "Extremal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1449,7 +1449,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 760.0, 291.0, 107.0, 22.0 ],
+					"patching_rect" : [ 765.0, 315.0, 107.0, 22.0 ],
 					"text" : "s answersFilePath"
 				}
 
@@ -1461,7 +1461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 748.0, 258.0, 31.0, 22.0 ],
+					"patching_rect" : [ 750.0, 285.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -1473,7 +1473,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 748.0, 232.0, 67.0, 22.0 ],
+					"patching_rect" : [ 750.0, 255.0, 67.0, 22.0 ],
 					"text" : "opendialog"
 				}
 
@@ -1488,7 +1488,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 748.0, 193.5, 299.0, 36.0 ],
+					"patching_rect" : [ 750.0, 210.0, 299.0, 36.0 ],
 					"text" : "dialog Pointer vers le fichier de sauvegarde des réponses: @mode 1"
 				}
 
@@ -1502,7 +1502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 748.0, 330.0, 273.0, 22.0 ],
+					"patching_rect" : [ 750.0, 345.0, 273.0, 22.0 ],
 					"text" : "dialog Pointer vers le fichier de backup: @mode 1"
 				}
 
@@ -2591,7 +2591,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 748.0, 135.0, 31.0, 22.0 ],
+					"patching_rect" : [ 750.0, 150.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -2603,7 +2603,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 748.0, 75.0, 129.0, 22.0 ],
+					"patching_rect" : [ 750.0, 90.0, 129.0, 22.0 ],
 					"text" : "symbol \"Prénom Nom\""
 				}
 
@@ -2617,7 +2617,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 748.0, 105.0, 76.0, 22.0 ],
+					"patching_rect" : [ 750.0, 120.0, 76.0, 22.0 ],
 					"text" : "dialog Nom :"
 				}
 
@@ -2629,7 +2629,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 760.0, 165.0, 73.0, 22.0 ],
+					"patching_rect" : [ 765.0, 180.0, 73.0, 22.0 ],
 					"text" : "s userName"
 				}
 
@@ -2642,7 +2642,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 748.0, 37.0, 24.0, 24.0 ]
+					"patching_rect" : [ 750.0, 60.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2653,7 +2653,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 748.0, 365.0, 81.0, 22.0 ],
+					"patching_rect" : [ 750.0, 375.0, 81.0, 22.0 ],
 					"text" : "s loadBackup"
 				}
 
@@ -3256,7 +3256,7 @@
 									"fontface" : 1,
 									"fontname" : "Tahoma",
 									"id" : "obj-112",
-									"items" : [ "Gauthier", "Berthomieu", ",", "Prénom", "Nom" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3338,6 +3338,7 @@
 							}
 , 							{
 								"box" : 								{
+									"active" : 0,
 									"id" : "obj-5",
 									"inactiveimage" : 1,
 									"maxclass" : "pictctrl",
@@ -3591,7 +3592,7 @@
 ,
 					"patching_rect" : [ 22.0, 523.0, 111.48529052734375, 110.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 907.0, 514.0, 300.0, 345.0 ],
+					"presentation_rect" : [ 1096.0, 514.0, 300.0, 345.0 ],
 					"varname" : "bP_main",
 					"viewvisibility" : 1
 				}
