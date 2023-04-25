@@ -1,3 +1,12 @@
 {
+	"Prénom_Nom" : 	{
+		"Gauss-Legendre" : 1,
+		"Extremal" : 1
+	}
+,
+	"Gauthier" : 	{
+		"Gauss-Legendre" : 1,
+		"Extremal" : 1
+	}
 
 }
