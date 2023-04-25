@@ -1,4 +1,5 @@
 
+
 # Manip Aliasing Spatial
 
 Projet **MaxMSP** pour analyser les seuils de détection de l'erreur d'aliasing sur un système VHOA, utilisant une procédure 3I/3AFC.
@@ -6,14 +7,23 @@ Projet **MaxMSP** pour analyser les seuils de détection de l'erreur d'aliasing 
 ## Fichiers en entrée :
 | Fichier | Rôle |
 | ------------ | ------------ |
-| Train.txt | Conditions expérimentales pour la session d'entraînement. |
-| Stimuli.txt | Conditions expérimentales pour la session de test. |
-| NombreMicros.txt | Valeurs que peut prendre nMic, le nombre de micros sur l'antenne (points sur la courbe d'égalisation). Cette variable dépendante est traitée par **indices** (de 1 à 13). Les nombres de micros correspondants sont spécifiés dans ce fichier, précédés du nom de la grille correspondante (Extremal ou Gauss-Legendre). |
+| `Train.txt` | Conditions expérimentales pour la session d'entraînement. |
+| `Stimuli.txt` | Conditions expérimentales pour la session de test. |
+| `Stimuli_Grille.txt` | Conditions expérimentales pour la session de sous-test n'incluant qu'un niveau donné de la variable grille (`Extremal` ou `Gauss-Legendre`). |
+| `NombreMicros.txt` | Valeurs que peut prendre nMic, le nombre de micros sur l'antenne (points sur la courbe d'égalisation). Cette variable dépendante est traitée par **indices** (de 1 à 13). Les nombres de micros correspondants sont spécifiés dans ce fichier, précédés du nom de la grille correspondante (Extremal ou Gauss-Legendre). |
+| `users.json`| Répertorie les différents participants du test et les sous-tests qu'ils ont déjà passé. |
+
+## Sous-tests :
+La session de test est divisé en deux sous-tests, l'une concernant la grille `Extremal` et l'une concernant la grille `Gauss-Legendre`.
+Lors du lancement du test :
+
+ -  Le participant entre son nom s'il passe son premier sous-test, qui est aléatoirement choisi entre les deux sous-tests possibles.
+ - Le participant pointe vers son nom dans une liste s'il passe son second sous-test, puis est redirigé vers le sous-test qu'il n'a pas encore passé.
 
 ## Fichier d'écriture des résultats
 Les résultats sont écrits dans le dossier `Manip-Aliasing-Spatial\Manip\resultats` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
 
-Le nom d'un fichier de résultat est formaté sous la forme `Prénom-Nom_Date_Heure`.
+Le nom d'un fichier de résultat est formaté sous la forme `Prénom_Nom_Date_Heure`.
 
 Lors du test et après chaque essai réalisé par le sujet, un fichier de backup est enregistré dans le dossier `Manip-Aliasing-Spatial\Manip\backups` (le dossier doit être présent pour que l'écriture se fasse au bon endroit).
 Ce fichier peut être chargé manuellement en cliquant sur le message `read` dans la partie 1 du patcher `TraitementFichiers`.
