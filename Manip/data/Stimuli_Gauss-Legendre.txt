@@ -1,0 +1,8 @@
+1, quartet controlroom GaussLegendre 6cm eq 7 1 courbe;
+2, quartet controlroom GaussLegendre 6cm noeq 7 1 courbe;
+3, quartet controlroom GaussLegendre 8cm eq 7 1 courbe;
+4, quartet controlroom GaussLegendre 8cm noeq 7 1 courbe;
+5, noise controlroom GaussLegendre 6cm eq 7 1 courbe;
+6, noise controlroom GaussLegendre 6cm noeq 7 1 courbe;
+7, noise controlroom GaussLegendre 8cm eq 7 1 courbe;
+8, noise controlroom GaussLegendre 8cm noeq 7 1 courbe;
