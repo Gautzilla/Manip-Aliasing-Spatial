@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 823.0, 147.0, 1229.0, 883.0 ],
+		"rect" : [ 34.0, 81.0, 1852.0, 939.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,80 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 75.0, 585.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.631372549019608, 0.27843137254902, 0.180392156862745, 1.0 ],
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 165.0, 630.0, 81.0, 22.0 ],
+					"text" : "s recallPreset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 270.0, 585.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 165.0, 585.0, 22.0, 22.0 ],
+					"text" : "t 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 270.0, 555.0, 55.0, 22.0 ],
+					"text" : "r runTest"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 165.0, 555.0, 86.0, 22.0 ],
+					"text" : "r entrainement"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -47,18 +121,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 876.0, 165.0, 123.0, 22.0 ],
 					"text" : "s ordreGrilleMinimum"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 45.0, 60.0, 22.0 ],
-					"text" : "loadmess"
 				}
 
 			}
@@ -119,8 +181,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 480.0, 91.0, 22.0 ],
-					"text" : "s dumpSettings"
+					"patching_rect" : [ 240.0, 480.0, 81.0, 22.0 ],
+					"text" : "s recallPreset"
 				}
 
 			}
@@ -739,7 +801,7 @@
 									"patching_rect" : [ 405.0, 30.0, 60.0, 22.0 ],
 									"restore" : 									{
 										"nombreInversionsAvantPasAdaptatif" : [ 2 ],
-										"nombreInversionsTotal" : [ 12 ],
+										"nombreInversionsTotal" : [ 9 ],
 										"ordreGrilleMinimum" : [ 7 ],
 										"pasAprèsAdaptation" : [ 1 ],
 										"pasAvantAdaptation" : [ 1 ]
@@ -930,57 +992,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 273.0, 360.0, 117.0, 22.0 ],
+					"patching_rect" : [ 150.0, 360.0, 117.0, 22.0 ],
 					"text" : "pattrstorage settings"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
-					"id" : "obj-116",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 360.0, 110.0, 22.0 ],
-					"text" : "r recallTestSettings"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-113",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "dump", "int" ],
-					"patching_rect" : [ 30.0, 75.0, 55.0, 22.0 ],
-					"text" : "t dump 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.631372549019608, 0.27843137254902, 0.180392156862745, 1.0 ],
-					"id" : "obj-112",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 135.0, 91.0, 22.0 ],
-					"text" : "s dumpSettings"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.631372549019608, 0.27843137254902, 0.180392156862745, 1.0 ],
-					"id" : "obj-111",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 105.0, 112.0, 22.0 ],
-					"text" : "s recallTestSettings"
 				}
 
 			}
@@ -1156,8 +1169,39 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 375.0, 278.0, 36.0 ],
-					"text" : "D:/Audio/HDAudio3D/ManipAliasingSpatial/Stimuli/",
+					"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Stimuli/\"",
 					"varname" : "stimuliFolderPath"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 525.0, 135.0, 20.0 ],
+					"suppressinlet" : 1,
+					"text" : "Appel des presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.384313725490196, 0.556862745098039, 0.564705882352941, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-37",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 525.0, 435.0, 165.0 ],
+					"proportion" : 0.5,
+					"prototypename" : "backgroundPanel"
 				}
 
 			}
@@ -1333,27 +1377,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-111", 0 ],
-					"source" : [ "obj-113", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
-					"source" : [ "obj-113", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-104", 0 ],
-					"source" : [ "obj-116", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
@@ -1473,8 +1496,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -1491,6 +1535,13 @@
 					"destination" : [ "obj-137", 0 ],
 					"order" : 1,
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-44", 0 ]
 				}
 
 			}
@@ -1579,15 +1630,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "settings.json",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"clearcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 		"bgcolor" : [ 0.172549019607843, 0.211764705882353, 0.223529411764706, 1.0 ]
 	}

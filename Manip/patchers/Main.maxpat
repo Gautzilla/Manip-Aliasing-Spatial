@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 2092.0, 1289.0 ],
+		"rect" : [ 1954.0, 81.0, 1212.0, 883.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1095.0, 330.0, 330.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Crée un nouvel utilisateur s'il n'existe pas déjà dans le dict"
 				}
 
@@ -91,7 +90,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1095.0, 60.0, 240.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Récupère le dict contenant les participants"
 				}
 
@@ -103,7 +101,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1440.0, 60.0, 255.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Met à jour le dict avec le participant actuel"
 				}
 
@@ -1659,7 +1656,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.847058823529412, 0.76078431372549, 0.337254901960784, 1.0 ],
+					"color" : [ 0.811764705882353, 0.494117647058824, 0.247058823529412, 1.0 ],
 					"id" : "obj-111",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1675,8 +1672,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1139.0, 376.0, 245.0, 222.0 ],
-						"bglocked" : 0,
+						"rect" : [ 2547.0, 532.0, 246.0, 229.0 ],
+						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -1705,13 +1702,38 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-26",
+									"id" : "obj-47",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 435.0, 525.0, 70.0, 22.0 ],
-									"text" : "loadmess 0"
+									"patching_rect" : [ 435.0, 615.0, 72.0, 22.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 435.0, 585.0, 29.5, 22.0 ],
+									"text" : "- 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+									"id" : "obj-80",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 435.0, 555.0, 79.0, 22.0 ],
+									"text" : "r recallPreset"
 								}
 
 							}
@@ -1734,7 +1756,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 435.0, 615.0, 29.5, 22.0 ],
+									"patching_rect" : [ 435.0, 705.0, 29.5, 22.0 ],
 									"text" : "+ 1"
 								}
 
@@ -1752,7 +1774,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 435.0, 555.0, 18.0, 50.0 ],
+									"patching_rect" : [ 435.0, 645.0, 18.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 60.0, 165.0, 18.0, 50.0 ],
 									"shape" : 2,
@@ -1770,7 +1792,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 570.0, 122.0, 79.0 ],
+									"patching_rect" : [ 450.0, 660.0, 122.0, 79.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 60.0, 135.0, 183.0, 79.0 ],
@@ -1819,7 +1841,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 435.0, 645.0, 81.0, 22.0 ],
+									"patching_rect" : [ 435.0, 735.0, 81.0, 22.0 ],
 									"text" : "s recallPreset"
 								}
 
@@ -2002,13 +2024,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-102",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.29998779296875, 691.5, 175.0, 36.0 ],
-									"text" : "D:/Audio/HDAudio3D/ManipAliasingSpatial/Stimuli/"
+									"patching_rect" : [ 54.29998779296875, 691.5, 175.0, 22.0 ]
 								}
 
 							}
@@ -2033,7 +2053,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.29998779296875, 404.0, 198.0, 50.0 ],
-									"text" : "\"C:/Users/Gauthier/Documents/Max 8/Projects/Manip-Aliasing-Spatial/\""
+									"text" : "\"C:/Users/User/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/\""
 								}
 
 							}
@@ -2209,7 +2229,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 495.0, 255.0, 180.0 ],
+									"patching_rect" : [ 315.0, 495.0, 285.0, 285.0 ],
 									"proportion" : 0.5,
 									"prototypename" : "backgroundPanel"
 								}
@@ -2444,13 +2464,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-102", 0 ],
 									"order" : 1,
 									"source" : [ "obj-3", 0 ]
@@ -2495,6 +2508,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-102", 0 ],
 									"source" : [ "obj-7", 1 ]
 								}
@@ -2525,6 +2552,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-100", 0 ],
 									"source" : [ "obj-73", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-80", 0 ]
 								}
 
 							}
@@ -3225,8 +3259,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 164.0, 303.0, 73.0, 21.0 ],
 									"text" : "Valider",
-									"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ],
-									"textjustification" : 0
+									"textcolor" : [ 0.635294139385223, 0.482352942228317, 0.360784322023392, 1.0 ]
 								}
 
 							}
@@ -3680,7 +3713,7 @@
 ,
 					"patching_rect" : [ 22.0, 523.0, 111.48529052734375, 110.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1096.0, 514.0, 300.0, 345.0 ],
+					"presentation_rect" : [ 456.0, 306.0, 300.0, 345.0 ],
 					"varname" : "bP_main",
 					"viewvisibility" : 1
 				}
@@ -5519,134 +5552,127 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Ambi Head HD.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "AudioPlayer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BtnControl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Interface.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Reponses.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Settings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TogglePlay.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TraitementFichiers.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "btnEntrainement.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "btnOk.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "btnTest.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "settings.json",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setupBtn.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleA.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleAisOdd.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleB.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleBisOdd.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleC.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggleCisOdd.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/media",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
