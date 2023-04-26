@@ -1672,7 +1672,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2547.0, 532.0, 246.0, 229.0 ],
+						"rect" : [ 867.0, 464.0, 244.0, 232.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1701,6 +1701,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 435.0, 555.0, 57.0, 22.0 ],
+									"text" : "sel dump"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-47",
 									"maxclass" : "newobj",
@@ -1732,7 +1744,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 435.0, 555.0, 79.0, 22.0 ],
+									"patching_rect" : [ 435.0, 525.0, 79.0, 22.0 ],
 									"text" : "r recallPreset"
 								}
 
@@ -1779,7 +1791,7 @@
 									"presentation_rect" : [ 60.0, 165.0, 18.0, 50.0 ],
 									"shape" : 2,
 									"size" : 3,
-									"value" : 0
+									"value" : 1
 								}
 
 							}
@@ -2464,6 +2476,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-26", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-102", 0 ],
 									"order" : 1,
 									"source" : [ "obj-3", 0 ]
@@ -2557,7 +2576,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
+									"destination" : [ "obj-26", 0 ],
 									"source" : [ "obj-80", 0 ]
 								}
 
@@ -3713,7 +3732,7 @@
 ,
 					"patching_rect" : [ 22.0, 523.0, 111.48529052734375, 110.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 456.0, 306.0, 300.0, 345.0 ],
+					"presentation_rect" : [ 776.0, 334.0, 300.0, 345.0 ],
 					"varname" : "bP_main",
 					"viewvisibility" : 1
 				}
@@ -5552,6 +5571,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Ambi Head HD.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "AudioPlayer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/patchers",
 				"patcherrelativepath" : ".",
