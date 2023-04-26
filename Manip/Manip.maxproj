@@ -2,7 +2,7 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3765261590,
+	"modificationdate" : 3765344685,
 	"viewrect" : [ 2089.0, 299.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -82,7 +82,7 @@
 				"kind" : "json",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data",
+					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
 					"projectrelativepath" : "./data"
 				}
 
@@ -95,8 +95,18 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial",
+					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial",
 					"projectrelativepath" : ".."
+				}
+
+			}
+,
+			"AmbiHeadPreset.fxp" : 			{
+				"kind" : "file",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/other",
+					"projectrelativepath" : "./other"
 				}
 
 			}

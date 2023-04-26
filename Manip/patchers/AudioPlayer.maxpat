@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 2492.0, 1289.0 ],
+		"rect" : [ 1954.0, 81.0, 842.0, 883.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,42 @@
 		"subpatcher_template" : "ManipAliasingSpatial",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1155.0, 1245.0, 80.0, 22.0 ],
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1155.0, 1185.0, 173.0, 22.0 ],
+					"text" : "loadmess AmbiHeadPreset.fxp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1155.0, 1215.0, 77.0, 22.0 ],
+					"text" : "absolutepath"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
@@ -71,7 +107,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 1242.5, 99.0, 22.0 ],
+					"patching_rect" : [ 1020.0, 1245.0, 99.0, 22.0 ],
 					"text" : "r openAmbiHead"
 				}
 
@@ -628,7 +664,7 @@
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 975.0, 1269.5, 159.0, 22.0 ],
+					"patching_rect" : [ 975.0, 1275.0, 159.0, 22.0 ],
 					"save" : [ "#N", "mcs.vst~", "loaduniqueid", 0, 64, 2, "AmbiHeadHD", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -662,7 +698,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "481.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DPoVMjLgvY....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RM77hTuQGV9viTuQWV9.iK0vyKR8FcY4COR8FcZ4CLtTCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclOxvyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmOz.CMvvyK0QFbP8lbz4COuH0auQmO.."
+							"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BM3jyLvfCOuH0azgkO7H0azkkOv3BM0TCLybCOuH0azkkO7H0azokOv3BM3PiL4fCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmOz.CMwvyK0QFbP8lbz4COuH0auQmO.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -684,7 +720,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "481.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................DPoVMjLgvY....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3RM77hTuQGV9viTuQWV9.iK0vyKR8FcY4COR8FcZ4CLtTCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclOxvyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmOz.CMvvyK0QFbP8lbz4COuH0auQmO.."
+										"blob" : "496.CMlaKA....fQPMDZ....ADDRHQD.AX......APTYlEVcrQG..............................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR81az4COWkFYzglOwvyKWkFYzglO7H0azgkOv3BM3jyLvfCOuH0azgkO7H0azkkOv3BM0TCLybCOuH0azkkO7H0azokOv3BM3PiL4fCOuH0azokO7bTXo4lOv3RN77xQgkla9vSZjgmPgM2bB81ayQmOvvyKoQFdBE1byIzauMGc9vyTuYVXPIWYyUFcNEVak4COuL0alEFTxU1bkQmSg0VY9vSZjgGRxklbTkGbk4CL77RZjgGRxklbTkGbk4COoQFdI4Fb0Q2Pu4lYoclO1vyKoQFdI4Fb0Q2Pu4lYoclO7jFY3cTUI4CL77RZjg2QUkjO7jFY3QTYlEVcrQmQowFckIGU4AWY9HCOujFY3QTYlEVcrQmQowFckIGU4AWY9vSY4U1bIA2TzIWZtclOwHyMt.iKv3RL77RY4U1bIA2TzIWZtclO7TVdkMGQkwFcgQUay4CL77RY4U1bDUFazEFUsMmO7TGYvA0axQmOz.CMwvyK0QFbP8lbz4COuH0auQmO.."
 									}
 ,
 									"fileref" : 									{
@@ -692,7 +728,7 @@
 										"filename" : "Ambi Head HD.maxsnap",
 										"filepath" : "~/Documents/Max 8/Projects/Manip-Aliasing-Spatial/Manip/data",
 										"filepos" : -1,
-										"snapshotfileid" : "75fcc7714f076709eecfa87549eae179"
+										"snapshotfileid" : "e618675bae34bec0051b8e0baaf643b8"
 									}
 
 								}
@@ -1681,7 +1717,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1002.5, 1213.0, 93.0, 22.0 ],
+					"patching_rect" : [ 1005.0, 1215.0, 93.0, 22.0 ],
 					"text" : "r sceneRotation"
 				}
 
@@ -1692,7 +1728,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 975.0, 1381.5, 45.0, 45.0 ]
+					"patching_rect" : [ 975.0, 1395.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -1703,7 +1739,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 975.0, 1359.0, 84.0, 22.0 ],
+					"patching_rect" : [ 975.0, 1365.0, 84.0, 22.0 ],
 					"text" : "mc.unpack~ 2"
 				}
 
@@ -1716,7 +1752,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 867.5, 1089.0, 59.0, 22.0 ],
+					"patching_rect" : [ 870.0, 1095.0, 59.0, 22.0 ],
 					"text" : "r endPlay"
 				}
 
@@ -1728,7 +1764,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 964.5, 1119.0, 29.5, 22.0 ],
+					"patching_rect" : [ 960.0, 1125.0, 29.5, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -1757,7 +1793,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 975.0, 1299.0, 136.0, 47.0 ],
+					"patching_rect" : [ 975.0, 1305.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
@@ -1806,7 +1842,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 867.5, 1157.0, 29.5, 22.0 ],
+					"patching_rect" : [ 870.0, 1155.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -1819,7 +1855,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 884.0, 1119.0, 49.0, 22.0 ],
+					"patching_rect" : [ 885.0, 1125.0, 49.0, 22.0 ],
 					"text" : "r pause"
 				}
 
@@ -1856,7 +1892,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 964.5, 1089.0, 69.0, 22.0 ],
+					"patching_rect" : [ 960.0, 1095.0, 69.0, 22.0 ],
 					"text" : "r fileToPlay"
 				}
 
@@ -1868,7 +1904,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 975.0, 1149.0, 131.0, 22.0 ],
+					"patching_rect" : [ 975.0, 1155.0, 131.0, 22.0 ],
 					"text" : "sprintf set audioBuff.%i"
 				}
 
@@ -1880,7 +1916,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "signal" ],
-					"patching_rect" : [ 975.0, 1179.0, 148.0, 22.0 ],
+					"patching_rect" : [ 975.0, 1185.0, 148.0, 22.0 ],
 					"text" : "mcs.groove~ audioBuff 64"
 				}
 
@@ -2500,7 +2536,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 855.0, 1065.0, 360.0, 369.0 ],
+					"patching_rect" : [ 855.0, 1065.0, 525.0, 390.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -2588,7 +2624,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 960.0, 825.0, 474.0 ],
+					"patching_rect" : [ 15.0, 960.0, 825.0, 495.0 ],
 					"proportion" : 0.5,
 					"prototypename" : "backgroundPanel"
 				}
@@ -3388,6 +3424,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-148", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -3649,6 +3692,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
