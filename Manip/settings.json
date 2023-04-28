@@ -13,7 +13,7 @@
 					"Stimuli::dureeMaxStimuli" : [ 10000 ],
 					"Stimuli::dureePause" : [ 0 ],
 					"UDP::portUDP" : [ 4040 ],
-					"Gains::gainBruit" : [ 0.0 ],
+					"Gains::gainBruit" : [ -2.0 ],
 					"Gains::gainQuartet" : [ 0.0 ]
 				}
 
@@ -23,14 +23,14 @@
 				"id" : 2,
 				"data" : 				{
 					"ProcedureAdaptative::nombreInversionsAvantPasAdaptatif" : [ 2 ],
-					"ProcedureAdaptative::nombreInversionsTotal" : [ 3 ],
+					"ProcedureAdaptative::nombreInversionsTotal" : [ 2 ],
 					"ProcedureAdaptative::ordreGrilleMinimum" : [ 7 ],
 					"ProcedureAdaptative::pasAprèsAdaptation" : [ 1 ],
 					"ProcedureAdaptative::pasAvantAdaptation" : [ 1 ],
 					"Stimuli::dureeMaxStimuli" : [ 10000 ],
 					"Stimuli::dureePause" : [ 0 ],
 					"UDP::portUDP" : [ 4040 ],
-					"Gains::gainBruit" : [ 0.0 ],
+					"Gains::gainBruit" : [ -2.0 ],
 					"Gains::gainQuartet" : [ 0.0 ]
 				}
 

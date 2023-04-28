@@ -1,2 +1,2 @@
-1, quartet controlroom Extremal 8cm noeq 7 1 courbe;
-2, noise controlroom Extremal 8cm noeq 7 1 courbe;
+1, quartet controlroom Extremal 6cm noeq 7 1 courbe;
+2, noise controlroom Extremal 8cm eq 7 1 courbe;
