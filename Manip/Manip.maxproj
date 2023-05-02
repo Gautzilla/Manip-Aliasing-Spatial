@@ -2,8 +2,8 @@
 	"name" : "Manip",
 	"version" : 1,
 	"creationdate" : 3747748688,
-	"modificationdate" : 3765344685,
-	"viewrect" : [ 2089.0, 299.0, 300.0, 500.0 ],
+	"modificationdate" : 3765866663,
+	"viewrect" : [ 976.0, 299.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -50,6 +50,11 @@
 		"data" : 		{
 			"Reponses.txt" : 			{
 				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"settings.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 ,
