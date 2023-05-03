@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-100",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1935.0, 405.0, 41.0, 22.0 ],
+					"text" : "zl.sort"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -757,7 +769,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 1935.0, 435.0, 137.0, 22.0 ],
+					"patching_rect" : [ 1935.0, 465.0, 137.0, 22.0 ],
 					"text" : "regexp _ @substitute \" \""
 				}
 
@@ -907,7 +919,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1935.0, 405.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1935.0, 435.0, 61.0, 22.0 ],
 					"text" : "zl.group 1"
 				}
 
@@ -919,7 +931,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1935.0, 465.0, 96.0, 22.0 ],
+					"patching_rect" : [ 1935.0, 495.0, 96.0, 22.0 ],
 					"text" : "prepend append"
 				}
 
@@ -3515,7 +3527,7 @@
 									"fontface" : 1,
 									"fontname" : "Tahoma",
 									"id" : "obj-112",
-									"items" : "<empty>",
+									"items" : [ "Test", "T3" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4407,6 +4419,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-102", 2 ]
 				}
 
