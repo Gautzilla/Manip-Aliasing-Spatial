@@ -12,9 +12,12 @@
 					"ProcedureAdaptative::pasAvantAdaptation" : [ 1 ],
 					"Stimuli::dureeMaxStimuli" : [ 10000 ],
 					"Stimuli::dureePause" : [ 0 ],
-					"UDP::portUDP" : [ 4040 ],
 					"Gains::gainBruit" : [ 0.0 ],
-					"Gains::gainQuartet" : [ 0.0 ]
+					"Gains::gainQuartet" : [ 0.0 ],
+					"USB::COM" : [ 7 ],
+					"USB::DTR" : [ 1 ],
+					"USB::baud" : [ 9600 ],
+					"USB::chunk" : [ 9 ]
 				}
 
 			}
@@ -29,9 +32,12 @@
 					"ProcedureAdaptative::pasAvantAdaptation" : [ 1 ],
 					"Stimuli::dureeMaxStimuli" : [ 10000 ],
 					"Stimuli::dureePause" : [ 0 ],
-					"UDP::portUDP" : [ 4040 ],
 					"Gains::gainBruit" : [ 0.0 ],
-					"Gains::gainQuartet" : [ 0.0 ]
+					"Gains::gainQuartet" : [ 0.0 ],
+					"USB::COM" : [ 7 ],
+					"USB::DTR" : [ 1 ],
+					"USB::baud" : [ 9600 ],
+					"USB::chunk" : [ 9 ]
 				}
 
 			}
@@ -46,9 +52,12 @@
 					"ProcedureAdaptative::pasAvantAdaptation" : [ 1 ],
 					"Stimuli::dureeMaxStimuli" : [ 100 ],
 					"Stimuli::dureePause" : [ 0 ],
-					"UDP::portUDP" : [ 4040 ],
 					"Gains::gainBruit" : [ 0.0 ],
-					"Gains::gainQuartet" : [ 0.0 ]
+					"Gains::gainQuartet" : [ 0.0 ],
+					"USB::COM" : [ 7 ],
+					"USB::DTR" : [ 1 ],
+					"USB::baud" : [ 9600 ],
+					"USB::chunk" : [ 9 ]
 				}
 
 			}
