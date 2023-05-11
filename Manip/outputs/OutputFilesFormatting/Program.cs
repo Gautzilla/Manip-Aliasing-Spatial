@@ -64,16 +64,17 @@ class Program
 
     private static void FormatAnswerFiles()
     {        
-        foreach (string file in _answerFiles)
+        foreach (string filePath in _answerFiles)
         {
-            string[] newFile = FormatAnswerFile(file);
-            File.WriteAllLines(file, newFile);
+            string[] newFile = FormatAnswerFile(filePath);
+            string newPath = _outputFolder + @"\reponses\formattedFiles\" + filePath.Split('\\').Last();
+            File.WriteAllLines(newPath, newFile);
         }
     }
 
-    private static string[] FormatAnswerFile(string answerFile)
+    private static string[] FormatAnswerFile(string answerFilePath)
     {
-        string[] lines = File.ReadAllLines(answerFile);
+        string[] lines = File.ReadAllLines(answerFilePath);
         lines = lines.Select((line, index) => ReplaceAnswerLine(line, index)).ToArray();
         return lines;
     }
