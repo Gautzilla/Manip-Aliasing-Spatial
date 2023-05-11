@@ -1,4 +1,5 @@
 Ng ; lin
+Audio content ; qualitative ; quartet, noise
 Grid ; qualitative ; Extremal, GaussLegendre
 Radius; qualitative ; 6cm, 8cm
-Audio content ; qualitative ; quartet, noise
+Equalization; qualitative ; eq, noeq
