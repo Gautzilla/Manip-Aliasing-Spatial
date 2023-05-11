@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\reponses\\FormatageReponses\\FormatageReponses.csproj": {}
+    "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\outputs\\OutputFilesFormatting\\FormatageReponses.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\reponses\\FormatageReponses\\FormatageReponses.csproj": {
+    "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\outputs\\OutputFilesFormatting\\FormatageReponses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\reponses\\FormatageReponses\\FormatageReponses.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\outputs\\OutputFilesFormatting\\FormatageReponses.csproj",
         "projectName": "FormatageReponses",
-        "projectPath": "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\reponses\\FormatageReponses\\FormatageReponses.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\outputs\\OutputFilesFormatting\\FormatageReponses.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\reponses\\FormatageReponses\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Max 8\\Projects\\Manip Aliasing Spatial\\Manip-Aliasing-Spatial\\Manip\\outputs\\OutputFilesFormatting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
