@@ -1955,7 +1955,7 @@
 									"presentation_rect" : [ 60.0, 165.0, 18.0, 50.0 ],
 									"shape" : 2,
 									"size" : 3,
-									"value" : 0
+									"value" : 1
 								}
 
 							}
@@ -2795,7 +2795,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 750.0, 703.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 150.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 15.0, 150.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -3527,7 +3527,7 @@
 									"fontface" : 1,
 									"fontname" : "Tahoma",
 									"id" : "obj-112",
-									"items" : [ "Test", "T3" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3609,6 +3609,7 @@
 							}
 , 							{
 								"box" : 								{
+									"active" : 0,
 									"id" : "obj-5",
 									"inactiveimage" : 1,
 									"maxclass" : "pictctrl",
@@ -5826,6 +5827,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Train.txt",
+				"bootpath" : "~/Documents/Max 8/Projects/Manip Aliasing Spatial/Manip-Aliasing-Spatial/Manip/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

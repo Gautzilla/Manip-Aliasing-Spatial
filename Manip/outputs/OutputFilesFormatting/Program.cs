@@ -14,11 +14,20 @@ class Program
     private static string _resultFilesRegex = @"(?<userName>([A-zÀ-ú]+_?)+)_(?<session>(Extremal)|(Gauss-Legendre))_(?<dateTime>\d+-\d+-\d+_\d+-\d+-\d+).txt";
     private static string[] _answerFiles = new string[0];
     private static Dictionary<string, (string extremalPath, string gaussLegendrePath)> _resultFiles = new Dictionary<string, (string extremalPath, string gaussLegendrePath)>();
+    
+    private static string _formattedAnswersFolderPath = string.Empty;
+    private static string _formattedResultsFolderPath = string.Empty;
     static void Main(string[] args)
     {
         GetFiles();
+
         FormatAnswerFiles();
         FormatResultFiles();
+
+        // answers
+        GatherResultFiles(_formattedAnswersFolderPath, 0 , (val => val == string.Empty? 1/3f : float.Parse(val)), @"\Aliasing_answers.csv");
+        // results
+        GatherResultFiles(_formattedResultsFolderPath, 3 , (val => float.Parse(val)), @"\Aliasing_thresholds.csv");
     }
 
     private static void GetFiles()
@@ -29,6 +38,7 @@ class Program
         if (char.ToLower(Console.ReadKey().KeyChar) == 'y') ChangeAnswerFolder();
 
         _answerFiles = Directory.GetFiles(_outputFolder + @"\reponses").Where(file => !file.EndsWith(".gitignore")).ToArray();
+        CreateFormattedFilesDirectories();
         ParseResultFiles();
     }
 
@@ -43,6 +53,21 @@ class Program
 
             Console.WriteLine("\r\nThe entered directory path does not exist.\r\n");
         }        
+    }
+
+    private static void CreateFormattedFilesDirectories()
+    {
+        string[] paths = {_outputFolder + @"\reponses\formattedFiles", _outputFolder + @"\resultats\formattedFiles"};
+        
+        foreach (string path in paths)
+        {
+            if (Directory.Exists(path)) continue;
+
+            Directory.CreateDirectory(path);
+        }
+
+        _formattedAnswersFolderPath = paths[0];
+        _formattedResultsFolderPath = paths[1];
     }
 
     private static void ParseResultFiles()
@@ -104,5 +129,26 @@ class Program
 
             File.WriteAllLines(outputFilePath, results);            
         }
+    }
+
+    private static void GatherResultFiles(string directory, int numberOfValuesToSkip, Func<string,float> func, string outputFileName)
+    {
+        List<string> resultFiles = Directory.GetFiles(directory).Where(file => file.EndsWith(".txt")).ToList();
+        List<float[]> individualResults = new List<float[]>();
+
+        foreach (string resultFilePath in resultFiles)
+        {
+            string[] rawResults = File.ReadAllLines(resultFilePath);
+
+            float[] results = rawResults.Select(line => line.Split(',').Last().TrimEnd(';').Trim().Split(' ').Skip(numberOfValuesToSkip).Select(val => func(val)).Average()).ToArray();
+            individualResults.Add(results);
+        }
+
+        WriteFile(individualResults.Select(line => String.Join(",", line)).ToArray(), _outputFolder + outputFileName);
+    }
+
+    private static void WriteFile(string[] lines, string path)
+    {
+        File.WriteAllLines(path, lines);
     }
 }
