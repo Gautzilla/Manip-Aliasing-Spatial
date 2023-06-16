@@ -144,7 +144,7 @@ class Program
             individualResults.Add(results);
         }
 
-        WriteFile(individualResults.Select(line => String.Join(",", line)).ToArray(), _outputFolder + outputFileName);
+        WriteFile(individualResults.Select(line => String.Join(",", line)).Prepend(String.Join(",",Enumerable.Repeat(string.Empty, individualResults.Max(line => line.Count())))).ToArray(), _outputFolder + outputFileName);
     }
 
     private static void WriteFile(string[] lines, string path)
